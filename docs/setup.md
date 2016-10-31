@@ -1,5 +1,3 @@
-#Setup
-
 ## Step 1: Fill out and return a JIRA Permissions Slip
 
 If you have not already done so, please [download, print, and fill out a permissions slip for JIRA.](https://bitbucket.org/DaveahamLincoln/mcdi-jira-kb/downloads/jira_permissions_slip.pdf).  
