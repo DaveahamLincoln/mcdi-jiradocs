@@ -1,0 +1,12 @@
+site_name: MCDI JIRA Manual
+pages:
+  - Home: index.md
+  - Setup: setup.md
+  - Site Layout: layout.mdt
+  - Issue Types: issue_types.md
+  - Default Workflow Usage: workflows.md
+  - Document Management: document_management.md
+  - Calendar Functionality: calendar.md
+  - Filters: filters.md
+  - Reports: reports.md
+theme: readthedocs
