@@ -1,12 +1,16 @@
 site_name: MCDI JIRA Manual
 pages:
-  - Home: index.md
-  - Setup: setup.md
-  - Site Layout: layout.mdt
-  - Issue Types: issue_types.md
-  - Default Workflow Usage: workflows.md
-  - Document Management: document_management.md
-  - Calendar Functionality: calendar.md
-  - Filters: filters.md
-  - Reports: reports.md
+  - User Guide:
+    - Home: index.md
+    - Setup: setup.md
+    - Site Layout: layout.md
+    - Issue Types: issue_types.md
+    - Default Workflow Usage: workflows.md
+    - Document Management: document_management.md
+    - Calendar Functionality: calendar.md
+    - Filters: filters.md
+    - Reports: reports.md
+  - Release Notes:
+    - 0.1.1.0 (10/31/2016): 0110_10312016.md
+
 theme: readthedocs
