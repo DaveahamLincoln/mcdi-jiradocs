@@ -1,10 +1,10 @@
-The purpose of this article is to serve as a guide to the structure of MCDI's JIRA installation, with notes on best-practice for future structural modifications.
+The purpose of this article is to serve as a guide to the structure of MCDI's JIRA installation.
 
-##General Structure
+##Atlassian Documentation
 
 MCDI's JIRA installation has been designed from the ground up to mirror the best-practice concepts for structural organization as outlined by Atlassian, in an effort to ensure that their system documentation is maximally compatible with our own.  In light of that fact, an effort has been made to include links to relevant articles within the Atlassian knowledge-base for further reading where possible.
 
-[You can view an overview of JIRA Core's structure here](https://confluence.atlassian.com/jiracoreserver072/what-makes-up-jira-core-829092409.html)
+[You can view an overview of JIRA Core's structure here.](https://confluence.atlassian.com/jiracoreserver072/what-makes-up-jira-core-829092409.html)
 
 ###Categories
 Categories are collections of projects which share a common attribute.   As an example, the category
@@ -85,6 +85,8 @@ If a project does have an ISSEC dimension, a field labeled "Security Level" will
 
 ![layout_2](img/layout/layout_2.png)
 
-From a user perspective, you will only be able to create issues with ISSEC levels for which you have clearance, so for the majority of users, the number of choices available within a given "Security Level" dialog will be fairly small.  It is **important** to match the ISSEC clearance with the selected component.  The rule of thumb for this is to simply ensure that the slug you select in the "Component" field (i.e. ZICORE) matches the leading slug of the ISSEC level you select in the "Security Level" field.
+From a user perspective, you will only be able to create issues with ISSEC levels for which you have clearance, so for the majority of users, the number of choices available within a given "Security Level" dialog will be fairly small.  
+
+It is **important** to match the ISSEC clearance with the selected component.  The rule of thumb for this is to simply ensure that the slug you select in the "Component" field (i.e. ZICORE) matches the leading slug of the ISSEC level you select in the "Security Level" field.
 
 ![layout_4](img/layout/layout_4.png)
