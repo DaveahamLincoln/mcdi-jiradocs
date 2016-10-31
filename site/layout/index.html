@@ -79,6 +79,15 @@
         
             <ul>
             
+                <li class="toctree-l3"><a href="#atlassian-documentation">Atlassian Documentation</a></li>
+                
+                    <li><a class="toctree-l4" href="#categories">Categories</a></li>
+                
+                    <li><a class="toctree-l4" href="#projects">Projects</a></li>
+                
+                    <li><a class="toctree-l4" href="#issues">Issues</a></li>
+                
+            
             </ul>
         
     </li>
@@ -136,6 +145,13 @@
         
             
     <li class="toctree-l1 ">
+        <a class="" href="../0111_10312016/">0.1.1.1 (10/31/2016)</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
         <a class="" href="../0110_10312016/">0.1.1.0 (10/31/2016)</a>
         
     </li>
@@ -180,7 +196,68 @@
           <div role="main">
             <div class="section">
               
-                
+                <p>The purpose of this article is to serve as a guide to the structure of MCDI's JIRA installation.</p>
+<h2 id="atlassian-documentation">Atlassian Documentation</h2>
+<p>MCDI's JIRA installation has been designed from the ground up to mirror the best-practice concepts for structural organization as outlined by Atlassian, in an effort to ensure that their system documentation is maximally compatible with our own.  In light of that fact, an effort has been made to include links to relevant articles within the Atlassian knowledge-base for further reading where possible.</p>
+<p><a href="https://confluence.atlassian.com/jiracoreserver072/what-makes-up-jira-core-829092409.html">You can view an overview of JIRA Core's structure here.</a></p>
+<h3 id="categories">Categories</h3>
+<p>Categories are collections of projects which share a common attribute.   As an example, the category</p>
+<p><strong>"MCDI Operations"</strong> contains the following projects:</p>
+<p><img alt="layout_5" src="../img/layout/layout_5.png" /></p>
+<p>and the category <strong>"MCDI Projects"</strong> contains the following projects:</p>
+<p><img alt="layout_6" src="../img/layout/layout_6.png" /></p>
+<p>Giving projects a parent category designation allows for more precise sectioning of structure, allowing for the support of a diverse range of BUs within a single application.</p>
+<hr />
+<h3 id="projects">Projects</h3>
+<p>Projects are roughly analogous to "Departments" or "Business Functions" within the application context.  Projects serve as "buckets" for issues (see below).  Each project has a long-form name, like</p>
+<ul>
+<li>Business Development</li>
+<li>Finance</li>
+<li>Benin ARM3</li>
+</ul>
+<p>and a short-form name ("slug") like</p>
+<ul>
+<li>BD</li>
+<li>FIN</li>
+<li>BARM3</li>
+</ul>
+<p>The long-form name is utilized primarily for navigation within the UI, whereas the slug is used primarily for referencing issues.</p>
+<hr />
+<h3 id="issues">Issues</h3>
+<p>The most basic "work packet" in JIRA is the issue.  There are multiple types of issues, which all serve different functions.  For more detail about issue types and their roles within JIRA, please peruse the <a href="../issue_types">Issue Types</a> page.</p>
+<p>When an issue is created, it is assigned a unique identifier comprised of the slug of the parent project and the index of the issue within the project context, i.e.</p>
+<ul>
+<li>HR-1</li>
+<li>BARM3-14</li>
+<li>ZICORE-9</li>
+</ul>
+<pre><code class="ruby">    Power Tip: simply typing the identifier of an issue within a comment or description field will generate
+    an interactive link to that issue.
+</code></pre>
+
+<hr />
+<h4 id="components">Components</h4>
+<p>In contrast to SharePoint, "Component" is a predefined keyword within JIRA that is utilized for the subdivision of issues within a project.  "Epics" (discussed below) take the place of SharePoint components.  </p>
+<p>The component attribute is most useful in projects that interact with many other projects, such as Finance and HR, but also has a place in smaller projects as a tool for indicating "categories of work" (i.e. Work Planning/Management/etc.).   By way of example, take a look at the currently configured components within the HR project:</p>
+<p><img alt="layout_1" src="../img/layout/layout_1.PNG" /></p>
+<p>This change makes it unnecessary to create "subsites" for things like Finance and HR within each project, opting instead for a clearinghouse paradigm where data is organized in a top-down fashion, rather than from the bottom-up.</p>
+<p>To illustrate, let's say that you want to create a task in the (FIN) project for the procurement of widgets for the ZICORE project.  In order to do this, you would create a story or subtask under the Finance project (see <a href="../issue_types">Issue Types</a> for more information on creating issues), and assign it to the ZICORE component, as shown here:</p>
+<p><img alt="layout_3" src="../img/layout/layout_3.png" /></p>
+<p>In the case of the majority of clearinghouse-style projects (especially Finance and HR), you would also need to select an Issue Security level before saving the issue.</p>
+<hr />
+<h4 id="issue-security-issec-levels">Issue Security (ISSEC) Levels</h4>
+<p>JIRA introduces the concept of ISSEC levels to provide an additional dimension of security for "eyes only" data.  Not all projects utilize an ISSEC dimension, relying instead on project-level permissions for access control.  As a general rule, projects which operate according to the clearinghouse paradigm (FIN/HR/etc.) generally have an ISSEC dimension, whereas projects which are self-contained (ZICORE/BARM3/etc.) generally <em>do not</em> have an ISSEC dimension.  </p>
+<p>The vast majority of ISSEC dimensions follow the below pattern (where X is a project slug), arranged from highest security to lowest:</p>
+<ul>
+<li>X Restricted</li>
+<li>X</li>
+<li>None</li>
+</ul>
+<p>If a project does have an ISSEC dimension, a field labeled "Security Level" will appear on the issue creation screen for that project.  </p>
+<p><img alt="layout_2" src="../img/layout/layout_2.png" /></p>
+<p>From a user perspective, you will only be able to create issues with ISSEC levels for which you have clearance, so for the majority of users, the number of choices available within a given "Security Level" dialog will be fairly small.  </p>
+<p>It is <strong>important</strong> to match the ISSEC clearance with the selected component.  The rule of thumb for this is to simply ensure that the slug you select in the "Component" field (i.e. ZICORE) matches the leading slug of the ISSEC level you select in the "Security Level" field.</p>
+<p><img alt="layout_4" src="../img/layout/layout_4.png" /></p>
               
             </div>
           </div>
