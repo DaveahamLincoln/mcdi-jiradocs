@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Working With Issues - MCDI JIRA Manual</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Working With Issues";
+    var mkdocs_page_input_path = "working_with_issues.md";
+    var mkdocs_page_url = "/working_with_issues/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MCDI JIRA Manual</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <ul class="subnav">
+    <li><span>User Guide</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../setup/">Setup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../layout/">Site Layout</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Working With Issues</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#atlassian-documentation">Atlassian Documentation</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#general-notes">General Notes</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#anatomy-of-an-issue">Anatomy of an Issue</a></li>
+                
+                    <li><a class="toctree-l4" href="#issue-header">Issue Header</a></li>
+                
+                    <li><a class="toctree-l4" href="#issue-toolbar">Issue Toolbar</a></li>
+                
+                    <li><a class="toctree-l4" href="#issue-details">Issue Details</a></li>
+                
+                    <li><a class="toctree-l4" href="#people">People</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../workflows/">Default Workflow Usage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../document_management/">Document Management</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../calendar/">Calendar Functionality</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../filters/">Filters</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../reports/">Reports</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>JIRA Core Manual</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../core_issue_types/">Core Issue Types</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>JIRA Software Notes</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../software_issue_types/">Software Issue Types</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Release Notes</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../0111_10312016/">0.1.1.1 (10/31/2016)</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../0110_10312016/">0.1.1.0 (10/31/2016)</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MCDI JIRA Manual</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>User Guide &raquo;</li>
+        
+      
+    
+    <li>Working With Issues</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>The purpose of this guide is to provide access to detailed information regarding working with Issues in the context of MCDI's JIRA installation.</p>
+<h2 id="atlassian-documentation">Atlassian Documentation</h2>
+<p>MCDI's JIRA installation has been designed from the ground up to mirror the best-practice concepts for structural organization as outlined by Atlassian, in an effort to ensure that their system documentation is maximally compatible with our own.  In light of that fact, an effort has been made to include links to relevant articles within the Atlassian knowledge-base for further reading where possible.</p>
+<p><a href="https://confluence.atlassian.com/jiracoreserver072/working-with-issues-829092755.html">You can view an overview of working with issues in JIRA Core here.</a></p>
+<hr />
+<h2 id="general-notes">General Notes</h2>
+<p>MCDI's JIRA instance is currently configured to serve two different types of projects:</p>
+<ul>
+<li><strong>JIRA Core</strong> projects, which the majority of users will utilize for day-to-day work.</li>
+<li><strong>JIRA Software</strong> projects, which will be utilized primarily by IT for managing development activities.</li>
+</ul>
+<pre><code class="Ruby">Note: A third type of project, the JIRA Helpdesk project, is supported for first-line IT and Customer Service
+functions, but not implemented at this time.
+</code></pre>
+
+<p>Depending upon the project type, the available issue types and their use cases will change.  Please refer to the appropriate section for your use case.</p>
+<p><a href="../core_issue_types">JIRA Core Issue Types</a> (partially complete)</p>
+<p><a href="../software_issue_types">JIRA Software Issue Types</a> (not yet available)</p>
+<hr />
+<h2 id="anatomy-of-an-issue">Anatomy of an Issue</h2>
+<p>When accessed, each issue will display a screen like the one below.  This screen can be broken down into a number of regions, which all serve different functions.  In this section, a detailed overview of the functions and vocabulary related to each region will be laid out for easy reference, moving from the top right to the bottom left.</p>
+<p><img alt="anatomy_1" src="../img/working_with_issues/anatomy_1.png" /></p>
+<h3 id="issue-header">Issue Header</h3>
+<p><img alt="anatomy_issue_header" src="../img/working_with_issues/anatomy_issue_header.png" /></p>
+<p>The Issue Header region shows three important pieces of information:</p>
+<ul>
+<li>The name of the parent project (ZICORE)</li>
+<li>The issue's ID (ZICORE-28)</li>
+<li>The name of the issue (Work Planning)</li>
+</ul>
+<h3 id="issue-toolbar">Issue Toolbar</h3>
+<p><img alt="anatomy_issue_header" src="../img/working_with_issues/anatomy_issue_toolbar.png" /></p>
+<p>The issue toolbar gives you easy access to some of the most important functions within an issue.</p>
+<ul>
+<li>Clicking the "Edit" button will open a form where you can edit multiple fields at once before saving.</li>
+<li>Clicking the "Comment" button will snap your view to the Comment region and open an editor for you so that you can leave a comment on the issue.</li>
+<li>Clicking the "Assign" button opens a dialog which allows you to reassign an issue to another user and leave a comment about the assignment change.</li>
+<li>Clicking the "More" button will open a menu with advanced functions not covered here...yet.</li>
+<li>The next three buttons and their usage will change depending on the workflow configured for the issue type.  Please see <a href="../workflows/">Default Workflow Usage</a> for more information.</li>
+<li>The "Admin" button will not be visible for the majority of users, but gives access to multiple power-user functions.</li>
+<li>The square button with the arrow coming out of it is the "Share" button.  This button reveals a dialog which will assist you in creating an external link to the issue.</li>
+<li>Clicking the "Export" button will reveal a set of options for saving the issue to your local machine in various formats.</li>
+</ul>
+<h3 id="issue-details">Issue Details</h3>
+<p><img alt="anatomy_issue details" src="../img/working_with_issues/anatomy_issue_details.png" /></p>
+<p>The Issue Details region allows you to quickly view the essential metadata of an issue.</p>
+<ul>
+<li>The "Type" field shows you what type of issue the issue is.  Please see <a href="#general-notes">the issue type section for your project</a> for more information.</li>
+<li>The "Priority" field shows you the issue's current priority level.</li>
+<li>The "Component/s" field not only shows the configured component/s for an issue, it provides hyperlinks to these components, which can be used for navigational purposes.</li>
+<li>The "Labels" field shows all of the keywords which other users have tagged the issue with.  Labels allow users to add ad-hoc semantic search dimensions to issues for future reference.<ul>
+<li>To add a label, click the pencil next to the field, type in your desired label/s, and click the check mark.  </li>
+</ul>
+</li>
+<li>The "Status" field shows the icon for the workflow step that the issue is currently in.  <ul>
+<li>Clicking the "View Workflow" link will show you a flowchart for the workflow, in case you need a cheat sheet.</li>
+</ul>
+</li>
+<li>The "Resolution" field will be updated with a resolution message once the issue has been resolved.  Please see <a href="../workflows/">Default Workflow Usage</a> for more information regarding issue resolution.</li>
+</ul>
+<h3 id="people">People</h3>
+<p><img alt="anatomy_issue_people" src="../img/working_with_issues/anatomy_issue_people.png" /></p>
+<p>The People region gives you a window into the other users interacting with the issue alongside you.</p>
+<ul>
+<li>The "Assignee" field shows you the current user assigned to the task.  <ul>
+<li>The Assignee role is explained in more detail on the <a href="../workflows/">Default Workflow Usage</a>, but essentially, the Assignee is the user who needs to take the next step in moving the issue along through the workflow.  </li>
+<li>If you need to take over the Assignee role, you can click the "Assign to me" link in order to take ownership.</li>
+</ul>
+</li>
+<li>The "Reporter" field shows the name of the user that initially reported the issue.  This knowledge can be useful if you're looking to find a source for more information about a given issue.</li>
+<li>The "Vote" field shows a tally of the number of users who have clicked the "Vote for this issue" link, indicating that they would like it to be given priority over other issues.  <ul>
+<li>There is no formal requirement that issues with a high number of votes be given priority, however, this can be a useful tool for making decisions about your time when faced with multiple open issues.  </li>
+<li><strong>Please vote sparingly.</strong></li>
+</ul>
+</li>
+<li>The "Watchers" field shows the number of people who are currently receiving email notifications for the issue.  <ul>
+<li>As a general rule, any time you interact with an issue in any way other than viewing it (i.e. changing a status, leaving a comment, etc.), you will be added to the Watchers list for that issue.  </li>
+<li>To view a list of users watching the issue, simply click the number in the circle.  </li>
+<li>To stop watching the issue, click the "Stop watching this issue" link.</li>
+<li>To re-subscribe to the issue as a watcher, click the "Start watching this issue" link, which will replace the "Stop watching this issue" link when you are not subscribed.</li>
+</ul>
+</li>
+</ul>
+<p>...to be continued.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../workflows/" class="btn btn-neutral float-right" title="Default Workflow Usage">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../layout/" class="btn btn-neutral" title="Site Layout"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../layout/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../workflows/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

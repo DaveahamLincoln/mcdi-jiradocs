@@ -8,7 +8,7 @@
   
   
   
-  <title>Calendar Functionality - MCDI JIRA Manual</title>
+  <title>Core Issue Types - MCDI JIRA Manual</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Calendar Functionality";
-    var mkdocs_page_input_path = "calendar.md";
-    var mkdocs_page_url = "/calendar/";
+    var mkdocs_page_name = "Core Issue Types";
+    var mkdocs_page_input_path = "core_issue_types.md";
+    var mkdocs_page_url = "/core_issue_types/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -102,12 +102,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Calendar Functionality</a>
-        
-            <ul>
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../calendar/">Calendar Functionality</a>
         
     </li>
 
@@ -135,8 +131,21 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../core_issue_types/">Core Issue Types</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Core Issue Types</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#hierarchy">Hierarchy</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#epics">Epics</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#issue-type-decision-tree">Issue Type Decision Tree</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -203,11 +212,11 @@
     
       
         
-          <li>User Guide &raquo;</li>
+          <li>JIRA Core Manual &raquo;</li>
         
       
     
-    <li>Calendar Functionality</li>
+    <li>Core Issue Types</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -217,7 +226,15 @@
           <div role="main">
             <div class="section">
               
-                
+                <p>The purpose of this article is to provide access detailed information about the types of issues in MCDI's JIRA Core projects, and their proper usage.</p>
+<h2 id="hierarchy">Hierarchy</h2>
+<p>Issues in JIRA are organized into a parent-child hierarchy under a given JIRA Core project, as illustrated below.</p>
+<p><img alt="core_issue_types_1" src="../img/core_issue_types/core_issue_types_1.PNG" /></p>
+<h2 id="epics">Epics</h2>
+<p>An epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint "Component") that can be broken down into a number of smaller stories (similar to SharePoint "Activities").</p>
+<p>The average user <strong>should not</strong> have a business need to create an Epic, unless directed to do so by a superior.  When in doubt, please refer to the <a href="#issue-type-decision-tree">Issue Type Decision Tree</a>.</p>
+<h2 id="issue-type-decision-tree">Issue Type Decision Tree</h2>
+<p><img alt="core_issue_types_decision_tree" src="../img/core_issue_types/core_issue_types_decision_tree.png" /></p>
               
             </div>
           </div>
@@ -225,10 +242,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../filters/" class="btn btn-neutral float-right" title="Filters">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../software_issue_types/" class="btn btn-neutral float-right" title="Software Issue Types">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../document_management/" class="btn btn-neutral" title="Document Management"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../reports/" class="btn btn-neutral" title="Reports"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -254,10 +271,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../document_management/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../reports/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../filters/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../software_issue_types/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

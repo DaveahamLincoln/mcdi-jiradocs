@@ -39,7 +39,7 @@ The long-form name is utilized primarily for navigation within the UI, whereas t
 -----
 
 ###Issues
-The most basic "work packet" in JIRA is the issue.  There are multiple types of issues, which all serve different functions.  For more detail about issue types and their roles within JIRA, please peruse the [Issue Types](issue_types) page.
+The most basic "work packet" in JIRA is the Issue.  There are multiple types of issues, which all serve different functions.  For more detail about working with issues, please peruse the [Working With Issues](working_with_issues) page.
 
 When an issue is created, it is assigned a unique identifier comprised of the slug of the parent project and the index of the issue within the project context, i.e.
 

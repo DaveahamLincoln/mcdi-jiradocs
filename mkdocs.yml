@@ -4,12 +4,16 @@ pages:
     - Home: index.md
     - Setup: setup.md
     - Site Layout: layout.md
-    - Issue Types: issue_types.md
+    - Working With Issues: working_with_issues.md
     - Default Workflow Usage: workflows.md
     - Document Management: document_management.md
     - Calendar Functionality: calendar.md
     - Filters: filters.md
     - Reports: reports.md
+  - JIRA Core Manual:
+    - Core Issue Types: core_issue_types.md
+  - JIRA Software Notes:
+    - Software Issue Types: software_issue_types.md
   - Release Notes:
     - 0.1.1.1 (10/31/2016): 0111_10312016.md
     - 0.1.1.0 (10/31/2016): 0110_10312016.md
