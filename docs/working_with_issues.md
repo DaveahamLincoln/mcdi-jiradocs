@@ -93,4 +93,48 @@ The People region gives you a window into the other users interacting with the i
     * To stop watching the issue, click the "Stop watching this issue" link.
     * To re-subscribe to the issue as a watcher, click the "Start watching this issue" link, which will replace the "Stop watching this issue" link when you are not subscribed.
 
-...to be continued.
+###Description
+
+![anatomy_issue_description](img/working_with_issues/anatomy_issue_description.png)
+
+The Description region is a text field which is used to store an explanation of what the issue is for.  
+
+* It should include information which is relevant to assisting assigned users in moving the issue towards a resolution.
+* Epics and Stories  may not always have descriptions, but Subtasks and Tasks should always have a description.  
+* The description can be edited by clicking on the Description region, or through the Edit menu.
+
+###Dates
+
+![anatomy_dates](img/working_with_issues/anatomy_dates.png)
+
+* The Dates region allows users to see the time and date when the issue was created, when it was last updated, and once closed, the date of closure.
+
+###Attachments
+
+![anatomy_issue_attachments](img/working_with_issues/anatomy_issue_attachments.png)
+
+The Attachments region is used to view, manage, and organize documents attached to a given issue.  JIRA's core attachment functionality has been expanded through the use of a plugin called Smart Attachments.  [The extended documentation for the plugin is available here.](https://docs.stiltsoft.com/display/public/CATAT/Smart+Attachments+Home)
+
+* To upload a new document to a task, drag the file from a folder on your computer and hold it over the issue screen.  An overlay of boxes corresponding to the different categories available for the document will appear- simply release the file over the box that corresponds to the category you would like to upload the document to, and JIRA will handle the rest of the upload process.
+* The maximum allowed file size for each individual attachment is 57.22MB.
+
+Once you have uploaded attachments to an issue, the Attachments region will look something like this:
+
+![anatomy_attachments_with_files](img/working_with_issues/anatomy_attachments_with_files.png)
+
+* To move individual files between categories, simply click and drag.
+* Clicking on the hyperlinked filename will download a standalone copy of the file to your system.  A copy downloaded in this fashion **will not maintain its link to JIRA's version control.**   
+* In order to check out the file for editing within the version control system (VCS), you will need to access the file's dropdown menu, as shown below.
+
+![anatomy_attachments_dropdowns](img/working_with_issues/anatomy_attachments_dropdown.png)
+
+* Once you have opened the file's dropdown menu, select "Edit in Office."  **Please note: it is only possible to edit Office documents (i.e. .docx/.xlsx/.pptx) in this fashion.**
+    * Click "OK" on any warning messages that may appear, and the file will open in the appropriate Office program.
+    * Saving the document in Office will automatically create a new version of the file within JIRA's VCS.  To view past revisions, click the >> symbol next to a given document.
+* You can leave a comment on a document by clicking the "Edit Comment" button.  To view a document's comment, click the blue speech bubble displayed next to the file size.
+* You can manually add revisions to documents that cannot be opened directly in Office by selecting the "Upload New Revision" option from the dropdown menu.
+* Clicking "Download All Revisions" will download a .zip file containing all revisions to your local machine.
+* Clicking Rename will allow you to rename the file.  
+    * Please note that there is a soft limit of 50-70 characters (including spaces) for filenames in JIRA.  Exceeding this limit may cause an error when opening/otherwise working with a file.  If you encounter one of these errors, simply shorten the filename to resolve the issue.  See [!!JIRA-5](http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/browse/JIRA-5) for more information.
+
+To be continued...
