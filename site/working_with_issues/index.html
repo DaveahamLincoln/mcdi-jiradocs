@@ -102,6 +102,12 @@
                 
                     <li><a class="toctree-l4" href="#people">People</a></li>
                 
+                    <li><a class="toctree-l4" href="#description">Description</a></li>
+                
+                    <li><a class="toctree-l4" href="#dates">Dates</a></li>
+                
+                    <li><a class="toctree-l4" href="#attachments">Attachments</a></li>
+                
             
             </ul>
         
@@ -148,7 +154,7 @@
           
             <li>
     <ul class="subnav">
-    <li><span>JIRA Core Manual</span></li>
+    <li><span>JIRA Core Notes</span></li>
 
         
             
@@ -179,6 +185,13 @@
             <li>
     <ul class="subnav">
     <li><span>Release Notes</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../0112_11022016/">0.1.1.2 (11/02/2016)</a>
+        
+    </li>
 
         
             
@@ -317,7 +330,49 @@ functions, but not implemented at this time.
 </ul>
 </li>
 </ul>
-<p>...to be continued.</p>
+<h3 id="description">Description</h3>
+<p><img alt="anatomy_issue_description" src="../img/working_with_issues/anatomy_issue_description.png" /></p>
+<p>The Description region is a text field which is used to store an explanation of what the issue is for.  </p>
+<ul>
+<li>It should include information which is relevant to assisting assigned users in moving the issue towards a resolution.</li>
+<li>Epics and Stories  may not always have descriptions, but Subtasks and Tasks should always have a description.  </li>
+<li>The description can be edited by clicking on the Description region, or through the Edit menu.</li>
+</ul>
+<h3 id="dates">Dates</h3>
+<p><img alt="anatomy_dates" src="../img/working_with_issues/anatomy_dates.png" /></p>
+<ul>
+<li>The Dates region allows users to see the time and date when the issue was created, when it was last updated, and once closed, the date of closure.</li>
+</ul>
+<h3 id="attachments">Attachments</h3>
+<p><img alt="anatomy_issue_attachments" src="../img/working_with_issues/anatomy_issue_attachments.png" /></p>
+<p>The Attachments region is used to view, manage, and organize documents attached to a given issue.  JIRA's core attachment functionality has been expanded through the use of a plugin called Smart Attachments.  <a href="https://docs.stiltsoft.com/display/public/CATAT/Smart+Attachments+Home">The extended documentation for the plugin is available here.</a></p>
+<ul>
+<li>To upload a new document to a task, drag the file from a folder on your computer and hold it over the issue screen.  An overlay of boxes corresponding to the different categories available for the document will appear- simply release the file over the box that corresponds to the category you would like to upload the document to, and JIRA will handle the rest of the upload process.</li>
+<li>The maximum allowed file size for each individual attachment is 57.22MB.</li>
+</ul>
+<p>Once you have uploaded attachments to an issue, the Attachments region will look something like this:</p>
+<p><img alt="anatomy_attachments_with_files" src="../img/working_with_issues/anatomy_attachments_with_files.png" /></p>
+<ul>
+<li>To move individual files between categories, simply click and drag.</li>
+<li>Clicking on the hyperlinked filename will download a standalone copy of the file to your system.  A copy downloaded in this fashion <strong>will not maintain its link to JIRA's version control.</strong>   </li>
+<li>In order to check out the file for editing within the version control system (VCS), you will need to access the file's dropdown menu, as shown below.</li>
+</ul>
+<p><img alt="anatomy_attachments_dropdowns" src="../img/working_with_issues/anatomy_attachments_dropdown.png" /></p>
+<ul>
+<li>Once you have opened the file's dropdown menu, select "Edit in Office."  <strong>Please note: it is only possible to edit Office documents (i.e. .docx/.xlsx/.pptx) in this fashion.</strong><ul>
+<li>Click "OK" on any warning messages that may appear, and the file will open in the appropriate Office program.</li>
+<li>Saving the document in Office will automatically create a new version of the file within JIRA's VCS.  To view past revisions, click the &gt;&gt; symbol next to a given document.</li>
+</ul>
+</li>
+<li>You can leave a comment on a document by clicking the "Edit Comment" button.  To view a document's comment, click the blue speech bubble displayed next to the file size.</li>
+<li>You can manually add revisions to documents that cannot be opened directly in Office by selecting the "Upload New Revision" option from the dropdown menu.</li>
+<li>Clicking "Download All Revisions" will download a .zip file containing all revisions to your local machine.</li>
+<li>Clicking Rename will allow you to rename the file.  <ul>
+<li>Please note that there is a soft limit of 50-70 characters (including spaces) for filenames in JIRA.  Exceeding this limit may cause an error when opening/otherwise working with a file.  If you encounter one of these errors, simply shorten the filename to resolve the issue.  See <a href="http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/browse/JIRA-5">!!JIRA-5</a> for more information.</li>
+</ul>
+</li>
+</ul>
+<p>To be continued...</p>
               
             </div>
           </div>
