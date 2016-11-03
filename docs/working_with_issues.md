@@ -34,6 +34,8 @@ When accessed, each issue will display a screen like the one below.  This screen
 
 ![anatomy_1](img/working_with_issues/anatomy_1.png)
 
+-----
+
 ###Issue Header
 
 ![anatomy_issue_header](img/working_with_issues/anatomy_issue_header.png)
@@ -43,6 +45,8 @@ The Issue Header region shows three important pieces of information:
 * The name of the parent project (ZICORE)
 * The issue's ID (ZICORE-28)
 * The name of the issue (Work Planning)
+
+-----
 
 ###Issue Toolbar
 
@@ -59,6 +63,8 @@ The issue toolbar gives you easy access to some of the most important functions 
 * The square button with the arrow coming out of it is the "Share" button.  This button reveals a dialog which will assist you in creating an external link to the issue.
 * Clicking the "Export" button will reveal a set of options for saving the issue to your local machine in various formats.
 
+-----
+
 ###Issue Details
 
 ![anatomy_issue details](img/working_with_issues/anatomy_issue_details.png)
@@ -73,6 +79,8 @@ The Issue Details region allows you to quickly view the essential metadata of an
 * The "Status" field shows the icon for the workflow step that the issue is currently in.  
     * Clicking the "View Workflow" link will show you a flowchart for the workflow, in case you need a cheat sheet.
 * The "Resolution" field will be updated with a resolution message once the issue has been resolved.  Please see [Default Workflow Usage](workflows.md) for more information regarding issue resolution.
+
+-----
 
 ###People
 
@@ -93,6 +101,8 @@ The People region gives you a window into the other users interacting with the i
     * To stop watching the issue, click the "Stop watching this issue" link.
     * To re-subscribe to the issue as a watcher, click the "Start watching this issue" link, which will replace the "Stop watching this issue" link when you are not subscribed.
 
+-----
+
 ###Description
 
 ![anatomy_issue_description](img/working_with_issues/anatomy_issue_description.png)
@@ -103,11 +113,15 @@ The Description region is a text field which is used to store an explanation of 
 * Epics and Stories  may not always have descriptions, but Subtasks and Tasks should always have a description.  
 * The description can be edited by clicking on the Description region, or through the Edit menu.
 
+-----
+
 ###Dates
 
 ![anatomy_dates](img/working_with_issues/anatomy_dates.png)
 
 * The Dates region allows users to see the time and date when the issue was created, when it was last updated, and once closed, the date of closure.
+
+-----
 
 ###Attachments
 
@@ -136,5 +150,31 @@ Once you have uploaded attachments to an issue, the Attachments region will look
 * Clicking "Download All Revisions" will download a .zip file containing all revisions to your local machine.
 * Clicking Rename will allow you to rename the file.  
     * Please note that there is a soft limit of 50-70 characters (including spaces) for filenames in JIRA.  Exceeding this limit may cause an error when opening/otherwise working with a file.  If you encounter one of these errors, simply shorten the filename to resolve the issue.  See [!!JIRA-5](http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/browse/JIRA-5) for more information.
+
+-----
+
+###HipChat
+
+![anatomy_hipchat](img/working_with_issues/anatomy_hipchat.png)
+
+Once HipChat has been rolled out to the user base, you will be able to instantly create a HipChat room to discuss the issue live with all of the issue's Watchers.  This room will contain all of the information relating to the task, and features all of the hotlinking features that JIRA does (@mentions, auto-tagging, etc.).
+
+!!As discussed in the [0.1.1.3 Release Notes](0113_11032016.md#hipchat_integration_phase_I), while HipChat is currently operational and fully integrated with MCDI's JIRA instance, it is not available to users at this time.
+
+-----
+
+###Child Issues
+
+The Child Issues region is available for the Epic, Story, and Task issue types.  Please see [the issue type section for your project](#general-notes) for more information.
+
+While the region looks a little different when appearing under an Epic as opposed to a Story/Task (as shown below), the function of the region is the same across all issue types where it appears.
+
+####Epic:
+![anatomy_issues_child_epic](img/working_with_issues/anatomy_issues_child_epic.png)
+
+####Story/Task:
+![anatomy_issues_child_story](img/working_with_issues/anatomy_issues_child_story.png)
+
+The Child Issues region shows all tasks which have a "belongs to" relationship with the current task.  This hierarchical structure streamlines organization and navigation, while ensuring that all related issues are grouped together in a manner that is easy to understand.
 
 To be continued...
