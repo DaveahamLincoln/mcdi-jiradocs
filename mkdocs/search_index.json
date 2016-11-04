@@ -72,7 +72,7 @@
         }, 
         {
             "location": "/working_with_issues/", 
-            "text": "The purpose of this guide is to provide access to detailed information regarding working with Issues in the context of MCDI's JIRA installation.\n\n\nAtlassian Documentation\n\n\nMCDI's JIRA installation has been designed from the ground up to mirror the best-practice concepts for structural organization as outlined by Atlassian, in an effort to ensure that their system documentation is maximally compatible with our own.  In light of that fact, an effort has been made to include links to relevant articles within the Atlassian knowledge-base for further reading where possible.\n\n\nYou can view an overview of working with issues in JIRA Core here.\n\n\n\n\nGeneral Notes\n\n\nMCDI's JIRA instance is currently configured to serve two different types of projects:\n\n\n\n\nJIRA Core\n projects, which the majority of users will utilize for day-to-day work.\n\n\nJIRA Software\n projects, which will be utilized primarily by IT for managing development activities.\n\n\n\n\nNote: A third type of project, the JIRA Helpdesk project, is supported for first-line IT and Customer Service\nfunctions, but not implemented at this time.\n\n\n\n\nDepending upon the project type, the available issue types and their use cases will change.  Please refer to the appropriate section for your use case.\n\n\nJIRA Core Issue Types\n (partially complete)\n\n\nJIRA Software Issue Types\n (not yet available)\n\n\n\n\nAnatomy of an Issue\n\n\nWhen accessed, each issue will display a screen like the one below.  This screen can be broken down into a number of regions, which all serve different functions.  In this section, a detailed overview of the functions and vocabulary related to each region will be laid out for easy reference, moving from the top right to the bottom left.\n\n\n\n\n\n\nIssue Header\n\n\n\n\nThe Issue Header region shows three important pieces of information:\n\n\n\n\nThe name of the parent project (ZICORE)\n\n\nThe issue's ID (ZICORE-28)\n\n\nThe name of the issue (Work Planning)\n\n\n\n\n\n\nIssue Toolbar\n\n\n\n\nThe issue toolbar gives you easy access to some of the most important functions within an issue.\n\n\n\n\nClicking the \"Edit\" button will open a form where you can edit multiple fields at once before saving.\n\n\nClicking the \"Comment\" button will snap your view to the Comment region and open an editor for you so that you can leave a comment on the issue.\n\n\nClicking the \"Assign\" button opens a dialog which allows you to reassign an issue to another user and leave a comment about the assignment change.\n\n\nClicking the \"More\" button will open a menu with advanced functions not covered here...yet.\n\n\nThe next three buttons and their usage will change depending on the workflow configured for the issue type.  Please see \nDefault Workflow Usage\n for more information.\n\n\nThe \"Admin\" button will not be visible for the majority of users, but gives access to multiple power-user functions.\n\n\nThe square button with the arrow coming out of it is the \"Share\" button.  This button reveals a dialog which will assist you in creating an external link to the issue.\n\n\nClicking the \"Export\" button will reveal a set of options for saving the issue to your local machine in various formats.\n\n\n\n\n\n\nIssue Details\n\n\n\n\nThe Issue Details region allows you to quickly view the essential metadata of an issue.\n\n\n\n\nThe \"Type\" field shows you what type of issue the issue is.  Please see \nthe issue type section for your project\n for more information.\n\n\nThe \"Priority\" field shows you the issue's current priority level.\n\n\nThe \"Component/s\" field not only shows the configured component/s for an issue, it provides hyperlinks to these components, which can be used for navigational purposes.\n\n\nThe \"Labels\" field shows all of the keywords which other users have tagged the issue with.  Labels allow users to add ad-hoc semantic search dimensions to issues for future reference.\n\n\nTo add a label, click the pencil next to the field, type in your desired label/s, and click the check mark.  \n\n\n\n\n\n\nThe \"Status\" field shows the icon for the workflow step that the issue is currently in.  \n\n\nClicking the \"View Workflow\" link will show you a flowchart for the workflow, in case you need a cheat sheet.\n\n\n\n\n\n\nThe \"Resolution\" field will be updated with a resolution message once the issue has been resolved.  Please see \nDefault Workflow Usage\n for more information regarding issue resolution.\n\n\n\n\n\n\nPeople\n\n\n\n\nThe People region gives you a window into the other users interacting with the issue alongside you.\n\n\n\n\nThe \"Assignee\" field shows you the current user assigned to the task.  \n\n\nThe Assignee role is explained in more detail on the \nDefault Workflow Usage\n, but essentially, the Assignee is the user who needs to take the next step in moving the issue along through the workflow.  \n\n\nIf you need to take over the Assignee role, you can click the \"Assign to me\" link in order to take ownership.\n\n\n\n\n\n\nThe \"Reporter\" field shows the name of the user that initially reported the issue.  This knowledge can be useful if you're looking to find a source for more information about a given issue.\n\n\nThe \"Vote\" field shows a tally of the number of users who have clicked the \"Vote for this issue\" link, indicating that they would like it to be given priority over other issues.  \n\n\nThere is no formal requirement that issues with a high number of votes be given priority, however, this can be a useful tool for making decisions about your time when faced with multiple open issues.  \n\n\nPlease vote sparingly.\n\n\n\n\n\n\nThe \"Watchers\" field shows the number of people who are currently receiving email notifications for the issue.  \n\n\nAs a general rule, any time you interact with an issue in any way other than viewing it (i.e. changing a status, leaving a comment, etc.), you will be added to the Watchers list for that issue.  \n\n\nTo view a list of users watching the issue, simply click the number in the circle.  \n\n\nTo stop watching the issue, click the \"Stop watching this issue\" link.\n\n\nTo re-subscribe to the issue as a watcher, click the \"Start watching this issue\" link, which will replace the \"Stop watching this issue\" link when you are not subscribed.\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\n\n\nThe Description region is a text field which is used to store an explanation of what the issue is for.  \n\n\n\n\nIt should include information which is relevant to assisting assigned users in moving the issue towards a resolution.\n\n\nEpics and Stories  may not always have descriptions, but Subtasks and Tasks should always have a description.  \n\n\nThe description can be edited by clicking on the Description region, or through the Edit menu.\n\n\n\n\n\n\nDates\n\n\n\n\n\n\nThe Dates region allows users to see the time and date when the issue was created, when it was last updated, and once closed, the date of closure.\n\n\n\n\n\n\nAttachments\n\n\n\n\nThe Attachments region is used to view, manage, and organize documents attached to a given issue.  JIRA's core attachment functionality has been expanded through the use of a plugin called Smart Attachments.  \nThe extended documentation for the plugin is available here.\n\n\n\n\nTo upload a new document to a task, drag the file from a folder on your computer and hold it over the issue screen.  An overlay of boxes corresponding to the different categories available for the document will appear- simply release the file over the box that corresponds to the category you would like to upload the document to, and JIRA will handle the rest of the upload process.\n\n\nThe maximum allowed file size for each individual attachment is 57.22MB.\n\n\n\n\nOnce you have uploaded attachments to an issue, the Attachments region will look something like this:\n\n\n\n\n\n\nTo move individual files between categories, simply click and drag.\n\n\nClicking on the hyperlinked filename will download a standalone copy of the file to your system.  A copy downloaded in this fashion \nwill not maintain its link to JIRA's version control.\n   \n\n\nIn order to check out the file for editing within the version control system (VCS), you will need to access the file's dropdown menu, as shown below.\n\n\n\n\n\n\n\n\nOnce you have opened the file's dropdown menu, select \"Edit in Office.\"  \nPlease note: it is only possible to edit Office documents (i.e. .docx/.xlsx/.pptx) in this fashion.\n\n\nClick \"OK\" on any warning messages that may appear, and the file will open in the appropriate Office program.\n\n\nSaving the document in Office will automatically create a new version of the file within JIRA's VCS.  To view past revisions, click the \n symbol next to a given document.\n\n\n\n\n\n\nYou can leave a comment on a document by clicking the \"Edit Comment\" button.  To view a document's comment, click the blue speech bubble displayed next to the file size.\n\n\nYou can manually add revisions to documents that cannot be opened directly in Office by selecting the \"Upload New Revision\" option from the dropdown menu.\n\n\nClicking \"Download All Revisions\" will download a .zip file containing all revisions to your local machine.\n\n\nClicking Rename will allow you to rename the file.  \n\n\nPlease note that there is a soft limit of 50-70 characters (including spaces) for filenames in JIRA.  Exceeding this limit may cause an error when opening/otherwise working with a file.  If you encounter one of these errors, simply shorten the filename to resolve the issue.  See \n!!JIRA-5\n for more information.\n\n\n\n\n\n\n\n\n\n\nHipChat\n\n\n\n\nOnce HipChat has been rolled out to the user base, you will be able to instantly create a HipChat room to discuss the issue live with all of the issue's Watchers.  This room will contain all of the information relating to the task, and features all of the hotlinking features that JIRA does (@mentions, auto-tagging, etc.).\n\n\n!!As discussed in the \n0.1.1.3 Release Notes\n, while HipChat is currently operational and fully integrated with MCDI's JIRA instance, it is not available to users at this time.\n\n\n\n\nChild Issues\n\n\nThe Child Issues region is available for the Epic, Story, and Task issue types.  Please see \nthe issue type section for your project\n for more information.\n\n\nWhile the region looks a little different when appearing under an Epic as opposed to a Story/Task (as shown below), the function of the region is the same across all issue types where it appears.\n\n\nEpic:\n\n\n\n\nStory/Task:\n\n\n\n\nThe Child Issues region shows all tasks which have a \"belongs to\" relationship with the current task.  This hierarchical structure streamlines organization and navigation, while ensuring that all related issues are grouped together in a manner that is easy to understand.\n\n\nTo be continued...", 
+            "text": "The purpose of this guide is to provide access to detailed information regarding working with Issues in the context of MCDI's JIRA installation.\n\n\nAtlassian Documentation\n\n\nMCDI's JIRA installation has been designed from the ground up to mirror the best-practice concepts for structural organization as outlined by Atlassian, in an effort to ensure that their system documentation is maximally compatible with our own.  In light of that fact, an effort has been made to include links to relevant articles within the Atlassian knowledge-base for further reading where possible.\n\n\nYou can view an overview of working with issues in JIRA Core here.\n\n\n\n\nGeneral Notes\n\n\nMCDI's JIRA instance is currently configured to serve two different types of projects:\n\n\n\n\nJIRA Core\n projects, which the majority of users will utilize for day-to-day work.\n\n\nJIRA Software\n projects, which will be utilized primarily by IT for managing development activities.\n\n\n\n\nNote: A third type of project, the JIRA Helpdesk project, is supported for first-line IT and Customer Service\nfunctions, but not implemented at this time.\n\n\n\n\nDepending upon the project type, the available issue types and their use cases will change.  Please refer to the appropriate section for your use case.\n\n\nJIRA Core Issue Types\n (partially complete)\n\n\nJIRA Software Issue Types\n (not yet available)\n\n\n\n\nCreating Issues\n\n\nYou can view a generic overview of how to create issues in JIRA Core here.\n\n\nTo be continued..\n\n\n\n\nAnatomy of an Issue\n\n\nWhen accessed, each issue will display a screen like the one below.  This screen can be broken down into a number of regions, which all serve different functions.  In this section, a detailed overview of the functions and vocabulary related to each region will be laid out for easy reference, moving from the top right to the bottom left.\n\n\n\n\n\n\nIssue Header\n\n\n\n\nThe Issue Header region shows three important pieces of information:\n\n\n\n\nThe name of the parent project (ZICORE)\n\n\nThe issue's ID (ZICORE-28)\n\n\nThe name of the issue (Work Planning)\n\n\n\n\n\n\nIssue Toolbar\n\n\n\n\nThe issue toolbar gives you easy access to some of the most important functions within an issue.\n\n\n\n\nClicking the \"Edit\" button will open a form where you can edit multiple fields at once before saving.\n\n\nClicking the \"Comment\" button will snap your view to the Comment region and open an editor for you so that you can leave a comment on the issue.\n\n\nClicking the \"Assign\" button opens a dialog which allows you to reassign an issue to another user and leave a comment about the assignment change.\n\n\nClicking the \"More\" button will open a menu with advanced functions not covered here...yet.\n\n\nThe next three buttons and their usage will change depending on the workflow configured for the issue type.  Please see \nDefault Workflow Usage\n for more information.\n\n\nThe \"Admin\" button will not be visible for the majority of users, but gives access to multiple power-user functions.\n\n\nThe square button with the arrow coming out of it is the \"Share\" button.  This button reveals a dialog which will assist you in creating an external link to the issue.\n\n\nClicking the \"Export\" button will reveal a set of options for saving the issue to your local machine in various formats.\n\n\n\n\n\n\nIssue Details\n\n\n\n\nThe Issue Details region allows you to quickly view the essential metadata of an issue.\n\n\n\n\nThe \"Type\" field shows you what type of issue the issue is.  Please see \nthe issue type section for your project\n for more information.\n\n\nThe \"Priority\" field shows you the issue's current priority level.\n\n\nThe \"Component/s\" field not only shows the configured component/s for an issue, it provides hyperlinks to these components, which can be used for navigational purposes.\n\n\nThe \"Labels\" field shows all of the keywords which other users have tagged the issue with.  Labels allow users to add ad-hoc semantic search dimensions to issues for future reference.\n\n\nTo add a label, click the pencil next to the field, type in your desired label/s, and click the check mark.  \n\n\n\n\n\n\nThe \"Status\" field shows the icon for the workflow step that the issue is currently in.  \n\n\nClicking the \"View Workflow\" link will show you a flowchart for the workflow, in case you need a cheat sheet.\n\n\n\n\n\n\nThe \"Resolution\" field will be updated with a resolution message once the issue has been resolved.  Please see \nDefault Workflow Usage\n for more information regarding issue resolution.\n\n\n\n\n\n\nPeople\n\n\n\n\nThe People region gives you a window into the other users interacting with the issue alongside you.\n\n\n\n\nThe \"Assignee\" field shows you the current user assigned to the task.  \n\n\nThe Assignee role is explained in more detail on the \nDefault Workflow Usage\n, but essentially, the Assignee is the user who needs to take the next step in moving the issue along through the workflow.  \n\n\nIf you need to take over the Assignee role, you can click the \"Assign to me\" link in order to take ownership.\n\n\n\n\n\n\nThe \"Reporter\" field shows the name of the user that initially reported the issue.  This knowledge can be useful if you're looking to find a source for more information about a given issue.\n\n\nThe \"Vote\" field shows a tally of the number of users who have clicked the \"Vote for this issue\" link, indicating that they would like it to be given priority over other issues.  \n\n\nThere is no formal requirement that issues with a high number of votes be given priority, however, this can be a useful tool for making decisions about your time when faced with multiple open issues.  \n\n\nPlease vote sparingly.\n\n\n\n\n\n\nThe \"Watchers\" field shows the number of people who are currently receiving email notifications for the issue.  \n\n\nAs a general rule, any time you interact with an issue in any way other than viewing it (i.e. changing a status, leaving a comment, etc.), you will be added to the Watchers list for that issue.  \n\n\nTo view a list of users watching the issue, simply click the number in the circle.  \n\n\nTo stop watching the issue, click the \"Stop watching this issue\" link.\n\n\nTo re-subscribe to the issue as a watcher, click the \"Start watching this issue\" link, which will replace the \"Stop watching this issue\" link when you are not subscribed.\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\n\n\nThe Description region is a text field which is used to store an explanation of what the issue is for.  \n\n\n\n\nIt should include information which is relevant to assisting assigned users in moving the issue towards a resolution.\n\n\nEpics and Stories  may not always have descriptions, but Subtasks and Tasks should always have a description.  \n\n\nThe description can be edited by clicking on the Description region, or through the Edit menu.\n\n\n\n\n\n\nDates\n\n\n\n\n\n\nThe Dates region allows users to see the time and date when the issue was created, when it was last updated, and once closed, the date of closure.\n\n\n\n\n\n\nAttachments\n\n\n\n\nThe Attachments region is used to view, manage, and organize documents attached to a given issue.  JIRA's core attachment functionality has been expanded through the use of a plugin called Smart Attachments.  \nThe extended documentation for the plugin is available here.\n\n\n\n\nTo upload a new document to a task, drag the file from a folder on your computer and hold it over the issue screen.  An overlay of boxes corresponding to the different categories available for the document will appear- simply release the file over the box that corresponds to the category you would like to upload the document to, and JIRA will handle the rest of the upload process.\n\n\nThe maximum allowed file size for each individual attachment is 57.22MB.\n\n\n\n\nOnce you have uploaded attachments to an issue, the Attachments region will look something like this:\n\n\n\n\n\n\nTo move individual files between categories, simply click and drag.\n\n\nClicking on the hyperlinked filename will download a standalone copy of the file to your system.  A copy downloaded in this fashion \nwill not maintain its link to JIRA's version control.\n   \n\n\nIn order to check out the file for editing within the version control system (VCS), you will need to access the file's dropdown menu, as shown below.\n\n\n\n\n\n\n\n\nOnce you have opened the file's dropdown menu, select \"Edit in Office.\"  \nPlease note: it is only possible to edit Office documents (i.e. .docx/.xlsx/.pptx) in this fashion.\n\n\nClick \"OK\" on any warning messages that may appear, and the file will open in the appropriate Office program.\n\n\nSaving the document in Office will automatically create a new version of the file within JIRA's VCS.  To view past revisions, click the \n symbol next to a given document.\n\n\n\n\n\n\nYou can leave a comment on a document by clicking the \"Edit Comment\" button.  To view a document's comment, click the blue speech bubble displayed next to the file size.\n\n\nYou can manually add revisions to documents that cannot be opened directly in Office by selecting the \"Upload New Revision\" option from the dropdown menu.\n\n\nClicking \"Download All Revisions\" will download a .zip file containing all revisions to your local machine.\n\n\nClicking Rename will allow you to rename the file.  \n\n\nPlease note that there is a soft limit of 50-70 characters (including spaces) for filenames in JIRA.  Exceeding this limit may cause an error when opening/otherwise working with a file.  If you encounter one of these errors, simply shorten the filename to resolve the issue.  See \n!!JIRA-5\n for more information.\n\n\n\n\n\n\n\n\n\n\nHipChat\n\n\n\n\nOnce HipChat has been rolled out to the user base, you will be able to instantly create a HipChat room to discuss the issue live with all of the issue's Watchers.  This room will contain all of the information relating to the task, and features all of the hotlinking features that JIRA does (@mentions, auto-tagging, etc.).\n\n\n!!As discussed in the \n0.1.1.3 Release Notes\n, while HipChat is currently operational and fully integrated with MCDI's JIRA instance, it is not available to users at this time.\n\n\n\n\nChild Issues\n\n\nThe Child Issues region is available for the Epic, Story, and Task issue types.  Please see \nthe issue type section for your project\n for more information.\n\n\nWhile the region looks a little different when appearing under an Epic as opposed to a Story/Task (as shown below), the function of the region is the same across all issue types where it appears.\n\n\nEpic:\n\n\n\n\nStory/Task:\n\n\n\n\nThe Child Issues region shows all tasks which have a \"belongs to\" relationship with the current task.  This hierarchical structure streamlines organization and navigation, while ensuring that all related issues are grouped together in a manner that is easy to understand.\n\n\n\n\n\n\nClicking the \"+\" sign in the Child Issues region will open an \nissue creation screen\n.  Once you have created the issue, it will appear in the Child Issues region.\n\n\n\n\nImportant Note: Child Issues should always be of a type one hierarchical level below the parent.\n\n\nFor instance, when creating a child issue under an Epic, it should be of the Story/Task type; when creating a child issue under a Story/Task, it should be of the Subtask type.\n\n\n\n\n\n\n\n\nThe Child Issues region appears by default on all Epics, however, if a Story/Task does not have any subtasks associated with it, the region will not appear until at least one issue has been created.\n\n\n\n\nTo do this, click the \"More\" button on the Issue Toolbar, then select \"Create sub-task.\"\n\n\n\n\n\n\n\n\n\n\nActivity\n\n\n\n\nThe Activity region provides access to various logs related to the issue.  The vast majority of users will interact only with the \"Comments\" pane, and should leave it selected by default.\n\n\n\n\nThe \"All\" pane shows a detailed raw differential view of all changes that have been made to the issue, across all fields, \nincluding\n comments.\n\n\nThe \"Work Log\" pane shows a detailed breakdown of work logged against the issue.\n\n\nPlease note that Work Logging is not enabled outside of the [JIRA] project at this time.\n\n\n\n\n\n\nThe \"All\" pane shows a detailed raw differential view of all changes that have been made to the issue, across all fields, \nexcluding\n comments.\n\n\nThe \"Activity\" pane shows a Facebook-style view of all changes that have been made to the issue, across all fields, \nexcluding\n comments.\n\n\nThe primary difference between the \"Activity\" pane and the \"All\" pane aside from formatting is that the \"Activity\" pane does not include differential information.", 
             "title": "Working With Issues"
         }, 
         {
@@ -84,6 +84,11 @@
             "location": "/working_with_issues/#general-notes", 
             "text": "MCDI's JIRA instance is currently configured to serve two different types of projects:   JIRA Core  projects, which the majority of users will utilize for day-to-day work.  JIRA Software  projects, which will be utilized primarily by IT for managing development activities.   Note: A third type of project, the JIRA Helpdesk project, is supported for first-line IT and Customer Service\nfunctions, but not implemented at this time.  Depending upon the project type, the available issue types and their use cases will change.  Please refer to the appropriate section for your use case.  JIRA Core Issue Types  (partially complete)  JIRA Software Issue Types  (not yet available)", 
             "title": "General Notes"
+        }, 
+        {
+            "location": "/working_with_issues/#creating-issues", 
+            "text": "You can view a generic overview of how to create issues in JIRA Core here.  To be continued..", 
+            "title": "Creating Issues"
         }, 
         {
             "location": "/working_with_issues/#anatomy-of-an-issue", 
@@ -142,23 +147,13 @@
         }, 
         {
             "location": "/working_with_issues/#storytask", 
-            "text": "The Child Issues region shows all tasks which have a \"belongs to\" relationship with the current task.  This hierarchical structure streamlines organization and navigation, while ensuring that all related issues are grouped together in a manner that is easy to understand.  To be continued...", 
+            "text": "The Child Issues region shows all tasks which have a \"belongs to\" relationship with the current task.  This hierarchical structure streamlines organization and navigation, while ensuring that all related issues are grouped together in a manner that is easy to understand.    Clicking the \"+\" sign in the Child Issues region will open an  issue creation screen .  Once you have created the issue, it will appear in the Child Issues region.   Important Note: Child Issues should always be of a type one hierarchical level below the parent.  For instance, when creating a child issue under an Epic, it should be of the Story/Task type; when creating a child issue under a Story/Task, it should be of the Subtask type.     The Child Issues region appears by default on all Epics, however, if a Story/Task does not have any subtasks associated with it, the region will not appear until at least one issue has been created.   To do this, click the \"More\" button on the Issue Toolbar, then select \"Create sub-task.\"", 
             "title": "Story/Task:"
         }, 
         {
-            "location": "/workflows/", 
-            "text": "", 
-            "title": "Default Workflow Usage"
-        }, 
-        {
-            "location": "/document_management/", 
-            "text": "", 
-            "title": "Document Management"
-        }, 
-        {
-            "location": "/calendar/", 
-            "text": "", 
-            "title": "Calendar Functionality"
+            "location": "/working_with_issues/#activity", 
+            "text": "The Activity region provides access to various logs related to the issue.  The vast majority of users will interact only with the \"Comments\" pane, and should leave it selected by default.   The \"All\" pane shows a detailed raw differential view of all changes that have been made to the issue, across all fields,  including  comments.  The \"Work Log\" pane shows a detailed breakdown of work logged against the issue.  Please note that Work Logging is not enabled outside of the [JIRA] project at this time.    The \"All\" pane shows a detailed raw differential view of all changes that have been made to the issue, across all fields,  excluding  comments.  The \"Activity\" pane shows a Facebook-style view of all changes that have been made to the issue, across all fields,  excluding  comments.  The primary difference between the \"Activity\" pane and the \"All\" pane aside from formatting is that the \"Activity\" pane does not include differential information.", 
+            "title": "Activity"
         }, 
         {
             "location": "/filters/", 
@@ -169,6 +164,26 @@
             "location": "/reports/", 
             "text": "", 
             "title": "Reports"
+        }, 
+        {
+            "location": "/calendar/", 
+            "text": "", 
+            "title": "Calendar"
+        }, 
+        {
+            "location": "/comments/", 
+            "text": "", 
+            "title": "Comments"
+        }, 
+        {
+            "location": "/document_management/", 
+            "text": "", 
+            "title": "Document Management"
+        }, 
+        {
+            "location": "/workflows/", 
+            "text": "", 
+            "title": "Default Workflow Usage"
         }, 
         {
             "location": "/core_issue_types/", 
@@ -194,6 +209,126 @@
             "location": "/software_issue_types/", 
             "text": "", 
             "title": "Software Issue Types"
+        }, 
+        {
+            "location": "/plugin_documents/", 
+            "text": "Description\n\n\nThis add-on lets you manage and store files in JIRA on a project level. It enables key-features of an advanced document management system like folders hierarchy, file uploading, version history, permissions and many more.\n\n\nVendor\n\n\nThis is a \nStonikByte\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe Documentation plugin is utilized to provide the cold DM layer across projects.\n\n\nNotes\n\n\nAs of \nRelease 0.1.1.3\n, we are considering sunsetting/removing this plugin prior to the Open Beta, as it does not appear to be meeting the use cases it was intended for.", 
+            "title": "Documents"
+        }, 
+        {
+            "location": "/plugin_documents/#description", 
+            "text": "This add-on lets you manage and store files in JIRA on a project level. It enables key-features of an advanced document management system like folders hierarchy, file uploading, version history, permissions and many more.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_documents/#vendor", 
+            "text": "This is a  StonikByte  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_documents/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_documents/#usage", 
+            "text": "The Documentation plugin is utilized to provide the cold DM layer across projects.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_documents/#notes", 
+            "text": "As of  Release 0.1.1.3 , we are considering sunsetting/removing this plugin prior to the Open Beta, as it does not appear to be meeting the use cases it was intended for.", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/plugin_hipchat/", 
+            "text": "Description\n\n\n\n\nReceive notifications about important events for your JIRA project HipChat (new JIRA issues, new comments, etc.)\n\n\nMention issue keys in HipChat rooms and receive a summary of the issue directly in chat to avoid context switching\n\n\nFrom a JIRA issue, create a dedicated HipChat room and bring everyone together to discuss it - for example to resolve an incident faster!\n\n\nConfigure JIRA with HipChat with a simple wizard you can complete in 30 seconds.\n\n\nOne-click linking of JIRA projects and HipChat rooms. This can be done both by global administrators and project administrators.\n\n\nSupports HipChat Cloud and HipChat Server.\n\n\n\n\nVendor\n\n\nThis is an Atlassian plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe HipChat for JIRA plugin is used to manage the integration of \nAtlassian HipChat\n into JIRA.\n\n\nNotes\n\n\nThis plugin operates more like a feature than as an extension- it simply enables the integration of the two services, regardless of hosting endpoint (i.e. Atlassian Cloud vs. Self-Hosted).", 
+            "title": "HipChat for JIRA"
+        }, 
+        {
+            "location": "/plugin_hipchat/#description", 
+            "text": "Receive notifications about important events for your JIRA project HipChat (new JIRA issues, new comments, etc.)  Mention issue keys in HipChat rooms and receive a summary of the issue directly in chat to avoid context switching  From a JIRA issue, create a dedicated HipChat room and bring everyone together to discuss it - for example to resolve an incident faster!  Configure JIRA with HipChat with a simple wizard you can complete in 30 seconds.  One-click linking of JIRA projects and HipChat rooms. This can be done both by global administrators and project administrators.  Supports HipChat Cloud and HipChat Server.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_hipchat/#vendor", 
+            "text": "This is an Atlassian plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_hipchat/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_hipchat/#usage", 
+            "text": "The HipChat for JIRA plugin is used to manage the integration of  Atlassian HipChat  into JIRA.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_hipchat/#notes", 
+            "text": "This plugin operates more like a feature than as an extension- it simply enables the integration of the two services, regardless of hosting endpoint (i.e. Atlassian Cloud vs. Self-Hosted).", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/plugin_mail_ru/", 
+            "text": "Description\n\n\nThe plugin displays issues from any project or filter in calendar format. Custom field values are used as event data.\n\n\n\n\nQuarter, Month, Week, Day and Timelime views\n\n\nOptional weekends hiding\n\n\nView issue fields data in event popup\n\n\nSharing calendars with other users\n\n\nDrag \n Drop support\n\n\nExport calendars to Outlook, iCalendar, iOS Calendar, Google Calendar\n\n\n\n\nVendor\n\n\nThis is a \nMail.Ru Group\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe Mail.Ru Calendar plugin powers the Calendar feature in MCDI's JIRA.\n\n\nNotes\n\n\nSee the \nCalendar section of this documentation\n for more information.", 
+            "title": "Mail.Ru Calendar"
+        }, 
+        {
+            "location": "/plugin_mail_ru/#description", 
+            "text": "The plugin displays issues from any project or filter in calendar format. Custom field values are used as event data.   Quarter, Month, Week, Day and Timelime views  Optional weekends hiding  View issue fields data in event popup  Sharing calendars with other users  Drag   Drop support  Export calendars to Outlook, iCalendar, iOS Calendar, Google Calendar", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_mail_ru/#vendor", 
+            "text": "This is a  Mail.Ru Group  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_mail_ru/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_mail_ru/#usage", 
+            "text": "The Mail.Ru Calendar plugin powers the Calendar feature in MCDI's JIRA.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_mail_ru/#notes", 
+            "text": "See the  Calendar section of this documentation  for more information.", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/plugin_smart_attachments/", 
+            "text": "Description\n\n\nSmart Attachments is a real catch when you work with multiple attachments in each JIRA issue. Now you can easily manage them, as follows:\n\n\n\n\nCreate categories per issue types and further distribute attachments among categories\n\n\nDrag and drop files to or among attachment categories\n\n\nUse revisions for keeping distinct file versions within one document\n\n\nEdit your documents, workbooks, presentations and drawings in MS Office\n\n\nSend attachments to emails of your colleagues and partners from JIRA\n\n\nSearch for issues with attachments by name, format, document name or uploader\n\n\nCustomize attachment management experience with validators, conditions and post-functions\n\n\nComment the already loaded files and revisions\n\n\nRestrict access to certain categories for users, groups or roles\n\n\nPerform bulk actions (group removal, archive download, category migration or archivation to category)\n\n\nImport configuration from other JIRA projects\n\n\n\n\nVendor\n\n\nThis is a \nStiltSoft\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe Smart Attachments plugin provides advanced document management functionality for JIRA.\n\n\nNotes\n\n\nSee the \nAttachments section of the \"Working With Issues\" section of this documentation\n for more information.", 
+            "title": "Smart Attachments"
+        }, 
+        {
+            "location": "/plugin_smart_attachments/#description", 
+            "text": "Smart Attachments is a real catch when you work with multiple attachments in each JIRA issue. Now you can easily manage them, as follows:   Create categories per issue types and further distribute attachments among categories  Drag and drop files to or among attachment categories  Use revisions for keeping distinct file versions within one document  Edit your documents, workbooks, presentations and drawings in MS Office  Send attachments to emails of your colleagues and partners from JIRA  Search for issues with attachments by name, format, document name or uploader  Customize attachment management experience with validators, conditions and post-functions  Comment the already loaded files and revisions  Restrict access to certain categories for users, groups or roles  Perform bulk actions (group removal, archive download, category migration or archivation to category)  Import configuration from other JIRA projects", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_smart_attachments/#vendor", 
+            "text": "This is a  StiltSoft  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_smart_attachments/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_smart_attachments/#usage", 
+            "text": "The Smart Attachments plugin provides advanced document management functionality for JIRA.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_smart_attachments/#notes", 
+            "text": "See the  Attachments section of the \"Working With Issues\" section of this documentation  for more information.", 
+            "title": "Notes"
         }, 
         {
             "location": "/0113_11032016/", 
