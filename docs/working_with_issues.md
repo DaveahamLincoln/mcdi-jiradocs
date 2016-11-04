@@ -28,6 +28,14 @@ Depending upon the project type, the available issue types and their use cases w
 
 -----
 
+##Creating Issues
+
+[You can view a generic overview of how to create issues in JIRA Core here.](https://confluence.atlassian.com/jira064/creating-an-issue-720416482.html)
+
+To be continued..
+
+-----
+
 ##Anatomy of an Issue
 
 When accessed, each issue will display a screen like the one below.  This screen can be broken down into a number of regions, which all serve different functions.  In this section, a detailed overview of the functions and vocabulary related to each region will be laid out for easy reference, moving from the top right to the bottom left.
@@ -177,4 +185,24 @@ While the region looks a little different when appearing under an Epic as oppose
 
 The Child Issues region shows all tasks which have a "belongs to" relationship with the current task.  This hierarchical structure streamlines organization and navigation, while ensuring that all related issues are grouped together in a manner that is easy to understand.
 
-To be continued...
+* Clicking the "+" sign in the Child Issues region will open an [issue creation screen](#creating-issues).  Once you have created the issue, it will appear in the Child Issues region.
+    * **Important Note: Child Issues should always be of a type one hierarchical level below the parent.**
+    * For instance, when creating a child issue under an Epic, it should be of the Story/Task type; when creating a child issue under a Story/Task, it should be of the Subtask type.
+
+* The Child Issues region appears by default on all Epics, however, if a Story/Task does not have any subtasks associated with it, the region will not appear until at least one issue has been created.
+    * To do this, click the "More" button on the Issue Toolbar, then select "Create sub-task."
+
+-----
+
+###Activity
+
+![anatomy_activity](img/working_with_issues/anatomy_activity.png)
+
+The Activity region provides access to various logs related to the issue.  The vast majority of users will interact only with the "Comments" pane, and should leave it selected by default.
+
+* The "All" pane shows a detailed raw differential view of all changes that have been made to the issue, across all fields, **including** comments.
+* The "Work Log" pane shows a detailed breakdown of work logged against the issue.
+    * Please note that Work Logging is not enabled outside of the [JIRA] project at this time.
+* The "All" pane shows a detailed raw differential view of all changes that have been made to the issue, across all fields, **excluding** comments.
+* The "Activity" pane shows a Facebook-style view of all changes that have been made to the issue, across all fields, **excluding** comments.
+    * The primary difference between the "Activity" pane and the "All" pane aside from formatting is that the "Activity" pane does not include differential information.
