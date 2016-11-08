@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.1.1", 
+            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.1.3", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-the-mcdi-jira-user-manual", 
-            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.1.1", 
+            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.1.3", 
             "title": "Welcome to the MCDI JIRA User Manual"
         }, 
         {
@@ -157,8 +157,23 @@
         }, 
         {
             "location": "/filters/", 
-            "text": "", 
+            "text": "The purpose of this article is to provide information related to the creation and usage of filters for the purpose of finding, viewing, and organizing issues within a project.\n\n\nAccessing the Filter Editor\n\n\nTo access the Filter Editor:\n\n\n\n\nNavigate to the Issues section of a project.  \n\n\nClick the \"View all issues and filters\" link in the top right.\n\n\n\n\n\n\n\n\nClick the \"New filter\" button in the top left.\n\n\n\n\n\n\n\n\nOnce you have the Filter Editor open, design your filter using the dropdown menus in the top menu bar.  \n\n\nThe issues displayed on the screen after each change will be the issues that match your filter.\n\n\n\n\n\n\nJIRA Query Language (JQL) Filtering\n\n\nShould you require additional filtering over and above the simple column filters provided in the UI, you can access the JQL interface by clicking the \"Advanced\" link.  This interface accepts query statements written in JQL, which allows you to create powerful cross-sections of data with relative ease.  \nFor more information on JQL syntax, please refer to this cheat sheet.\n\n\nSaving a Filter\n\n\nWhen you have created the filter you want, click the \"Save as\" button in the top left corner of the interface, enter a name for the filter in the \"Filter Name\" box, and click the \"Submit\" button.\n\n\n\n\nOnce the filter has been saved, you can access it from the \"View all issues and filters\" screen.  Your most used filters will appear in the \"Favorite Filters\" section of the left-hand sidebar.\n\n\n\n\nIf you have a lot of saved filters, you can choose which filters to display from the \"Find Filters \n My\" screen.\n\n\n\n\nIf you have a lot of saved filters, you can choose which filters to display in the \"Favorite Filters\" section from the \"Find Filters \n My Filters\" screen.  Clicking the star next to a given filter will toggle its visibility.", 
             "title": "Filters"
+        }, 
+        {
+            "location": "/filters/#accessing-the-filter-editor", 
+            "text": "To access the Filter Editor:   Navigate to the Issues section of a project.    Click the \"View all issues and filters\" link in the top right.     Click the \"New filter\" button in the top left.     Once you have the Filter Editor open, design your filter using the dropdown menus in the top menu bar.    The issues displayed on the screen after each change will be the issues that match your filter.", 
+            "title": "Accessing the Filter Editor"
+        }, 
+        {
+            "location": "/filters/#jira-query-language-jql-filtering", 
+            "text": "Should you require additional filtering over and above the simple column filters provided in the UI, you can access the JQL interface by clicking the \"Advanced\" link.  This interface accepts query statements written in JQL, which allows you to create powerful cross-sections of data with relative ease.   For more information on JQL syntax, please refer to this cheat sheet.", 
+            "title": "JIRA Query Language (JQL) Filtering"
+        }, 
+        {
+            "location": "/filters/#saving-a-filter", 
+            "text": "When you have created the filter you want, click the \"Save as\" button in the top left corner of the interface, enter a name for the filter in the \"Filter Name\" box, and click the \"Submit\" button.   Once the filter has been saved, you can access it from the \"View all issues and filters\" screen.  Your most used filters will appear in the \"Favorite Filters\" section of the left-hand sidebar.   If you have a lot of saved filters, you can choose which filters to display from the \"Find Filters   My\" screen.   If you have a lot of saved filters, you can choose which filters to display in the \"Favorite Filters\" section from the \"Find Filters   My Filters\" screen.  Clicking the star next to a given filter will toggle its visibility.", 
+            "title": "Saving a Filter"
         }, 
         {
             "location": "/reports/", 
@@ -182,8 +197,38 @@
         }, 
         {
             "location": "/workflows/", 
-            "text": "", 
+            "text": "The purpose of this article is to provide guidance and best practices for utilizing the default JIRA workflow.\n\n\nWorkflow Diagram\n\n\n\n\n1. Open\n\n\nWhen an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, etc.) when it is in the Open state.\n\n\n2. In Progress\n\n\nOnce an issue has been assigned to you and you begin working on it, you should advance the workflow state to In Progress using the appropriate workflow button.  When an issue is In Progress, you may upload documents, leave comments, etc.  If you need to reassign the issue to another user, you should move it back to the Open state before changing the assignment.\n\n\n3. Resolved\n\n\nIf you have completed all necessary work on an issue, advance it to the Resolved state.  In the \"Resolution\" field, enter a summary of the work that has been completed on the issue.  Once an issue has been marked as Resolved, no changes should be made.  If you need to make changes to a Resolved issue, please move it to the Reopened state and advance it to In Progress before doing so.\n\n\n4. Closed\n\n\nOnce an issue is marked as Resolved, project administrators should review the issue to ensure that no further work is required.  If all work has in fact been completed, the project administrator should take the following steps:\n\n\n\n\nMove all output documents to the \"Final Documents\" category within the issue.\n\n\nDownload a copy of all final documents.\n\n\nNavigate to the Documents layer for the project and create a folder under the appropriate component (+ ISSEC, if applicable) folder for the task using the following naming convention:\n\n\n\n\nProject Slug\n-\nIssue Number\n: \nIssue Summary\n\n\nExample:\n\nJIRA-6: Cold Store Symlink is Misconfigured\n\n\n\n\n\n\nUpload the final documents to the folder.\n\n\nClose the issue.\n\n\n\n\nAfter an issue has been closed, it cannot be modified unless a project administrator advances it to the Reopened state.\n\n\n5. Reopened\n\n\nThe Reopened state indicates that an issue was previously either Resolved or Closed, but further work is required.  The Reopened state is analogous to the Open state in its function and associated conventions.", 
             "title": "Default Workflow Usage"
+        }, 
+        {
+            "location": "/workflows/#workflow-diagram", 
+            "text": "", 
+            "title": "Workflow Diagram"
+        }, 
+        {
+            "location": "/workflows/#1-open", 
+            "text": "When an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, etc.) when it is in the Open state.", 
+            "title": "1. Open"
+        }, 
+        {
+            "location": "/workflows/#2-in-progress", 
+            "text": "Once an issue has been assigned to you and you begin working on it, you should advance the workflow state to In Progress using the appropriate workflow button.  When an issue is In Progress, you may upload documents, leave comments, etc.  If you need to reassign the issue to another user, you should move it back to the Open state before changing the assignment.", 
+            "title": "2. In Progress"
+        }, 
+        {
+            "location": "/workflows/#3-resolved", 
+            "text": "If you have completed all necessary work on an issue, advance it to the Resolved state.  In the \"Resolution\" field, enter a summary of the work that has been completed on the issue.  Once an issue has been marked as Resolved, no changes should be made.  If you need to make changes to a Resolved issue, please move it to the Reopened state and advance it to In Progress before doing so.", 
+            "title": "3. Resolved"
+        }, 
+        {
+            "location": "/workflows/#4-closed", 
+            "text": "Once an issue is marked as Resolved, project administrators should review the issue to ensure that no further work is required.  If all work has in fact been completed, the project administrator should take the following steps:   Move all output documents to the \"Final Documents\" category within the issue.  Download a copy of all final documents.  Navigate to the Documents layer for the project and create a folder under the appropriate component (+ ISSEC, if applicable) folder for the task using the following naming convention:   Project Slug - Issue Number :  Issue Summary \n\nExample:\n\nJIRA-6: Cold Store Symlink is Misconfigured   Upload the final documents to the folder.  Close the issue.   After an issue has been closed, it cannot be modified unless a project administrator advances it to the Reopened state.", 
+            "title": "4. Closed"
+        }, 
+        {
+            "location": "/workflows/#5-reopened", 
+            "text": "The Reopened state indicates that an issue was previously either Resolved or Closed, but further work is required.  The Reopened state is analogous to the Open state in its function and associated conventions.", 
+            "title": "5. Reopened"
         }, 
         {
             "location": "/core_issue_types/", 
