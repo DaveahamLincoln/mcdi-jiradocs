@@ -22,7 +22,7 @@ functions, but not implemented at this time.
 
 Depending upon the project type, the available issue types and their use cases will change.  Please refer to the appropriate section for your use case.
 
-[JIRA Core Issue Types](core_issue_types) (partially complete)
+[JIRA Core Issue Types](core_issue_types)
 
 [JIRA Software Issue Types](software_issue_types) (not yet available)
 
@@ -31,8 +31,6 @@ Depending upon the project type, the available issue types and their use cases w
 ##Creating Issues
 
 [You can view a generic overview of how to create issues in JIRA Core here.](https://confluence.atlassian.com/jira064/creating-an-issue-720416482.html)
-
-To be continued..
 
 -----
 

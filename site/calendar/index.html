@@ -107,6 +107,22 @@
         
             <ul>
             
+                <li class="toctree-l3"><a href="#mailru-calendar">Mail.ru Calendar</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#accessing-the-calendar">Accessing the Calendar</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#adding-a-calendar">Adding a Calendar</a></li>
+                
+                    <li><a class="toctree-l4" href="#create-new-calendar">Create New Calendar</a></li>
+                
+                    <li><a class="toctree-l4" href="#add-existing-calendar">Add Existing Calendar</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#setting-up-calendar-sync">Setting Up Calendar Sync</a></li>
+                
+            
             </ul>
         
     </li>
@@ -282,7 +298,48 @@
           <div role="main">
             <div class="section">
               
-                
+                <p>The purpose of this article is to provide information related to the creation and management of calendars in JIRA.</p>
+<h2 id="mailru-calendar">Mail.ru Calendar</h2>
+<p>The calendar functionality in JIRA is provided by the <a href="../plugin_mail_ru">Mail.ru plugin.</a>  </p>
+<hr />
+<h2 id="accessing-the-calendar">Accessing the Calendar</h2>
+<p>To access the calendar, click the "Calendar" button at the top of the screen.</p>
+<p><img alt="calendar_access" src="../img/calendar/calendar_access.png" /></p>
+<hr />
+<h2 id="adding-a-calendar">Adding a Calendar</h2>
+<p>To create a calendar view, click the "Add Calendar" button and select an option.  </p>
+<p><img alt="calendar_add_calendar" src="../img/calendar/calendar_add_calendar.png" /></p>
+<h3 id="create-new-calendar">Create New Calendar</h3>
+<p>Creating a new calendar will allow you to define a calendar filter based on your specifications.  </p>
+<p><img alt="calendar_create_new_1" src="../img/calendar/calendar_create_new_1.png" /></p>
+<p>You will first need to name your calendar and select a color for the calendar events.  Once you have configured these fields, click the "Events" link in the left-hand pane.</p>
+<p><img alt="calendar_create_new_2" src="../img/calendar/calendar_create_new_2.png" /></p>
+<p>This screen allows you to configure your event source, which is essentially a "feed" of information to be displayed.  Event sources can be configured to display issues from a given project, issues caught by one of your saved <a href="../filters">filters</a>, or issues returned by a <a href="../filters#jira-query-language-jql-filtering">JQL query</a>.  </p>
+<p>You can choose what fields from the selected event source will be displayed on the calendar by entering their names in the "Fields" box.</p>
+<p><img alt="calendar_create_new_3" src="../img/calendar/calendar_create_new_3.png" /></p>
+<p>Once you have defined your event source, you can set sharing permissions for your calendar if you would like to share it.  Granting "USE" rights will allow users to add your calendar to their calendar view.  Granting "ADMIN" rights will allow users to make configuration changes to your calendar.</p>
+<hr />
+<h3 id="add-existing-calendar">Add Existing Calendar</h3>
+<p>The "Add Existing Calendar" screen will allow you to find and subscribe to calendars that have been shared with you.</p>
+<p><img alt="calendar_add_existing_1" src="../img/calendar/calendar_add_existing_1.png" /></p>
+<p>Simply check the checkbox next to the calendar(s) you would like to subscribe to and click the "Add" button.  The calendar will then appear in the right hand pane- to toggle the visibility of a given calendar, click the square next to the calendar name.</p>
+<p><img alt="calendar_add_existing_2" src="../img/calendar/calendar_add_existing_2.png" /></p>
+<hr />
+<h2 id="setting-up-calendar-sync">Setting Up Calendar Sync</h2>
+<p>One of the most powerful features of the <a href="../plugin_mail_ru">Mail.ru plugin.</a> is the ability to sync calendars created within JIRA to Outlook, iCalendar, iOS Calendar, Google Calendar, and other applications. Events for the past 3 months and up to 1 month in the future will be synced.</p>
+<p>To sync a calendar/calendar group with Outlook, follow these steps:</p>
+<p>1) Click the "Export Calendars" button.</p>
+<p><img alt="calendar_export_calendars" src="../img/calendar/calendar_export_calendars.png" /></p>
+<p>2) Enter the names of the calendar(s) you would like to include in the calendar feed in the first box.</p>
+<p><img alt="calendar_export_calendars_2" src="../img/calendar/calendar_export_calendars_2.png" /></p>
+<p>3) Copy the link from box 2, then open the Calendar pane in Outlook and navigate to "Open Calendar -&gt; From Internet..."</p>
+<p><img alt="calendar_export_calendars_3" src="../img/calendar/calendar_export_calendars_3.png" /></p>
+<p>4) Enter the link you copied in step 3 into the box that appears and click OK.</p>
+<p><img alt="calendar_export_calendars_4" src="../img/calendar/calendar_export_calendars_4.png" /></p>
+<p>5) The following screen will appear.  Click "Yes."</p>
+<p><img alt="calendar_export_calendars_5" src="../img/calendar/calendar_export_calendars_5.png" /></p>
+<p>6) You're all set.  The calendar will appear as "Untitled" under the "Other Calendars" heading in Outlook.  At this point, you can rename it however you like.  The calendar will automatically sync with JIRA with no further steps on your part.</p>
+<p><img alt="calendar_export_calendars_6" src="../img/calendar/calendar_export_calendars_6.png" /></p>
               
             </div>
           </div>
