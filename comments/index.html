@@ -122,6 +122,20 @@
         
             <ul>
             
+                <li class="toctree-l3"><a href="#atlassian-documentation">Atlassian Documentation</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#best-practice">Best-Practice</a></li>
+                
+                    <li><a class="toctree-l4" href="#good-habit-1-simplicity-is-elegance">Good Habit #1: Simplicity is Elegance</a></li>
+                
+                    <li><a class="toctree-l4" href="#good-habit-2-mention-is-your-friend">Good Habit #2: @Mention Is Your Friend</a></li>
+                
+                    <li><a class="toctree-l4" href="#good-habit-3-edit-for-clarity-not-for-content">Good Habit #3: Edit for Clarity, Not for Content</a></li>
+                
+                    <li><a class="toctree-l4" href="#good-habit-4-say-what-you-mean-mean-what-you-say">Good Habit #4: Say What You Mean, Mean What You Say</a></li>
+                
+            
             </ul>
         
     </li>
@@ -217,6 +231,13 @@
         
             
     <li class="toctree-l1 ">
+        <a class="" href="../0120_11162016/">0.1.2.0 (11/16/2016)</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
         <a class="" href="../0113_11032016/">0.1.1.3 (11/03/2016)</a>
         
     </li>
@@ -282,7 +303,51 @@
           <div role="main">
             <div class="section">
               
-                
+                <p>The purpose of this guide is to outline best-practice for the usage of JIRA's  comment functionality.</p>
+<h2 id="atlassian-documentation">Atlassian Documentation</h2>
+<p><a href="https://confluence.atlassian.com/jira064/commenting-on-an-issue-720416302.html">You can view an overview of JIRA's comment functionality here.</a></p>
+<p><a href="https://confluence.atlassian.com/jira064/emailing-an-issue-720416419.html#EmailinganIssue-mentions">You can view an overview of JIRA's @mention functionality here.</a></p>
+<hr />
+<h2 id="best-practice">Best-Practice</h2>
+<p>JIRA's comment system is incredibly powerful, but to quote Uncle Ben, <a href="https://www.youtube.com/watch?v=b23wrRfy7SM">"With great power comes great responsibility."</a></p>
+<p>It is important to develop good habits for interacting with JIRA from the beginning, so that things don't spiral out of control and cause problems down the line.  </p>
+<hr />
+<h3 id="good-habit-1-simplicity-is-elegance">Good Habit #1: Simplicity is Elegance</h3>
+<ul>
+<li>Try to limit your comments to under 300 words.  This will make it easier for future users to scan through a given issue and get up to speed quickly.</li>
+<li>If you need to include a lot of text, it is usually better to upload the text to the issue as a document and refer to that document in a comment instead.</li>
+</ul>
+<hr />
+<h3 id="good-habit-2-mention-is-your-friend">Good Habit #2: @Mention Is Your Friend</h3>
+<ul>
+<li>When you need to get a user's attention, type the "@"" sign in a comment and select the name of the user you need to notify.  This will /always/ send them an email and HipChat notification, regardless of whether or not they have been added as a Watcher to the issue.  </li>
+<li>If you need a user to do something, please use <em>active</em> language in your comment- be explicit about what you need from the user.</li>
+</ul>
+<p>This is an example of a poorly-written comment:</p>
+<pre><code class="ruby">We need to order 10 widgets @Steve @Joe
+</code></pre>
+
+<p>This is an example of a well-written comment:</p>
+<pre><code class="ruby">@Steve and @Joe, we need 10 widgets, could you guys please start the procurement process?
+</code></pre>
+
+<ul>
+<li>If you're ever in doubt about whether or not to @mention a user, you should probably @mention the user.</li>
+</ul>
+<hr />
+<h3 id="good-habit-3-edit-for-clarity-not-for-content">Good Habit #3: Edit for Clarity, Not for Content</h3>
+<ul>
+<li>You should only modify a comment that you've left to make it clearer or to fix typos.  </li>
+<li>You <strong>should not</strong> edit comments to change their overall meaning or add additional information.</li>
+<li>If you feel the need to add additional information to a comment or change the content, create a new comment instead.</li>
+</ul>
+<hr />
+<h3 id="good-habit-4-say-what-you-mean-mean-what-you-say">Good Habit #4: Say What You Mean, Mean What You Say</h3>
+<ul>
+<li>You cannot delete comments.  This is by design.</li>
+<li>This means that whatever you write will be saved forever.</li>
+<li>Don't say anything that you don't want to be saved forever.  There are no takebacks.</li>
+</ul>
               
             </div>
           </div>
