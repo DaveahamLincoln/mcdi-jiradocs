@@ -1,0 +1,3 @@
+The purpose of this guide is to outline best-practice for the usage of JIRA's  document management functionality.
+
+To be continued...

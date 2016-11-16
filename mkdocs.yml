@@ -22,6 +22,7 @@ pages:
     - Mail.Ru Calendar: plugin_mail_ru.md
     - Smart Attachments: plugin_smart_attachments.md
   - Release Notes:
+    - 0.1.2.0 (11/16/2016): 0120_11162016.md
     - 0.1.1.3 (11/03/2016): 0113_11032016.md
     - 0.1.1.2 (11/02/2016): 0112_11022016.md
     - 0.1.1.1 (10/31/2016): 0111_10312016.md

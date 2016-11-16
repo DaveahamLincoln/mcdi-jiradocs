@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.1.3", 
+            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.2.0", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-the-mcdi-jira-user-manual", 
-            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.1.3", 
+            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.2.0", 
             "title": "Welcome to the MCDI JIRA User Manual"
         }, 
         {
@@ -222,12 +222,42 @@
         }, 
         {
             "location": "/comments/", 
-            "text": "", 
+            "text": "The purpose of this guide is to outline best-practice for the usage of JIRA's  comment functionality.\n\n\nAtlassian Documentation\n\n\nYou can view an overview of JIRA's comment functionality here.\n\n\nYou can view an overview of JIRA's @mention functionality here.\n\n\n\n\nBest-Practice\n\n\nJIRA's comment system is incredibly powerful, but to quote Uncle Ben, \n\"With great power comes great responsibility.\"\n\n\nIt is important to develop good habits for interacting with JIRA from the beginning, so that things don't spiral out of control and cause problems down the line.  \n\n\n\n\nGood Habit #1: Simplicity is Elegance\n\n\n\n\nTry to limit your comments to under 300 words.  This will make it easier for future users to scan through a given issue and get up to speed quickly.\n\n\nIf you need to include a lot of text, it is usually better to upload the text to the issue as a document and refer to that document in a comment instead.\n\n\n\n\n\n\nGood Habit #2: @Mention Is Your Friend\n\n\n\n\nWhen you need to get a user's attention, type the \"@\"\" sign in a comment and select the name of the user you need to notify.  This will /always/ send them an email and HipChat notification, regardless of whether or not they have been added as a Watcher to the issue.  \n\n\nIf you need a user to do something, please use \nactive\n language in your comment- be explicit about what you need from the user.\n\n\n\n\nThis is an example of a poorly-written comment:\n\n\nWe need to order 10 widgets @Steve @Joe\n\n\n\n\nThis is an example of a well-written comment:\n\n\n@Steve and @Joe, we need 10 widgets, could you guys please start the procurement process?\n\n\n\n\n\n\nIf you're ever in doubt about whether or not to @mention a user, you should probably @mention the user.\n\n\n\n\n\n\nGood Habit #3: Edit for Clarity, Not for Content\n\n\n\n\nYou should only modify a comment that you've left to make it clearer or to fix typos.  \n\n\nYou \nshould not\n edit comments to change their overall meaning or add additional information.\n\n\nIf you feel the need to add additional information to a comment or change the content, create a new comment instead.\n\n\n\n\n\n\nGood Habit #4: Say What You Mean, Mean What You Say\n\n\n\n\nYou cannot delete comments.  This is by design.\n\n\nThis means that whatever you write will be saved forever.\n\n\nDon't say anything that you don't want to be saved forever.  There are no takebacks.", 
             "title": "Comments"
         }, 
         {
+            "location": "/comments/#atlassian-documentation", 
+            "text": "You can view an overview of JIRA's comment functionality here.  You can view an overview of JIRA's @mention functionality here.", 
+            "title": "Atlassian Documentation"
+        }, 
+        {
+            "location": "/comments/#best-practice", 
+            "text": "JIRA's comment system is incredibly powerful, but to quote Uncle Ben,  \"With great power comes great responsibility.\"  It is important to develop good habits for interacting with JIRA from the beginning, so that things don't spiral out of control and cause problems down the line.", 
+            "title": "Best-Practice"
+        }, 
+        {
+            "location": "/comments/#good-habit-1-simplicity-is-elegance", 
+            "text": "Try to limit your comments to under 300 words.  This will make it easier for future users to scan through a given issue and get up to speed quickly.  If you need to include a lot of text, it is usually better to upload the text to the issue as a document and refer to that document in a comment instead.", 
+            "title": "Good Habit #1: Simplicity is Elegance"
+        }, 
+        {
+            "location": "/comments/#good-habit-2-mention-is-your-friend", 
+            "text": "When you need to get a user's attention, type the \"@\"\" sign in a comment and select the name of the user you need to notify.  This will /always/ send them an email and HipChat notification, regardless of whether or not they have been added as a Watcher to the issue.    If you need a user to do something, please use  active  language in your comment- be explicit about what you need from the user.   This is an example of a poorly-written comment:  We need to order 10 widgets @Steve @Joe  This is an example of a well-written comment:  @Steve and @Joe, we need 10 widgets, could you guys please start the procurement process?   If you're ever in doubt about whether or not to @mention a user, you should probably @mention the user.", 
+            "title": "Good Habit #2: @Mention Is Your Friend"
+        }, 
+        {
+            "location": "/comments/#good-habit-3-edit-for-clarity-not-for-content", 
+            "text": "You should only modify a comment that you've left to make it clearer or to fix typos.    You  should not  edit comments to change their overall meaning or add additional information.  If you feel the need to add additional information to a comment or change the content, create a new comment instead.", 
+            "title": "Good Habit #3: Edit for Clarity, Not for Content"
+        }, 
+        {
+            "location": "/comments/#good-habit-4-say-what-you-mean-mean-what-you-say", 
+            "text": "You cannot delete comments.  This is by design.  This means that whatever you write will be saved forever.  Don't say anything that you don't want to be saved forever.  There are no takebacks.", 
+            "title": "Good Habit #4: Say What You Mean, Mean What You Say"
+        }, 
+        {
             "location": "/document_management/", 
-            "text": "", 
+            "text": "The purpose of this guide is to outline best-practice for the usage of JIRA's  document management functionality.\n\n\nTo be continued...", 
             "title": "Document Management"
         }, 
         {
@@ -287,7 +317,7 @@
         }, 
         {
             "location": "/software_issue_types/", 
-            "text": "", 
+            "text": "To be continued...", 
             "title": "Software Issue Types"
         }, 
         {
@@ -409,6 +439,26 @@
             "location": "/plugin_smart_attachments/#notes", 
             "text": "See the  Attachments section of the \"Working With Issues\" section of this documentation  for more information.", 
             "title": "Notes"
+        }, 
+        {
+            "location": "/0120_11162016/", 
+            "text": "EGCCST Rollout\n\n\n\n\nThe EGCCST project has been activated.\n\n\nThe EGCCST project is wired to listen for incoming mail at the EGCCST.incoming endpoint.\n\n\nEGCCST components have been added to the FIN and HR projects.\n\n\nEGCCST and EGCCST Restricted ISSEC dimensions have been added to the FIN and HR ISSEC Schemes.\n\n\nThe EGCCST project has been linked to the EG-CCST HipChat room.\n\n\n\n\nPlugin Updates\n\n\n\n\nThe \nHipChat for JIRA\n plugin has been updated to \nv. 7.8.28.\n\n\nThe \nDocuments\n plugin has been updated to \nv. 6.2.1\n\n\nThe Atlassian Universal Plugin Manager has been updated to \nv. 2.22\n\n\n\n\nReindexing\n\n\n\n\nPerformed background reindexing at 10:21AM EST on 11/16/2016.", 
+            "title": "0.1.2.0 (11/16/2016)"
+        }, 
+        {
+            "location": "/0120_11162016/#egccst-rollout", 
+            "text": "The EGCCST project has been activated.  The EGCCST project is wired to listen for incoming mail at the EGCCST.incoming endpoint.  EGCCST components have been added to the FIN and HR projects.  EGCCST and EGCCST Restricted ISSEC dimensions have been added to the FIN and HR ISSEC Schemes.  The EGCCST project has been linked to the EG-CCST HipChat room.", 
+            "title": "EGCCST Rollout"
+        }, 
+        {
+            "location": "/0120_11162016/#plugin-updates", 
+            "text": "The  HipChat for JIRA  plugin has been updated to  v. 7.8.28.  The  Documents  plugin has been updated to  v. 6.2.1  The Atlassian Universal Plugin Manager has been updated to  v. 2.22", 
+            "title": "Plugin Updates"
+        }, 
+        {
+            "location": "/0120_11162016/#reindexing", 
+            "text": "Performed background reindexing at 10:21AM EST on 11/16/2016.", 
+            "title": "Reindexing"
         }, 
         {
             "location": "/0113_11032016/", 
