@@ -143,13 +143,6 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../document_management/">Document Management</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
         <a class="" href="../workflows/">Default Workflow Usage</a>
         
     </li>
@@ -323,12 +316,25 @@
 <li>When you need to get a user's attention, type the "@"" sign in a comment and select the name of the user you need to notify.  This will /always/ send them an email and HipChat notification, regardless of whether or not they have been added as a Watcher to the issue.  </li>
 <li>If you need a user to do something, please use <em>active</em> language in your comment- be explicit about what you need from the user.</li>
 </ul>
-<p>This is an example of a poorly-written comment:</p>
-<pre><code class="ruby">We need to order 10 widgets @Steve @Joe
+<p>This is an example of a very poorly-written comment:</p>
+<pre><code class="ruby">&quot;We need to order 10 widgets Joe.&quot;
+
+Since Joe was not @mentioned, he will not receive an email or other notifications, and the 10 widgets will
+not be ordered.
+</code></pre>
+
+<p>Another example of a poorly-written comment:</p>
+<pre><code class="ruby">&quot;We need to order 10 widgets.  @Joe @Steve.&quot;
+
+This comment is not clear enough- while Joe and Steve will receive notifications, the comment does not indicate
+what they are supposed to do.
 </code></pre>
 
 <p>This is an example of a well-written comment:</p>
-<pre><code class="ruby">@Steve and @Joe, we need 10 widgets, could you guys please start the procurement process?
+<pre><code class="ruby">@Steve, we need 10 widgets, could you put together a PRF and send it to @Joe?  
+@Joe, once you receive it, please start the procurement process.
+
+This comment makes good use of the @mention functionality, and is clear on what is needed from each @mentioned user.
 </code></pre>
 
 <ul>
@@ -355,7 +361,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../document_management/" class="btn btn-neutral float-right" title="Document Management">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../workflows/" class="btn btn-neutral float-right" title="Default Workflow Usage">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../calendar/" class="btn btn-neutral" title="Calendar"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -387,7 +393,7 @@
         <span><a href="../calendar/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../document_management/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../workflows/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
