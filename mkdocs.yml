@@ -10,7 +10,6 @@ pages:
     - Calendar: calendar.md
   - JIRA Conventions:
     - Comments: comments.md
-    - Document Management: document_management.md
     - Default Workflow Usage: workflows.md
   - JIRA Core Notes:
     - Core Issue Types: core_issue_types.md

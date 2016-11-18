@@ -28,16 +28,31 @@ It is important to develop good habits for interacting with JIRA from the beginn
 - When you need to get a user's attention, type the "@"" sign in a comment and select the name of the user you need to notify.  This will /always/ send them an email and HipChat notification, regardless of whether or not they have been added as a Watcher to the issue.  
 - If you need a user to do something, please use *active* language in your comment- be explicit about what you need from the user.
 
-This is an example of a poorly-written comment:
+This is an example of a very poorly-written comment:
 
 ```ruby
-We need to order 10 widgets @Steve @Joe
+"We need to order 10 widgets Joe."
+
+Since Joe was not @mentioned, he will not receive an email or other notifications, and the 10 widgets will
+not be ordered.
+```
+
+Another example of a poorly-written comment:
+
+```ruby
+"We need to order 10 widgets.  @Joe @Steve."
+
+This comment is not clear enough- while Joe and Steve will receive notifications, the comment does not indicate
+what they are supposed to do.
 ```
 
 This is an example of a well-written comment:
 
 ```ruby
-@Steve and @Joe, we need 10 widgets, could you guys please start the procurement process?
+@Steve, we need 10 widgets, could you put together a PRF and send it to @Joe?  
+@Joe, once you receive it, please start the procurement process.
+
+This comment makes good use of the @mention functionality, and is clear on what is needed from each @mentioned user.
 ```
 
 - If you're ever in doubt about whether or not to @mention a user, you should probably @mention the user.

@@ -6,11 +6,17 @@ The purpose of this article is to provide guidance and best practices for utiliz
 
 ##1. Open
 
-When an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, etc.) when it is in the Open state.
+When an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, watchlist, etc.) when it is in the Open state.  
+
+When you create an issue, you should assign the issue to the user who is responsible for taking the next action.  If there are multiple users that will need to take action during the issue's life-cycle, ensure that you have added them to the watchlist for the issue.  
+
+For more information on how to perform these operations, please see [the 'People' section of the 'Working With Issues' article.](working_with_issues#people)
 
 ##2. In Progress
 
 Once an issue has been assigned to you and you begin working on it, you should advance the workflow state to In Progress using the appropriate workflow button.  When an issue is In Progress, you may upload documents, leave comments, etc.  If you need to reassign the issue to another user, you should move it back to the Open state before changing the assignment.
+
+For more information on how to perform these operations, please see [the 'Issue Toolbar' section of the 'Working With Issues' article.](working_with_issues#issue-toolbar)
 
 ##3. Resolved
 

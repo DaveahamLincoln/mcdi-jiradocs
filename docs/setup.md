@@ -1,13 +1,4 @@
-## Step 1: Fill out and return a JIRA Permissions Slip
-
-If you have not already done so, please [download, print, and fill out a permissions slip for JIRA.](https://bitbucket.org/DaveahamLincoln/mcdi-jira-kb/downloads/jira_permissions_slip.pdf).  
-
-1. Fill in your name and the date.
-2. Mark the boxes for the permissions that you need with an X.
-3. Have the project lead for each project where you've requested permissions sign off on the request.
-4. Return the slip to IT- we will review it, sign it, file it, and grant you the necessary permissions.
-
-## Step 2: Set Firefox as your default browser.
+## Step 1: Set Firefox as your default browser.
 
 While JIRA is supported by all major browsers, MCDI's JIRA installation relies heavily on the [Smart Attachments plugin](https://marketplace.atlassian.com/plugins/com.stiltsoft.jira.smart-attachments/server/overview), which only intuitively supports Internet Explorer and Firefox.  For the purposes of ensuring cross-platform functionality, security, and utility, MCDI IT **strongly** recommends using Firefox.
 
@@ -15,7 +6,10 @@ If you are not sure how to set your default browser in Windows 10, you can follo
 
 Any existing Firefox installation should include the WebDAV Launcher and the required bindings to allow you to use the "Edit in Office" button when dealing with attachments.  However, if you should run into a problem with that function not working as intended, please refer to the steps under the "Supported Browsers" heading [here](https://docs.stiltsoft.com/display/public/CATAT/Editing+Office+Documents) to resolve the issue.
 
-## Step 3: Configure Outlook for JIRA
+###Imagus Add-on
+It is recommended that you install the [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/) add-on for Firefox.  This add-on will give you the ability to view full-sized images by hovering over image thumbnails with your mouse.  It will make it easier for you to view the details of the screenshots contained within this manual.
+
+## Step 2: Configure Outlook for JIRA
 
 Due to the way that JIRA parses Outlook emails, it is necessary for you to insert an escape string above your signature in Outlook before you start interacting with JIRA over email.  To do this, open the Outlook "File" menu and select "Options."  You will see the following screen:
 
@@ -31,7 +25,7 @@ Click the "Signatures..." button, which will open this dialog:
 
 Please modify your signature to include five minus signs above any existing text/pictures, as shown in the screenshot, then click "OK."
 
-## Step 4: Set up your JIRA account
+## Step 3: Set up your JIRA account
 
 Once IT has reviewed your JIRA permissions slip, you will receive the following email from JIRA inviting you to sign up:
 
@@ -77,6 +71,6 @@ Click "Explore the current projects."  The following screen will appear:
 
 At this stage, your account is set up, but you will only see the default projects which are available to all users.  This is normal, as IT cannot assign permissions to users until their account has been created for security reasons.
 
-Once you have reached this screen, please notify IT that you have set up your account, and you will be granted the permissions outlined on your permissions slip in short order.
+Once you have reached this screen, please notify IT that you have set up your account, and you will receive your assigned permissions as soon as possible.
 
 While you wait, please feel free to browse the other documentation provided on this site.

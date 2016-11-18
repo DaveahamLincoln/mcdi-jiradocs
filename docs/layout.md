@@ -6,6 +6,18 @@ MCDI's JIRA installation has been designed from the ground up to mirror the best
 
 [You can view an overview of JIRA Core's structure here.](https://confluence.atlassian.com/jiracoreserver072/what-makes-up-jira-core-829092409.html)
 
+###Quick Reference
+
+The following images are included as a quick reference guide for the key differences between JIRA and SharePoint.
+
+Figure 1- SharePoint Terms vs JIRA Terms:
+
+![layout_visual_guide_1](img/layout/layout_visual_guide_1.PNG)
+
+Figure 2- SharePoint Topology vs JIRA Topology:
+
+![layout_visual_guide_2](img/layout/layout_visual_guide_2.PNG)
+
 ###Categories
 Categories are collections of projects which share a common attribute.   As an example, the category
 
@@ -17,7 +29,7 @@ and the category **"MCDI Projects"** contains the following projects:
 
 ![layout_6](img/layout/layout_6.png)
 
-Giving projects a parent category designation allows for more precise sectioning of structure, allowing for the support of a diverse range of BUs within a single application.
+Giving projects a parent category designation allows for more precise sectioning of structure, allowing for the support of a diverse range of business units (BUs) within a single application.
 
 -----
 

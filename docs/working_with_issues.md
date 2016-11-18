@@ -1,4 +1,4 @@
-The purpose of this guide is to provide access to detailed information regarding working with Issues in the context of MCDI's JIRA installation.
+The purpose of this guide is to provide access to detailed information regarding working with Issues (the basic unit of work within JIRA) in the context of MCDI's JIRA installation.
 
 ##Atlassian Documentation
 
@@ -95,7 +95,7 @@ The Issue Details region allows you to quickly view the essential metadata of an
 The People region gives you a window into the other users interacting with the issue alongside you.
 
 * The "Assignee" field shows you the current user assigned to the task.  
-    * The Assignee role is explained in more detail on the [Default Workflow Usage](workflows.md), but essentially, the Assignee is the user who needs to take the next step in moving the issue along through the workflow.  
+    * The Assignee role is explained in more detail on the [Default Workflow Usage](workflows.md) page, but essentially, the Assignee is the user who needs to take the next step in moving the issue along through the workflow.  
     * If you need to take over the Assignee role, you can click the "Assign to me" link in order to take ownership.
 * The "Reporter" field shows the name of the user that initially reported the issue.  This knowledge can be useful if you're looking to find a source for more information about a given issue.
 * The "Vote" field shows a tally of the number of users who have clicked the "Vote for this issue" link, indicating that they would like it to be given priority over other issues.  
