@@ -124,13 +124,6 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../document_management/">Document Management</a>
-        
-    </li>
-
-        
-            
     <li class="toctree-l1 current">
         <a class="current" href="./">Default Workflow Usage</a>
         
@@ -311,9 +304,12 @@
 <h2 id="workflow-diagram">Workflow Diagram</h2>
 <p><img alt="default_diagram" src="../img/workflows/default_diagram.png" /></p>
 <h2 id="1-open">1. Open</h2>
-<p>When an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, etc.) when it is in the Open state.</p>
+<p>When an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, watchlist, etc.) when it is in the Open state.  </p>
+<p>When you create an issue, you should assign the issue to the user who is responsible for taking the next action.  If there are multiple users that will need to take action during the issue's life-cycle, ensure that you have added them to the watchlist for the issue.  </p>
+<p>For more information on how to perform these operations, please see <a href="../working_with_issues#people">the 'People' section of the 'Working With Issues' article.</a></p>
 <h2 id="2-in-progress">2. In Progress</h2>
 <p>Once an issue has been assigned to you and you begin working on it, you should advance the workflow state to In Progress using the appropriate workflow button.  When an issue is In Progress, you may upload documents, leave comments, etc.  If you need to reassign the issue to another user, you should move it back to the Open state before changing the assignment.</p>
+<p>For more information on how to perform these operations, please see <a href="../working_with_issues#issue-toolbar">the 'Issue Toolbar' section of the 'Working With Issues' article.</a></p>
 <h2 id="3-resolved">3. Resolved</h2>
 <p>If you have completed all necessary work on an issue, advance it to the Resolved state.  In the "Resolution" field, enter a summary of the work that has been completed on the issue.  Once an issue has been marked as Resolved, no changes should be made.  If you need to make changes to a Resolved issue, please move it to the Reopened state and advance it to In Progress before doing so.</p>
 <h2 id="4-closed">4. Closed</h2>
@@ -347,7 +343,7 @@ JIRA-6: Cold Store Symlink is Misconfigured
         <a href="../core_issue_types/" class="btn btn-neutral float-right" title="Core Issue Types">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../document_management/" class="btn btn-neutral" title="Document Management"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../comments/" class="btn btn-neutral" title="Comments"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -373,7 +369,7 @@ JIRA-6: Cold Store Symlink is Misconfigured
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../document_management/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../comments/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../core_issue_types/" style="color: #fcfcfc">Next &raquo;</a></span>
