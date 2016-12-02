@@ -5,43 +5,43 @@
         
     <url>
      <loc>None/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/setup/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/layout/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/working_with_issues/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/filters/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/reports/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/calendar/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -51,13 +51,13 @@
         
     <url>
      <loc>None/comments/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/workflows/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -67,7 +67,7 @@
         
     <url>
      <loc>None/core_issue_types/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -77,7 +77,7 @@
         
     <url>
      <loc>None/software_issue_types/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -87,25 +87,25 @@
         
     <url>
      <loc>None/plugin_documents/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/plugin_hipchat/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/plugin_mail_ru/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/plugin_smart_attachments/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -114,32 +114,50 @@
     
         
     <url>
+     <loc>None/0131_12012016/</loc>
+     <lastmod>2016-12-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/0130_12012016/</loc>
+     <lastmod>2016-12-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/0121_11162016/</loc>
+     <lastmod>2016-12-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>None/0120_11162016/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/0113_11032016/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/0112_11022016/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/0111_10312016/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/0110_10312016/</loc>
-     <lastmod>2016-11-18</lastmod>
+     <lastmod>2016-12-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
