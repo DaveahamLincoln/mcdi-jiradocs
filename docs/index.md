@@ -4,4 +4,4 @@ Please use the links in the left-hand sidebar to navigate the site.
 
 You can also search the docs using the searchbar in the top left.
 
-MCDI JIRA is currently on [release 0.1.2.0](0120_11162016)
+MCDI JIRA is currently on [release 0.1.3.1](0120_11162016)

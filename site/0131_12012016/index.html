@@ -8,7 +8,7 @@
   
   
   
-  <title>Default Workflow Usage - MCDI JIRA Manual</title>
+  <title>0.1.3.1 (12/01/2016) - MCDI JIRA Manual</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Default Workflow Usage";
-    var mkdocs_page_input_path = "workflows.md";
-    var mkdocs_page_url = "/workflows/";
+    var mkdocs_page_name = "0.1.3.1 (12/01/2016)";
+    var mkdocs_page_input_path = "0131_12012016.md";
+    var mkdocs_page_url = "/0131_12012016/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -124,30 +124,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Default Workflow Usage</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#workflow-diagram">Workflow Diagram</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#1-open">1. Open</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#2-in-progress">2. In Progress</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#3-resolved">3. Resolved</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#4-closed">4. Closed</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#5-reopened">5. Reopened</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../workflows/">Default Workflow Usage</a>
         
     </li>
 
@@ -227,8 +205,24 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../0131_12012016/">0.1.3.1 (12/01/2016)</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">0.1.3.1 (12/01/2016)</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#transition-of-mcdi-it-case-handling-to-jira">Transition of MCDI IT Case Handling to JIRA</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#maintenance-activities">Maintenance Activities</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#ithd-access-modified">ITHD Access Modified</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#storj-client-installed">STORJ Client Installed</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -307,11 +301,11 @@
     
       
         
-          <li>JIRA Conventions &raquo;</li>
+          <li>Release Notes &raquo;</li>
         
       
     
-    <li>Default Workflow Usage</li>
+    <li>0.1.3.1 (12/01/2016)</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -321,39 +315,67 @@
           <div role="main">
             <div class="section">
               
-                <p>The purpose of this article is to provide guidance and best practices for utilizing the default JIRA workflow.</p>
-<h2 id="workflow-diagram">Workflow Diagram</h2>
-<p><img alt="default_diagram" src="../img/workflows/default_diagram.png" /></p>
-<h2 id="1-open">1. Open</h2>
-<p>When an issue is created, it is automatically set to the Open state.  As a rule, you should only make changes to the issue's attributes (description, priority, labels, user assignment, watchlist, etc.) when it is in the Open state.  </p>
-<p>When you create an issue, you should assign the issue to the user who is responsible for taking the next action.  If there are multiple users that will need to take action during the issue's life-cycle, ensure that you have added them to the watchlist for the issue.  </p>
-<p>For more information on how to perform these operations, please see <a href="../working_with_issues#people">the 'People' section of the 'Working With Issues' article.</a></p>
-<h2 id="2-in-progress">2. In Progress</h2>
-<p>Once an issue has been assigned to you and you begin working on it, you should advance the workflow state to In Progress using the appropriate workflow button.  When an issue is In Progress, you may upload documents, leave comments, etc.  If you need to reassign the issue to another user, you should move it back to the Open state before changing the assignment.</p>
-<p>For more information on how to perform these operations, please see <a href="../working_with_issues#issue-toolbar">the 'Issue Toolbar' section of the 'Working With Issues' article.</a></p>
-<h2 id="3-resolved">3. Resolved</h2>
-<p>If you have completed all necessary work on an issue, advance it to the Resolved state.  In the "Resolution" field, enter a summary of the work that has been completed on the issue.  Once an issue has been marked as Resolved, no changes should be made.  If you need to make changes to a Resolved issue, please move it to the Reopened state and advance it to In Progress before doing so.</p>
-<h2 id="4-closed">4. Closed</h2>
-<p>Once an issue is marked as Resolved, project administrators should review the issue to ensure that no further work is required.  If all work has in fact been completed, the project administrator should take the following steps:</p>
+                <h2 id="transition-of-mcdi-it-case-handling-to-jira">Transition of MCDI IT Case Handling to JIRA</h2>
+<p>From: Eric Dimbleby</p>
+<p>Subject: MCDI IT Help Desk Request Protocol</p>
+<p>Date: 12/1/2016</p>
+<p>Recipients: All MCDI Staff, Both Field and Home Office</p>
+<p>Good Afternoon,</p>
+<p>In an effort to better track our day to day help desk requests in the MCDI division (and eventually in the other
+divisions as well), we are asking that all MCDI helpdesk requests be submitted through JIRA. Given the various
+projects Dave is currently working on through the end of the year and into 2017, a more concerted effort to share,
+track, and triage responses from I.T. is underway. Matt McSpadden, based out of our Augusta office, has graciously
+offered his monitoring and assistance for this range of issues, in a hope that we can allow Dave more time to
+focus on the JIRA roll-out and a list of other important projects he is ramping up. For anything that requires
+onsite work, Matt will work with Dave directly.</p>
+<p>Field Office Personnel
+We would also request that all field office personnel have their Home Office contact create new requests.
+How To Log Your Issue
+To create a new issue for IT Support, please click the CREATE button at the top of the screen in JIRA, and report
+your issue to the <a href="http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/projects/ITHD/issues/ITHD-8?filter=allopenissues">ITHD Project</a>. For more details on creating issues, reference the <a href="https://confluence.atlassian.com/jira064/creating-an-issue-720416482.html">Atlassian documentation</a>.</p>
+<p>Thank you in advance for following this protocol.</p>
+<hr />
+<h2 id="maintenance-activities">Maintenance Activities</h2>
 <ul>
-<li>Move all output documents to the "Final Documents" category within the issue.</li>
-<li>Download a copy of all final documents.</li>
-<li>Navigate to the Documents layer for the project and create a folder under the appropriate component (+ ISSEC, if applicable) folder for the task using the following naming convention:</li>
+<li>The JIRA server has been updated and restarted.  Server state post-maintenance is below.</li>
 </ul>
-<pre><code class="ruby">&lt;Project Slug&gt;-&lt;Issue Number&gt;: &lt;Issue Summary&gt;
+<pre><code class="ruby">Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-51-generic x86_64)
 
-Example:
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
 
-JIRA-6: Cold Store Symlink is Misconfigured
+  System information as of Thu Dec  1 22:02:56 UTC 2016
+
+  System load:  0.36              Processes:           147
+  Usage of /:   5.1% of 98.30GB   Users logged in:     0
+  Memory usage: 4%                IP address for eth0: [REDACTED]
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+Today is Setting Orange, the 43rd day of The Aftermath in the YOLD 3182
 </code></pre>
 
+<hr />
+<h2 id="ithd-access-modified">ITHD Access Modified</h2>
 <ul>
-<li>Upload the final documents to the folder.</li>
-<li>Close the issue.</li>
+<li>Standard level access to the ITHD project has been granted to all users in the jira-software-users group.</li>
 </ul>
-<p>After an issue has been closed, it cannot be modified unless a project administrator advances it to the Reopened state.</p>
-<h2 id="5-reopened">5. Reopened</h2>
-<p>The Reopened state indicates that an issue was previously either Resolved or Closed, but further work is required.  The Reopened state is analogous to the Open state in its function and associated conventions.  </p>
+<hr />
+<h2 id="storj-client-installed">STORJ Client Installed</h2>
+<ul>
+<li>mcdi-jira-prod is now running the STORJ client (<a href="https://storj.readme.io/">documentation can be found here</a>).  Application-level users will not see a change at this time.  </li>
+<li>Development of a backup system to accommodate the STORJ DEMFS (Distributed Encrypted Mesh File-Store) architecture is ongoing.</li>
+</ul>
               
             </div>
           </div>
@@ -361,10 +383,10 @@ JIRA-6: Cold Store Symlink is Misconfigured
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../core_issue_types/" class="btn btn-neutral float-right" title="Core Issue Types">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../0130_12012016/" class="btn btn-neutral float-right" title="0.1.3.0 (12/01/2016)">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../comments/" class="btn btn-neutral" title="Comments"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../plugin_smart_attachments/" class="btn btn-neutral" title="Smart Attachments"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -390,10 +412,10 @@ JIRA-6: Cold Store Symlink is Misconfigured
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../comments/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../plugin_smart_attachments/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../core_issue_types/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../0130_12012016/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
