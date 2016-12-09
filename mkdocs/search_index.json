@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.3.1", 
+            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.4.0", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-the-mcdi-jira-user-manual", 
-            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.3.1", 
+            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.4.0", 
             "title": "Welcome to the MCDI JIRA User Manual"
         }, 
         {
@@ -439,6 +439,41 @@
             "location": "/plugin_smart_attachments/#notes", 
             "text": "See the  Attachments section of the \"Working With Issues\" section of this documentation  for more information.", 
             "title": "Notes"
+        }, 
+        {
+            "location": "/0140_12062016/", 
+            "text": "ITWG Project Rollout\n\n\n\n\nThe IT Working Group (ITWG) project has been rolled out.  Tasks relating to IT roadmapping, research, and development should be entered under this project.\n\n\nEdit and View rights for the ITWG project are currently restricted to members of the IT Working Group.  Users outside of the working group who require View rights should be manually added to the Read Only project role.\n\n\n\n\n\n\nITHD Push Notification Routing\n\n\n\n\nFixed a bug that was causing push notifications from the ITHD project to be routed to all users in the jira-software-users group.  See \n!JIRATEK-20\n for more information.\n\n\n\n\n\n\nMulti-Country Project Conventions\n\n\n\n\nProjects that operate in multiple countries should utilize the Component functionality within the project to create components for each country in which the project operates.  \n\n\nNew projects \nshould not\n be created for each distinct country.\n\n\nJIRA supports the assignment of multiple components to an issue, so Project Admins are free to assign additional components as they see fit.\n\n\nSee \n!JIRATEK-21\n for more information.\n\n\n!JIRATEK-22\n is an example of implementing a proper country Component configuration scheme.\n\n\n\n\n\n\nJIRATEK Access Permissions Change\n\n\n\n\nThe jira-software-users group has been added to the Standard project role in the JIRATEK project.\n\n\nUsers should log tickets relating to the operation and development of the JIRA system itself within the JIRATEK project.  \n\n\nSee \n!JIRATEK-23\n for more information on this change.\n\n\n\n\n\n\nSmart Attachments Updated to v1.14.0\n\n\n\n\nNow you can discuss individual attachments or attachment revisions in separate comment threads as it is possible in Confluence.\n\n\nAdded validation of special symbols when renaming attachments in JIRA.\n\n\nExtended the set of events collected by Google Analytics.\n\n\nRead the full patch notes here.\n\n\n\n\n\n\nMaintenance Activities\n\n\n\n\nThe JIRA server has been updated.\n\n\nThe JIRA index has been rebuilt.", 
+            "title": "0.1.4.0 (12/06/2016)"
+        }, 
+        {
+            "location": "/0140_12062016/#itwg-project-rollout", 
+            "text": "The IT Working Group (ITWG) project has been rolled out.  Tasks relating to IT roadmapping, research, and development should be entered under this project.  Edit and View rights for the ITWG project are currently restricted to members of the IT Working Group.  Users outside of the working group who require View rights should be manually added to the Read Only project role.", 
+            "title": "ITWG Project Rollout"
+        }, 
+        {
+            "location": "/0140_12062016/#ithd-push-notification-routing", 
+            "text": "Fixed a bug that was causing push notifications from the ITHD project to be routed to all users in the jira-software-users group.  See  !JIRATEK-20  for more information.", 
+            "title": "ITHD Push Notification Routing"
+        }, 
+        {
+            "location": "/0140_12062016/#multi-country-project-conventions", 
+            "text": "Projects that operate in multiple countries should utilize the Component functionality within the project to create components for each country in which the project operates.    New projects  should not  be created for each distinct country.  JIRA supports the assignment of multiple components to an issue, so Project Admins are free to assign additional components as they see fit.  See  !JIRATEK-21  for more information.  !JIRATEK-22  is an example of implementing a proper country Component configuration scheme.", 
+            "title": "Multi-Country Project Conventions"
+        }, 
+        {
+            "location": "/0140_12062016/#jiratek-access-permissions-change", 
+            "text": "The jira-software-users group has been added to the Standard project role in the JIRATEK project.  Users should log tickets relating to the operation and development of the JIRA system itself within the JIRATEK project.    See  !JIRATEK-23  for more information on this change.", 
+            "title": "JIRATEK Access Permissions Change"
+        }, 
+        {
+            "location": "/0140_12062016/#smart-attachments-updated-to-v1140", 
+            "text": "Now you can discuss individual attachments or attachment revisions in separate comment threads as it is possible in Confluence.  Added validation of special symbols when renaming attachments in JIRA.  Extended the set of events collected by Google Analytics.  Read the full patch notes here.", 
+            "title": "Smart Attachments Updated to v1.14.0"
+        }, 
+        {
+            "location": "/0140_12062016/#maintenance-activities", 
+            "text": "The JIRA server has been updated.  The JIRA index has been rebuilt.", 
+            "title": "Maintenance Activities"
         }, 
         {
             "location": "/0131_12012016/", 
