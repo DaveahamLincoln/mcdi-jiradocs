@@ -27,6 +27,7 @@ pages:
     - Smart Attachments: plugin_smart_attachments.md
   - Beta Plugin Documentation:
     - BigPicture: plugin_bigpicture.md
+    - BigTemplate: plugin_bigtemplate.md
     - Structure: plugin_structure.md
   - Release Notes:
     - 0.1.5.0 (12/16/2016): 0150_12162016.md

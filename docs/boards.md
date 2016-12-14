@@ -53,12 +53,23 @@ The Backlog screen consists of 4 main regions:
 
 ###Filter Bar
 
-![boards_filter_bar.png](img/boards/boards_filter_bar.png)
+![boards_filter_bar](img/boards/boards_filter_bar.png)
 
+The Filter Bar allows you quick access to search and common filters.
 
 ###Epics Pane
 
-Blahdeeblah
+![boards_epics_pane](img/boards/boards_epics_pane.png)
+
+The Epics Pane provides a quick view of the epics within the board you are working on.  
+
+Clicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:
+
+![boards_epics_pane_dropdown](img/boards/boards_epics_pane_dropdown.png)
+
+Clicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:
+
+![boards_epics_pane_caret](img/boards/boards_epics_pane_caret.png)
 
 ###Backlog Pane
 
