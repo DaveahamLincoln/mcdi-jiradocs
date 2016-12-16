@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.4.0", 
+            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.5.0.", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-the-mcdi-jira-user-manual", 
-            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.4.0", 
+            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.5.0.", 
             "title": "Welcome to the MCDI JIRA User Manual"
         }, 
         {
@@ -296,6 +296,91 @@
             "title": "5. Reopened"
         }, 
         {
+            "location": "/adm_index/", 
+            "text": "Welcome to the MCDI JIRA Administration Section\n\n\nWithin this section, you will find information relating to various administrative tools within JIRA.  If you are not an administrative user, many of these functions will not be available to you, or will only work in a limited capacity.  \n\n\nAs many of these functions have the potential to cause problems for other users if misused, it is important for all administrators to acquaint themselves with the contents of this section.\n\n\nAll requests for special access to specific administrative functions outlined here must be logged as \"Feature Access Request\" issues under the \n!ITHD\n project and approved by a direct supervisor and systems administrator.", 
+            "title": "Start Here"
+        }, 
+        {
+            "location": "/adm_index/#welcome-to-the-mcdi-jira-administration-section", 
+            "text": "Within this section, you will find information relating to various administrative tools within JIRA.  If you are not an administrative user, many of these functions will not be available to you, or will only work in a limited capacity.    As many of these functions have the potential to cause problems for other users if misused, it is important for all administrators to acquaint themselves with the contents of this section.  All requests for special access to specific administrative functions outlined here must be logged as \"Feature Access Request\" issues under the  !ITHD  project and approved by a direct supervisor and systems administrator.", 
+            "title": "Welcome to the MCDI JIRA Administration Section"
+        }, 
+        {
+            "location": "/adm_boards/", 
+            "text": "The purpose of this article is to provide information related to the use of JIRA's Agile Boards function for administrating projects.\n\n\nAtlassian Documentation\n\n\nYou can view an overview of how boards work in JIRA here.\n\n\nIn order to assure that all necessary functions are available, all default boards have been created as \nScrum boards\n.  \n\n\nThe term \"Scrum\" refers to a specific kind of \nAgile development methodology\n- knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out \nagilemethodology.org\n.\n\n\n\n\nA Word of Caution\n\n\nWhile \nany\n JQL query or \nfilter\n can be used to create a board, interacting with multiple projects concurrently within the same board poses some risks to the underlying organization of the system.  \n\n\nWherever possible, please refrain from creating new boards on your own.  If you require a custom board, please log a feature request under the \n!JIRATEK\n project so that IT can conduct a full review of the potential impact.\n\n\n\n\nAccessing a Project's Board\n\n\nTo access the Board for a project:\n\n\n\n\nClick the \"Boards\" tile on the top bar, and select your desired board.\n\n\n\n\n\n\nIf you do not see the desired board in the \"Recent Boards\" section, click \"View all boards,\" then click the name of board that you wish to view.\n\n\n\n\n\n\nThe Backlog Screen\n\n\nThe root screen of the Board function is called the \"Backlog.\"  Before progressing further, please click the \"Epics\" tab on the left-hand side of the screen.\n\n\n\n\nClicking the \"Epics\" tab will cause a new pane to slide out from the left-hand side of the screen that contains all of the Epics for the project associated with the board.\n\n\n\n\n\n\nLayout\n\n\nThe Backlog screen consists of 4 main regions:\n\n\n\n\nFilter Bar\n\n\nEpics Pane\n\n\nBacklog Pane\n\n\nIssue Pane\n\n\n\n\nFilter Bar\n\n\n\n\n\n\nThe Filter Bar allows you quick access to search and common filters.\n\n\n\n\nEpics Pane\n\n\n\n\n\n\nThe Epics Pane provides a quick view of the epics within the board you are working on.  \n\n\nClicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:\n\n\n\n\n\n\n\n\nClicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:\n\n\n\n\n\n\nBacklog Pane\n\n\n\n\n\n\nThe backlog pane shows a view of issues matching your currently selected filter, tagged with information about the Epic they are a part of.  \n\n\nYou can add issues directly to a project from this screen by clicking the \"+ Create Issue\" button at the bottom of the page.\n\n\nYou can reorganize the order of issues on your backlog screen by dragging and dropping.\n\n\n\n\nIssue Pane\n\n\n\n\n\n\nDouble-clicking an issue in the Backlog will pull up that issue in the Issue Pane on the right hand side of the screen.\n\n\nThis pane provides almost exactly the same functionality as a vanilla Issue view screen, so you can make edits, leave comments, and add attachments without leaving the Board interface.\n\n\n\n\n\n\nCommon Use Cases\n\n\nBoards \nare not\n intended to be used as a replacement for interacting with issues through the Issue View screen.  Their primary function within the context of MCDI's installation is to provide a command and control (C\nC) layer above the one utilized by all users, which can be used to perform limited advanced recovery and batch operations.\n\n\nBelow you will find two scenarios which can be resolved utilizing the Boards interface, but which \ncannot\n be easily resolved within the default view.\n\n\nAdopting an Orphaned Story\n\n\nIf a Story is created as an orphan (without a parent Epic), it can be associated with an Epic after the fact through the Boards interface as follows:\n\n\n\n\nOpen the Epics pane.\n\n\nFind the issue you would like to associate in the Backlog.\n\n\nClick and drag the issue you would like to associate from the Backlog onto the card for the Epic you would like to link it to.\n\n\nJIRA will automatically handle the operations required to make the association in the background while you continue to work.  In most cases, this process takes less than a second.\n\n\n\n\nRapid Prototyping\n\n\n\n\n\n\nThe quick-creation links for adding issues within the Boards screen can be used by project managers to quickly wireframe a project or activity.  \n\n\n\n\n\n\nThis is not recommended for actively working on issues, but can be extremely useful when there are a large number of issues that need to be added to the system in advance of some forthcoming work activity.", 
+            "title": "Boards"
+        }, 
+        {
+            "location": "/adm_boards/#atlassian-documentation", 
+            "text": "You can view an overview of how boards work in JIRA here.  In order to assure that all necessary functions are available, all default boards have been created as  Scrum boards .    The term \"Scrum\" refers to a specific kind of  Agile development methodology - knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out  agilemethodology.org .", 
+            "title": "Atlassian Documentation"
+        }, 
+        {
+            "location": "/adm_boards/#a-word-of-caution", 
+            "text": "While  any  JQL query or  filter  can be used to create a board, interacting with multiple projects concurrently within the same board poses some risks to the underlying organization of the system.    Wherever possible, please refrain from creating new boards on your own.  If you require a custom board, please log a feature request under the  !JIRATEK  project so that IT can conduct a full review of the potential impact.", 
+            "title": "A Word of Caution"
+        }, 
+        {
+            "location": "/adm_boards/#accessing-a-projects-board", 
+            "text": "To access the Board for a project:   Click the \"Boards\" tile on the top bar, and select your desired board.    If you do not see the desired board in the \"Recent Boards\" section, click \"View all boards,\" then click the name of board that you wish to view.", 
+            "title": "Accessing a Project's Board"
+        }, 
+        {
+            "location": "/adm_boards/#the-backlog-screen", 
+            "text": "The root screen of the Board function is called the \"Backlog.\"  Before progressing further, please click the \"Epics\" tab on the left-hand side of the screen.   Clicking the \"Epics\" tab will cause a new pane to slide out from the left-hand side of the screen that contains all of the Epics for the project associated with the board.", 
+            "title": "The Backlog Screen"
+        }, 
+        {
+            "location": "/adm_boards/#layout", 
+            "text": "The Backlog screen consists of 4 main regions:   Filter Bar  Epics Pane  Backlog Pane  Issue Pane", 
+            "title": "Layout"
+        }, 
+        {
+            "location": "/adm_boards/#filter-bar", 
+            "text": "The Filter Bar allows you quick access to search and common filters.", 
+            "title": "Filter Bar"
+        }, 
+        {
+            "location": "/adm_boards/#epics-pane", 
+            "text": "The Epics Pane provides a quick view of the epics within the board you are working on.    Clicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:     Clicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:", 
+            "title": "Epics Pane"
+        }, 
+        {
+            "location": "/adm_boards/#backlog-pane", 
+            "text": "The backlog pane shows a view of issues matching your currently selected filter, tagged with information about the Epic they are a part of.    You can add issues directly to a project from this screen by clicking the \"+ Create Issue\" button at the bottom of the page.  You can reorganize the order of issues on your backlog screen by dragging and dropping.", 
+            "title": "Backlog Pane"
+        }, 
+        {
+            "location": "/adm_boards/#issue-pane", 
+            "text": "Double-clicking an issue in the Backlog will pull up that issue in the Issue Pane on the right hand side of the screen.  This pane provides almost exactly the same functionality as a vanilla Issue view screen, so you can make edits, leave comments, and add attachments without leaving the Board interface.", 
+            "title": "Issue Pane"
+        }, 
+        {
+            "location": "/adm_boards/#common-use-cases", 
+            "text": "Boards  are not  intended to be used as a replacement for interacting with issues through the Issue View screen.  Their primary function within the context of MCDI's installation is to provide a command and control (C C) layer above the one utilized by all users, which can be used to perform limited advanced recovery and batch operations.  Below you will find two scenarios which can be resolved utilizing the Boards interface, but which  cannot  be easily resolved within the default view.", 
+            "title": "Common Use Cases"
+        }, 
+        {
+            "location": "/adm_boards/#adopting-an-orphaned-story", 
+            "text": "If a Story is created as an orphan (without a parent Epic), it can be associated with an Epic after the fact through the Boards interface as follows:   Open the Epics pane.  Find the issue you would like to associate in the Backlog.  Click and drag the issue you would like to associate from the Backlog onto the card for the Epic you would like to link it to.  JIRA will automatically handle the operations required to make the association in the background while you continue to work.  In most cases, this process takes less than a second.", 
+            "title": "Adopting an Orphaned Story"
+        }, 
+        {
+            "location": "/adm_boards/#rapid-prototyping", 
+            "text": "The quick-creation links for adding issues within the Boards screen can be used by project managers to quickly wireframe a project or activity.      This is not recommended for actively working on issues, but can be extremely useful when there are a large number of issues that need to be added to the system in advance of some forthcoming work activity.", 
+            "title": "Rapid Prototyping"
+        }, 
+        {
+            "location": "/adm_links/", 
+            "text": "Atlassian Documentation\n\n\nMCDI's JIRA installation doesn't do anything particularly special with respect to issue linking, so this is a case where Atlassian's documentation will tell you just about everything you need to know.", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/adm_links/#atlassian-documentation", 
+            "text": "MCDI's JIRA installation doesn't do anything particularly special with respect to issue linking, so this is a case where Atlassian's documentation will tell you just about everything you need to know.", 
+            "title": "Atlassian Documentation"
+        }, 
+        {
             "location": "/core_issue_types/", 
             "text": "The purpose of this article is to provide access detailed information about the types of issues in MCDI's JIRA Core projects, and their proper usage.\n\n\nHierarchy\n\n\nIssues in JIRA are organized into a parent-child hierarchy under a given JIRA Core project, as illustrated below.\n\n\n\n\nEpics\n\n\nAn epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint \"Component\") that can be broken down into a number of smaller stories (similar to SharePoint \"Activities\").\n\n\nThe average user \nshould not\n have a business need to create an Epic, unless directed to do so by a superior.  When in doubt, please refer to the \nIssue Type Decision Tree\n.\n\n\nIssue Type Decision Tree", 
             "title": "Core Issue Types"
@@ -319,6 +404,16 @@
             "location": "/software_issue_types/", 
             "text": "This section is not yet available.  IT resources that require information about the JIRA Software/JIRA Service Desk subsystems should refer to the following Atlassian manuals in the interim:\n\n\n\n\nJIRA Software Manual.\n\n\nJIRA Service Desk Manual.", 
             "title": "Software Issue Types"
+        }, 
+        {
+            "location": "/process_cir/", 
+            "text": "Classified Incident Reporting\n\n\nTo be written.", 
+            "title": "Classified Incident Reporting"
+        }, 
+        {
+            "location": "/process_cir/#classified-incident-reporting", 
+            "text": "To be written.", 
+            "title": "Classified Incident Reporting"
         }, 
         {
             "location": "/plugin_documents/", 
@@ -439,6 +534,156 @@
             "location": "/plugin_smart_attachments/#notes", 
             "text": "See the  Attachments section of the \"Working With Issues\" section of this documentation  for more information.", 
             "title": "Notes"
+        }, 
+        {
+            "location": "/plugin_bigpicture/", 
+            "text": "Description\n\n\nIntroducing new-level Project Portfolio Management to JIRA! BigPicture makes it easy to build and manage multiple projects. Tried and tested, suitable for MS Project converts, fully Agile JIRA-only folks and Scaled Agile Framework (SAFe\u00ae) enthusiasts.\n\n\nEnterprise version available!\n\n\nCreate and organize tasks using Gantt Charts with sorting, grouping and aggregation\nManage tasks using drag and drop\nManage your Programs defined as JQL filters\nBuild your Agile program Roadmap\nIdentify and manage Risks using a drag and drop matrix\nAllocate tasks using the Resources view\nPowerful Quick Filters\nBuild customized structures (WBS) according to JIRA component, fixVersion, epic, subtask or even issue link\nMarkers, Baselines, task coloring\nExport to Excel and MS Project with BigTemplate installed\nGreat productivity using shortcuts and inline editing\n\n\nVendor\n\n\nThis is a \nSoftwarePlant\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe BigPicture plugin is utilized to provide advanced portfolio management capabilities within MCDI's JIRA environment.\n\n\nNotes\n\n\nAs of \nRelease 0.1.5.0\n, this plugin is being tested by the EGBIMCP administrators.  The earliest that this plugin could feasibly be added to the Core would be as part of the 1.0.0.0R1 release.", 
+            "title": "BigPicture"
+        }, 
+        {
+            "location": "/plugin_bigpicture/#description", 
+            "text": "Introducing new-level Project Portfolio Management to JIRA! BigPicture makes it easy to build and manage multiple projects. Tried and tested, suitable for MS Project converts, fully Agile JIRA-only folks and Scaled Agile Framework (SAFe\u00ae) enthusiasts.  Enterprise version available!  Create and organize tasks using Gantt Charts with sorting, grouping and aggregation\nManage tasks using drag and drop\nManage your Programs defined as JQL filters\nBuild your Agile program Roadmap\nIdentify and manage Risks using a drag and drop matrix\nAllocate tasks using the Resources view\nPowerful Quick Filters\nBuild customized structures (WBS) according to JIRA component, fixVersion, epic, subtask or even issue link\nMarkers, Baselines, task coloring\nExport to Excel and MS Project with BigTemplate installed\nGreat productivity using shortcuts and inline editing", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_bigpicture/#vendor", 
+            "text": "This is a  SoftwarePlant  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_bigpicture/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_bigpicture/#usage", 
+            "text": "The BigPicture plugin is utilized to provide advanced portfolio management capabilities within MCDI's JIRA environment.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_bigpicture/#notes", 
+            "text": "As of  Release 0.1.5.0 , this plugin is being tested by the EGBIMCP administrators.  The earliest that this plugin could feasibly be added to the Core would be as part of the 1.0.0.0R1 release.", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/plugin_bigtemplate/", 
+            "text": "Description\n\n\nThink you know JIRA exporting limits? Think again.\n\n\nIn JIRA, there is only a single pre-determined export document style that also looks rather unattractive and is very hard to edit. BigTemplate lets you upload and assign different document styles to make JIRA issues easily adaptable into different internal needs of an end-user company Users can define their own document templates and assign them to tasks in different projects.\n\n\nWith BigTemplate you can set up simplified asset management process, Simply create new JIRA project to search, aggregate and manage your inventory, while still having the ability to print beautiful documents as a physical copy with a single click.\n\n\nWhy not make employees ask for and receive holidays as JIRA tasks, and then just print the official leave paperwork immediately and be done with it? No more circulating empty documents via e-mail, with multiple versions, lost formatting and missed deadlines.\n\n\nWell, no more imagining. Time to do this!\n\n\nVendor\n\n\nThis is a \nSoftwarePlant\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe BigTemplate plugin is currently being utilized to provide EGBIMCP administrators with the ability to export Gantt charts developed with BigProject to Microsoft Project.  \n\n\nNotes\n\n\nAs of \nRelease 0.1.5.0\n, this plugin is being utilized temporarily by the EGBIMCP administrators.  There is no plan to add this plugin to the Core at this time, and it will likely be removed prior to the 0.1.6.0PR1 release.", 
+            "title": "BigTemplate"
+        }, 
+        {
+            "location": "/plugin_bigtemplate/#description", 
+            "text": "Think you know JIRA exporting limits? Think again.  In JIRA, there is only a single pre-determined export document style that also looks rather unattractive and is very hard to edit. BigTemplate lets you upload and assign different document styles to make JIRA issues easily adaptable into different internal needs of an end-user company Users can define their own document templates and assign them to tasks in different projects.  With BigTemplate you can set up simplified asset management process, Simply create new JIRA project to search, aggregate and manage your inventory, while still having the ability to print beautiful documents as a physical copy with a single click.  Why not make employees ask for and receive holidays as JIRA tasks, and then just print the official leave paperwork immediately and be done with it? No more circulating empty documents via e-mail, with multiple versions, lost formatting and missed deadlines.  Well, no more imagining. Time to do this!", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_bigtemplate/#vendor", 
+            "text": "This is a  SoftwarePlant  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_bigtemplate/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_bigtemplate/#usage", 
+            "text": "The BigTemplate plugin is currently being utilized to provide EGBIMCP administrators with the ability to export Gantt charts developed with BigProject to Microsoft Project.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_bigtemplate/#notes", 
+            "text": "As of  Release 0.1.5.0 , this plugin is being utilized temporarily by the EGBIMCP administrators.  There is no plan to add this plugin to the Core at this time, and it will likely be removed prior to the 0.1.6.0PR1 release.", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/plugin_structure/", 
+            "text": "Description\n\n\nStructure add-on for JIRA is a project and portfolio management tool for everyone from small teams to large enterprises.\n\n\nWhether you're Agile, Scaled Agile, Waterfall, or something in between, you can create anything from personal backlogs to big-picture overviews of the entire company portfolio.\n\n\nStructure lets you organize issues into hierarchies of any depth, so you can plan your projects in as much detail as you need.\n\n\nTight integration with Agile means you can create overviews of entire Agile projects, multiple boards, sprints, release backlogs and more.\n\n\nProgress, time and other values are aggregated up through the hierarchy so you can clearly see what's going on at any level.\n\n\nStructure allows you to visualize complex relationships between linked issues, adding an extra dimension of clarity to large project planning.\n\n\nVendor\n\n\nThis is an \nALM Works\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe Structure plugin enables advanced organizational capabilities for power users.\n\n\nNotes", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/plugin_structure/#description", 
+            "text": "Structure add-on for JIRA is a project and portfolio management tool for everyone from small teams to large enterprises.  Whether you're Agile, Scaled Agile, Waterfall, or something in between, you can create anything from personal backlogs to big-picture overviews of the entire company portfolio.  Structure lets you organize issues into hierarchies of any depth, so you can plan your projects in as much detail as you need.  Tight integration with Agile means you can create overviews of entire Agile projects, multiple boards, sprints, release backlogs and more.  Progress, time and other values are aggregated up through the hierarchy so you can clearly see what's going on at any level.  Structure allows you to visualize complex relationships between linked issues, adding an extra dimension of clarity to large project planning.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_structure/#vendor", 
+            "text": "This is an  ALM Works  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_structure/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_structure/#usage", 
+            "text": "The Structure plugin enables advanced organizational capabilities for power users.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_structure/#notes", 
+            "text": "", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/0150_12162016/", 
+            "text": "MYMNCH Project Renamed\n\n\n\n\nThe MYMNCH Project has been renamed to MYCCST.\n\n\nMailers, filters, and routing have been rewired to accommodate this fact.\n\n\nSee \n!JIRATEK-25\n for more information on the change.\n\n\n\n\n\n\nStructure Plugin Added (Internal Beta)\n\n\n\n\nThe \nStructure Enterprise Issue Organizer\n plugin has been added to JIRA to allow more flexibility in creating issue hierarchies (see \n!JIRATEK-29\n for more information).\n\n\nStructure is currently configured as follows:\n\n\n\n\n\n\n\n\n\n\nThe GSF project administrators have agreed to conduct a limited test of Structure within their environment prior to the 0.1.5.0 release.  Pending the outcome of the test, a decision will be made regarding rolling out the plugin for all projects as part of the 0.1.6.0PR1 release.\n\n\n\n\n\n\nAs MCDI is running on a JIRA nonprofit license, the system is automatically allocated a nonprofit license for Structure.  Administrators should note that even though the plugin appears as unlicensed within the JIRA plugin manager, it is a fully licensed version.\n\n\n\n\n\n\nIf you have installed a license from ALM Works, Plugin Manager may show that Structure is Unlicensed\nor Action Required, because it's not aware of ALM Works license. You can check true license status on\nAdministration | Structure | License Details page\nIf it shows you that the license is OK, you can safely ignore the status of the license in Plugin Manager.\n\n\n\n\n\n\nMore information on the license model for Structure can be found here\n.\n\n\n\n\n\n\nOrcs Removed\n\n\n\n\nDisabled all mcdi.orc accounts used for early smoke testing.  These accounts will continue to persist within the system, but will need to be reactivated before they can be used.\n\n\n\n\n\n\nAdministrative Documentation\n\n\n\n\nAdded a section to the documentation for documenting administrative functions.\n\n\nAdded documentation for Boards.\n\n\nAdded documentation for Issue Linking.\n\n\n\n\n\n\nProcess Documentation\n\n\n\n\nAdded a section to the documentation for documenting specialized processes.\n\n\n\n\n\n\nClassified Incident Reporting Process Support Added\n\n\n\n\nAdded \"Classified Incident Reporting\" component to the HR project.\n\n\nAdded \"Classified Incident Reporting\" ISSEC level.\n\n\nAdded hr-classified-users group.\n\n\nCreated \"Classified Incident Reporting\" folder in the HR project.\n\n\nPlease note that while hr-admins and hr-classified-users can View and Edit within the folder, only jira-administrators have the Delete permission.\n\n\nProcess documentation for handling classified incident reports is in development.  \nOnce complete, it will be available here\n.\n\n\n\n\n\n\nBigPicture Plugin Added (Internal Beta)\n\n\n\n\nThe \nBigPicture\n plugin has been added to JIRA to allow for enterprise-level portfolio management and Gantt chart support.\n\n\nBigPicture is currently configured as follows:\n\n\n\n\n\n\n\n\nThe EGBIMCP project administrators have agreed to conduct a limited test of BigProject within their environment prior to the 0.1.5.0 release.  \n\n\nThis plugin will be deactivated in release 0.1.6.0R1.\n\n\n\n\n\n\nEGBIMCP Injected from SharePoint\n\n\n\n\nA rudimentary CSV transform consisting of data from the 2016 WP subsite of the EGBIMCP SharePoint was used to mass-inject the task list into JIRA for use with the BigPicture plugin.\n\n\nThis is \nnot a recommended practice,\n as the transform relies on perfect mapping.  This can only be reasonably achieved by making a number of assumptions regarding initial issue-states (i.e. overwriting assigned users/reporters to avoid assigning to nonexistent users), or conducting an extensive cell-by-cell review of the task list that is being injected.  In addition, bulk-injected issues require a great deal of configuration post-injection to ensure compatibility with JIRA tools and plugins.\n\n\nIn this case, as the issues are \nonly intended to be used for the production of a Gantt deliverable,\n the above assumptions do not necessarily matter.  Once the deliverable has been produced, all injected issues will be bundled and archived as a release under the EGBIMCP project.  \n\n\nIt has been communicated to the EGBIMCP administrators that \nno work of any kind outside of this deliverable\n should take place within the injected issues.  All 2016 WP activities that were not migrated as part of the Alpha or Beta phases will follow the on-demand manual migration plan outlined in the JIRA rollout timeline.\n\n\n\n\n\n\nBigTemplate Plugin Added (Internal Beta, Trial License)\n\n\n\n\nThe \nBigPicture\n plugin has been added to JIRA to allow custom exports of JIRA contexts.  \n\n\nAt the present time, the plugin is included solely to provide the ability to export BigProject Gantt charts to Microsoft Project.\n\n\nThe plugin is operating on a 30-day limited trial license, as the community license cannot be acquired directly from Atlassian and owing to time constraints we are unable to wait for a full license key.  \n\n\nOnce the Gantt deliverable is complete, this plugin will be disabled pending further review and the acquisition of a full community license.\n\n\nThe EGBIMCP project administrators have agreed to conduct a limited test of BigTemplate within their environment prior to the 0.1.5.0 release.\n\n\nThis plugin will be deactivated in release 0.1.6.0R1.\n\n\n\n\n\n\nManual Backup Procedure for JIRA\n\n\nWith any luck, this will be automated before the 0.1.6.0PR1 release, but in case it isn't or I'm hit by a truck, this is how you can run a complete backup of the JIRA system on mcd-jira-prod.\n\n\nTar attachments\n\n\ntar czvhf mcd-jira-a-mmddyyyy.tar.gz cold/attachments\n\n\n\n\nCreate psql dump:\n\n\npg_dump jiradb \n /cold/backups/mcd-jira-d-mmddyyyy -U jiradbuser -h 127.0.0.1 -W\n\nmv mcd-jira-d-mmddyyyy mcd-jira-d-mmddyyyy.psqlbak\n\n\n\n\nDump avatars and jemh dirs\n\n\ntar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/avatars\n\ntar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/jemh\n\n\n\n\nStage backup\n\n\ntar czvhf /cold/s3_staging/mcd-jira-12152016-complete.tar.gz /cold/backups\n\n\n\n\nSend backup to s3\n\n\naws s3 cp mcd-jira-mmddyyyy-complete.tar.gz s3://mcd-jira-prod-bak\n\n\n\n\n\n\nCore Updated\n\n\nJIRA has been updated to \nversion 7.2.6.", 
+            "title": "0.1.5.0 (12/16/2016)"
+        }, 
+        {
+            "location": "/0150_12162016/#mymnch-project-renamed", 
+            "text": "The MYMNCH Project has been renamed to MYCCST.  Mailers, filters, and routing have been rewired to accommodate this fact.  See  !JIRATEK-25  for more information on the change.", 
+            "title": "MYMNCH Project Renamed"
+        }, 
+        {
+            "location": "/0150_12162016/#structure-plugin-added-internal-beta", 
+            "text": "The  Structure Enterprise Issue Organizer  plugin has been added to JIRA to allow more flexibility in creating issue hierarchies (see  !JIRATEK-29  for more information).  Structure is currently configured as follows:      The GSF project administrators have agreed to conduct a limited test of Structure within their environment prior to the 0.1.5.0 release.  Pending the outcome of the test, a decision will be made regarding rolling out the plugin for all projects as part of the 0.1.6.0PR1 release.    As MCDI is running on a JIRA nonprofit license, the system is automatically allocated a nonprofit license for Structure.  Administrators should note that even though the plugin appears as unlicensed within the JIRA plugin manager, it is a fully licensed version.    If you have installed a license from ALM Works, Plugin Manager may show that Structure is Unlicensed\nor Action Required, because it's not aware of ALM Works license. You can check true license status on\nAdministration | Structure | License Details page\nIf it shows you that the license is OK, you can safely ignore the status of the license in Plugin Manager.   More information on the license model for Structure can be found here .", 
+            "title": "Structure Plugin Added (Internal Beta)"
+        }, 
+        {
+            "location": "/0150_12162016/#orcs-removed", 
+            "text": "Disabled all mcdi.orc accounts used for early smoke testing.  These accounts will continue to persist within the system, but will need to be reactivated before they can be used.", 
+            "title": "Orcs Removed"
+        }, 
+        {
+            "location": "/0150_12162016/#administrative-documentation", 
+            "text": "Added a section to the documentation for documenting administrative functions.  Added documentation for Boards.  Added documentation for Issue Linking.", 
+            "title": "Administrative Documentation"
+        }, 
+        {
+            "location": "/0150_12162016/#process-documentation", 
+            "text": "Added a section to the documentation for documenting specialized processes.", 
+            "title": "Process Documentation"
+        }, 
+        {
+            "location": "/0150_12162016/#classified-incident-reporting-process-support-added", 
+            "text": "Added \"Classified Incident Reporting\" component to the HR project.  Added \"Classified Incident Reporting\" ISSEC level.  Added hr-classified-users group.  Created \"Classified Incident Reporting\" folder in the HR project.  Please note that while hr-admins and hr-classified-users can View and Edit within the folder, only jira-administrators have the Delete permission.  Process documentation for handling classified incident reports is in development.   Once complete, it will be available here .", 
+            "title": "Classified Incident Reporting Process Support Added"
+        }, 
+        {
+            "location": "/0150_12162016/#bigpicture-plugin-added-internal-beta", 
+            "text": "The  BigPicture  plugin has been added to JIRA to allow for enterprise-level portfolio management and Gantt chart support.  BigPicture is currently configured as follows:     The EGBIMCP project administrators have agreed to conduct a limited test of BigProject within their environment prior to the 0.1.5.0 release.    This plugin will be deactivated in release 0.1.6.0R1.", 
+            "title": "BigPicture Plugin Added (Internal Beta)"
+        }, 
+        {
+            "location": "/0150_12162016/#egbimcp-injected-from-sharepoint", 
+            "text": "A rudimentary CSV transform consisting of data from the 2016 WP subsite of the EGBIMCP SharePoint was used to mass-inject the task list into JIRA for use with the BigPicture plugin.  This is  not a recommended practice,  as the transform relies on perfect mapping.  This can only be reasonably achieved by making a number of assumptions regarding initial issue-states (i.e. overwriting assigned users/reporters to avoid assigning to nonexistent users), or conducting an extensive cell-by-cell review of the task list that is being injected.  In addition, bulk-injected issues require a great deal of configuration post-injection to ensure compatibility with JIRA tools and plugins.  In this case, as the issues are  only intended to be used for the production of a Gantt deliverable,  the above assumptions do not necessarily matter.  Once the deliverable has been produced, all injected issues will be bundled and archived as a release under the EGBIMCP project.    It has been communicated to the EGBIMCP administrators that  no work of any kind outside of this deliverable  should take place within the injected issues.  All 2016 WP activities that were not migrated as part of the Alpha or Beta phases will follow the on-demand manual migration plan outlined in the JIRA rollout timeline.", 
+            "title": "EGBIMCP Injected from SharePoint"
+        }, 
+        {
+            "location": "/0150_12162016/#bigtemplate-plugin-added-internal-beta-trial-license", 
+            "text": "The  BigPicture  plugin has been added to JIRA to allow custom exports of JIRA contexts.    At the present time, the plugin is included solely to provide the ability to export BigProject Gantt charts to Microsoft Project.  The plugin is operating on a 30-day limited trial license, as the community license cannot be acquired directly from Atlassian and owing to time constraints we are unable to wait for a full license key.    Once the Gantt deliverable is complete, this plugin will be disabled pending further review and the acquisition of a full community license.  The EGBIMCP project administrators have agreed to conduct a limited test of BigTemplate within their environment prior to the 0.1.5.0 release.  This plugin will be deactivated in release 0.1.6.0R1.", 
+            "title": "BigTemplate Plugin Added (Internal Beta, Trial License)"
+        }, 
+        {
+            "location": "/0150_12162016/#manual-backup-procedure-for-jira", 
+            "text": "With any luck, this will be automated before the 0.1.6.0PR1 release, but in case it isn't or I'm hit by a truck, this is how you can run a complete backup of the JIRA system on mcd-jira-prod.  Tar attachments  tar czvhf mcd-jira-a-mmddyyyy.tar.gz cold/attachments  Create psql dump:  pg_dump jiradb   /cold/backups/mcd-jira-d-mmddyyyy -U jiradbuser -h 127.0.0.1 -W mv mcd-jira-d-mmddyyyy mcd-jira-d-mmddyyyy.psqlbak  Dump avatars and jemh dirs  tar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/avatars tar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/jemh  Stage backup  tar czvhf /cold/s3_staging/mcd-jira-12152016-complete.tar.gz /cold/backups  Send backup to s3  aws s3 cp mcd-jira-mmddyyyy-complete.tar.gz s3://mcd-jira-prod-bak", 
+            "title": "Manual Backup Procedure for JIRA"
+        }, 
+        {
+            "location": "/0150_12162016/#core-updated", 
+            "text": "JIRA has been updated to  version 7.2.6.", 
+            "title": "Core Updated"
         }, 
         {
             "location": "/0140_12062016/", 
