@@ -55,44 +55,55 @@ The Backlog screen consists of 4 main regions:
 
 ![boards_filter_bar](img/boards/boards_filter_bar.png)
 
-The Filter Bar allows you quick access to search and common filters.
+- The Filter Bar allows you quick access to search and common filters.
 
 ###Epics Pane
 
 ![boards_epics_pane](img/boards/boards_epics_pane.png)
 
-The Epics Pane provides a quick view of the epics within the board you are working on.  
-
-Clicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:
+- The Epics Pane provides a quick view of the epics within the board you are working on.  
+- Clicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:
 
 ![boards_epics_pane_dropdown](img/boards/boards_epics_pane_dropdown.png)
 
-Clicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:
+- Clicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:
 
 ![boards_epics_pane_caret](img/boards/boards_epics_pane_caret.png)
 
 ###Backlog Pane
 
-Blahdeeblah
+![boards_backlog_pane](img/boards/boards_backlog_pane.png)
+
+- The backlog pane shows a view of issues matching your currently selected filter, tagged with information about the Epic they are a part of.  
+- You can add issues directly to a project from this screen by clicking the "+ Create Issue" button at the bottom of the page.
+- You can reorganize the order of issues on your backlog screen by dragging and dropping.
 
 ###Issue Pane
 
-Blahdeeblah
+![boards_issue_pane](img/boards/boards_issue_pane.png)
+
+- Double-clicking an issue in the Backlog will pull up that issue in the Issue Pane on the right hand side of the screen.
+- This pane provides almost exactly the same functionality as a vanilla Issue view screen, so you can make edits, leave comments, and add attachments without leaving the Board interface.
 
 -----
 
 ##Common Use Cases
 
-Blahdeeblah
+Boards _are not_ intended to be used as a replacement for interacting with issues through the Issue View screen.  Their primary function within the context of MCDI's installation is to provide a command and control (C&C) layer above the one utilized by all users, which can be used to perform limited advanced recovery and batch operations.
 
-###Adopting an Orphaned Issue
+Below you will find two scenarios which can be resolved utilizing the Boards interface, but which _cannot_ be easily resolved within the default view.
 
-Blahdeeblah
+###Adopting an Orphaned Story
 
-###Project-Level Maintenance
+If a Story is created as an orphan (without a parent Epic), it can be associated with an Epic after the fact through the Boards interface as follows:
 
-Blahdeeblah
+- Open the Epics pane.
+- Find the issue you would like to associate in the Backlog.
+- Click and drag the issue you would like to associate from the Backlog onto the card for the Epic you would like to link it to.
+- JIRA will automatically handle the operations required to make the association in the background while you continue to work.  In most cases, this process takes less than a second.
 
 ###Rapid Prototyping
 
-Blahdeeblah
+- The quick-creation links for adding issues within the Boards screen can be used by project managers to quickly wireframe a project or activity.  
+
+- This is not recommended for actively working on issues, but can be extremely useful when there are a large number of issues that need to be added to the system in advance of some forthcoming work activity.

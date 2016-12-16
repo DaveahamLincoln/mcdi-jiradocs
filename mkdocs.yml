@@ -13,7 +13,8 @@ pages:
     - Default Workflow Usage: workflows.md
   - Administrative Functions:
     - Start Here: adm_index.md
-    - Boards: boards.md
+    - Boards: adm_boards.md
+    - Links: adm_links.md
   - JIRA Core Notes:
     - Core Issue Types: core_issue_types.md
   - JIRA Software Notes:
