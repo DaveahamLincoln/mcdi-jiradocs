@@ -8,7 +8,7 @@
   
   
   
-  <title>0.1.1.3 (11/03/2016) - MCDI JIRA Manual</title>
+  <title>0.1.6.0PR1 (12/20/2016) - MCDI JIRA Manual</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "0.1.1.3 (11/03/2016)";
-    var mkdocs_page_input_path = "0113_11032016.md";
-    var mkdocs_page_url = "/0113_11032016/";
+    var mkdocs_page_name = "0.1.6.0PR1 (12/20/2016)";
+    var mkdocs_page_input_path = "0160pr1_12202016.md";
+    var mkdocs_page_url = "/0160pr1_12202016/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -286,8 +286,39 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../0160pr1_12202016/">0.1.6.0PR1 (12/20/2016)</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">0.1.6.0PR1 (12/20/2016)</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#prerelease-cycle-notice">Prerelease Cycle Notice</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#bigpicture-plugin-disabled">BigPicture Plugin Disabled</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#bigtemplate-plugin-disabled">BigTemplate Plugin Disabled</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#support-tools-plugin-updated-to-v3916">Support Tools Plugin Updated to v3.9.16</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#structure-plugin-updated-to-v340">Structure Plugin Updated to v3.4.0</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#structure-plugin-core-integration-postponed">Structure Plugin Core Integration Postponed</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#smart-attachments-updated-to-v1141">Smart Attachments Updated to v1.14.1</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#data-injected-to-the-egbimcp-project-has-been-archived">Data Injected to the EGBIMCP Project has been Archived</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#maintenance-activities">Maintenance Activities</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -335,18 +366,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">0.1.1.3 (11/03/2016)</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#hipchat-integration-phase-i">HipChat Integration, Phase I</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#applied-fix-jira-6">Applied Fix JIRA-6</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../0113_11032016/">0.1.1.3 (11/03/2016)</a>
         
     </li>
 
@@ -401,7 +422,7 @@
         
       
     
-    <li>0.1.1.3 (11/03/2016)</li>
+    <li>0.1.6.0PR1 (12/20/2016)</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -411,30 +432,88 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="hipchat-integration-phase-i">HipChat Integration, Phase I</h2>
+                <h2 id="prerelease-cycle-notice">Prerelease Cycle Notice</h2>
 <ul>
-<li>HipChat (Cloud) is now wired to JIRA with the following hardlinks:</li>
+<li>Release 0.1.6.0PR1 is the first prerelease patch prior to the 1.0.0.0 go-live release.  </li>
+<li>Future prerelease patches should be indicated by incrementing the PRn number by one for each patch that occurs during the prerelease cycle, and reset for each distinct major release.</li>
+<li>Once a prerelease cycle is initiated, outstanding feature requests and improvements are considered to be "on hold" pending the completion of the prerelease, major release, and subsequent revision cycle.</li>
+<li>Prerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.</li>
+<li>By way of example, the current release timeline is as follows:<ul>
+<li>0.1.6.0PR1 (12/20/2016) <strong>Prerelease cycle, part 1/2</strong></li>
+<li>0.1.6.0PR2 (12/30/2016) <strong>Prerelease cycle, part 2/2</strong></li>
+<li>1.0.0.0 (01/03/2016) <strong>Major release</strong></li>
+<li>1.0.0.0R1 (01/06/2016) <strong>Revision cycle, part 1/2</strong></li>
+<li>1.0.0.0R2 (01/13/2016) <strong>Revision cycle, part 2/2</strong></li>
+<li>1.0.1.0 (01/20/2016) &lt;--- <strong>May include new features</strong></li>
 </ul>
-<p><img alt="0113_11032016_hardlinks" src="../img/release_notes/0113_11032016/hardlinks.PNG" /></p>
-<ul>
-<li>This feature is currently being tested in a <em>passive</em> configuration to fine-tune push notifications.  The current default settings are shown below:</li>
-</ul>
-<p><img alt="0113_11032016_passive_config" src="../img/release_notes/0113_11032016/passive_config.PNG" /></p>
-<ul>
-<li>
-<p>Current JIRA users will not be able to utilize the HipChat integration features present on issues until we move to an <em>active</em> configuration.</p>
-</li>
-<li>
-<p>We are aiming to roll out HipChat alongside the Open Beta.  For more information on the Open Beta, see <a href="http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/browse/JIRA-7">!!JIRA-7</a>.</p>
-</li>
-<li>
-<p>The @mcd.org domain has been enabled for automatic HipChat verification.  In theory, all we will need to do in order to push out invites is to release our HipChat invite URL.</p>
 </li>
 </ul>
-<h2 id="applied-fix-jira-6">Applied Fix JIRA-6</h2>
+<hr />
+<h2 id="bigpicture-plugin-disabled">BigPicture Plugin Disabled</h2>
 <ul>
-<li>Fixed a configuration problem that was storing attachments on the root volume instead of the storage volume.  See <a href="http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/browse/JIRA-7">!!JIRA-6</a> for more information.</li>
+<li>The <a href="../plugin_bigpicture">BigPicture</a> plugin has been disabled.</li>
+<li>The BigPicture plugin has been removed from the Core integration roadmap.</li>
+<li>Documentation for the BigPicture plugin has been moved to the "Disabled Plugins" section.</li>
 </ul>
+<hr />
+<h2 id="bigtemplate-plugin-disabled">BigTemplate Plugin Disabled</h2>
+<ul>
+<li>The <a href="../plugin_bigtemplate">BigTemplate</a> plugin has been disabled.</li>
+<li>The BigTemplate plugin has been removed from the Core integration roadmap.</li>
+<li>Documentation for the BigTemplate plugin has been moved to the "Disabled Plugins" section.</li>
+</ul>
+<hr />
+<h2 id="support-tools-plugin-updated-to-v3916">Support Tools Plugin Updated to v3.9.16</h2>
+<ul>
+<li>Performance improvement for the Confluence Internal Administrator health check</li>
+<li>Improvements to messages reported by health checks</li>
+<li>Various bug fixes</li>
+<li><a href="https://marketplace.atlassian.com/plugins/com.atlassian.support.stp/server/overview">Read the full patch notes here.</a></li>
+</ul>
+<hr />
+<h2 id="structure-plugin-updated-to-v340">Structure Plugin Updated to v3.4.0</h2>
+<ul>
+<li>
+<p>Structure 3.4 is a major release that adds quick transformations (a.k.a. quick filters), integration with Portfolio for JIRA and stable public API. It also has quite a few other updates, bug fixes, performance and stability improvements.</p>
+</li>
+<li>
+<p>Highlights:</p>
+<ul>
+<li>Quick Transformations feature lets you associate custom filters and other transformations with a structure for quick access by the team.</li>
+<li>Integration with Portfolio for JIRA add-on introduces support for Parent Link field via a grouper and an extender, which let you use Portfolio hierarchy in Structure.</li>
+<li>Issue Details layout on the Structure tab on the Project page.</li>
+<li>Grouping by text fields.</li>
+<li>Performance improvements.</li>
+<li>Stable public API.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="structure-plugin-core-integration-postponed">Structure Plugin Core Integration Postponed</h2>
+<ul>
+<li>In concert with The GSF project administrators, it has been determined that further testing is required prior to integrating the Structure plugin with the Core.</li>
+<li>Structure is now earmarked for rollout as part of the 1.0.1.0 release.</li>
+<li><a href="https://marketplace.atlassian.com/plugins/com.stiltsoft.jira.smart-attachments/server/overview">Read the full patch notes here.</a></li>
+</ul>
+<hr />
+<h2 id="smart-attachments-updated-to-v1141">Smart Attachments Updated to v1.14.1</h2>
+<ul>
+<li>Improved the behavior and response of the Attach Files form for the correct selection of the category for file attaching.</li>
+<li>Corrected the behavior and resolved the markup issue when showing the documents created on the basis of archives.</li>
+</ul>
+<hr />
+<h2 id="data-injected-to-the-egbimcp-project-has-been-archived">Data Injected to the EGBIMCP Project has been Archived</h2>
+<ul>
+<li>All data injected into EGBIMCP as part of the <a href="../0150_12162016/#egbimcp-injected-from-sharepoint">0.1.5.0 release</a> has been added to an archived version of the EGBIMCP project, which can be found <a href="http://ec2-54-162-47-42.compute-1.amazonaws.com:8080/browse/EGBIMCP/fixforversion/10100">here</a>.  </li>
+<li>Please note that all issues contained within the archived version <em>should not be utilized in any fashion.</em></li>
+<li>Pending further testing, the archive may be removed entirely.</li>
+</ul>
+<hr />
+<h2 id="maintenance-activities">Maintenance Activities</h2>
+<ul>
+<li>The JIRA index has been rebuilt.</li>
+</ul>
+<hr />
               
             </div>
           </div>
@@ -442,10 +521,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../0112_11022016/" class="btn btn-neutral float-right" title="0.1.1.2 (11/02/2016)">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../0150_12162016/" class="btn btn-neutral float-right" title="0.1.5.0 (12/16/2016)">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../0120_11162016/" class="btn btn-neutral" title="0.1.2.0 (11/16/2016)"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../plugin_bigtemplate/" class="btn btn-neutral" title="BigTemplate"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -471,10 +550,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../0120_11162016/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../plugin_bigtemplate/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../0112_11022016/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../0150_12162016/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
