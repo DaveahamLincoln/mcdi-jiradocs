@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.5.0.", 
+            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.6.0PR1.", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-the-mcdi-jira-user-manual", 
-            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.5.0.", 
+            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.6.0PR1.", 
             "title": "Welcome to the MCDI JIRA User Manual"
         }, 
         {
@@ -382,7 +382,7 @@
         }, 
         {
             "location": "/core_issue_types/", 
-            "text": "The purpose of this article is to provide access detailed information about the types of issues in MCDI's JIRA Core projects, and their proper usage.\n\n\nHierarchy\n\n\nIssues in JIRA are organized into a parent-child hierarchy under a given JIRA Core project, as illustrated below.\n\n\n\n\nEpics\n\n\nAn epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint \"Component\") that can be broken down into a number of smaller stories (similar to SharePoint \"Activities\").\n\n\nThe average user \nshould not\n have a business need to create an Epic, unless directed to do so by a superior.  When in doubt, please refer to the \nIssue Type Decision Tree\n.\n\n\nIssue Type Decision Tree", 
+            "text": "The purpose of this article is to provide access detailed information about the types of issues in MCDI's JIRA Core projects, and their proper usage.\n\n\nHierarchy\n\n\nIssues in JIRA are organized into a parent-child hierarchy under a given JIRA Core project, as illustrated below.\n\n\n\n\n\n\nEpics\n\n\nAn epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint \"Component\") that can be broken down into a number of smaller Stories (similar to SharePoint \"Activities\").\n\n\nExamples of Epics:\n\n\n\n\nHome Office Administration\n\n\nField Office Administration\n\n\nProject Beta Test\n\n\n\n\nThe average user \nshould not\n have a business need to create an Epic, unless directed to do so by a superior.  \n\n\n\n\nStories\n\n\nA Story is the hierarchical unit of work directly below the Epic level.  A given Epic will generally have many Stories below it.  Stories roughly correspond to \"Activities\" in SharePoint, and can be broken down into a number of smaller Subtasks.\n\n\nExamples of Stories:\n\n\n\n\nContracting\n\n\nPurchasing\n\n\nLogistics\n\n\nCommunications\n\n\nReporting\n\n\n\n\n\n\nSubtasks\n\n\nA Subtask is the lowest hierarchical unit of work, which lies below the Story level.  Subtasks roughly correspond to \"Tasks\" in SharePoint.  Subtasks are where the majority of work and comment activity will take place.  \n\n\nExamples of Epics:\n\n\n\n\nApprove contract for consultant\n\n\nPurchase 28 widgets\n\n\nSend email to donor\n\n\nProduce monthly report\n\n\n\n\n\n\nTasks\n\n\nThe \"Task\" issue type is reserved for one-off issues that do not fit within an established Epic/Story/Subtask hierarchy tree.  They act in a similar fashion to Stories from a mechanical perspective.\n\n\n\n\nIssue Type Decision Tree\n\n\nWhen in doubt about what type of issue you should create, please refer to the chart below:", 
             "title": "Core Issue Types"
         }, 
         {
@@ -392,12 +392,27 @@
         }, 
         {
             "location": "/core_issue_types/#epics", 
-            "text": "An epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint \"Component\") that can be broken down into a number of smaller stories (similar to SharePoint \"Activities\").  The average user  should not  have a business need to create an Epic, unless directed to do so by a superior.  When in doubt, please refer to the  Issue Type Decision Tree .", 
+            "text": "An epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint \"Component\") that can be broken down into a number of smaller Stories (similar to SharePoint \"Activities\").  Examples of Epics:   Home Office Administration  Field Office Administration  Project Beta Test   The average user  should not  have a business need to create an Epic, unless directed to do so by a superior.", 
             "title": "Epics"
         }, 
         {
+            "location": "/core_issue_types/#stories", 
+            "text": "A Story is the hierarchical unit of work directly below the Epic level.  A given Epic will generally have many Stories below it.  Stories roughly correspond to \"Activities\" in SharePoint, and can be broken down into a number of smaller Subtasks.  Examples of Stories:   Contracting  Purchasing  Logistics  Communications  Reporting", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/core_issue_types/#subtasks", 
+            "text": "A Subtask is the lowest hierarchical unit of work, which lies below the Story level.  Subtasks roughly correspond to \"Tasks\" in SharePoint.  Subtasks are where the majority of work and comment activity will take place.    Examples of Epics:   Approve contract for consultant  Purchase 28 widgets  Send email to donor  Produce monthly report", 
+            "title": "Subtasks"
+        }, 
+        {
+            "location": "/core_issue_types/#tasks", 
+            "text": "The \"Task\" issue type is reserved for one-off issues that do not fit within an established Epic/Story/Subtask hierarchy tree.  They act in a similar fashion to Stories from a mechanical perspective.", 
+            "title": "Tasks"
+        }, 
+        {
             "location": "/core_issue_types/#issue-type-decision-tree", 
-            "text": "", 
+            "text": "When in doubt about what type of issue you should create, please refer to the chart below:", 
             "title": "Issue Type Decision Tree"
         }, 
         {
@@ -536,6 +551,36 @@
             "title": "Notes"
         }, 
         {
+            "location": "/plugin_structure/", 
+            "text": "Description\n\n\nStructure add-on for JIRA is a project and portfolio management tool for everyone from small teams to large enterprises.\n\n\nWhether you're Agile, Scaled Agile, Waterfall, or something in between, you can create anything from personal backlogs to big-picture overviews of the entire company portfolio.\n\n\nStructure lets you organize issues into hierarchies of any depth, so you can plan your projects in as much detail as you need.\n\n\nTight integration with Agile means you can create overviews of entire Agile projects, multiple boards, sprints, release backlogs and more.\n\n\nProgress, time and other values are aggregated up through the hierarchy so you can clearly see what's going on at any level.\n\n\nStructure allows you to visualize complex relationships between linked issues, adding an extra dimension of clarity to large project planning.\n\n\nVendor\n\n\nThis is an \nALM Works\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe Structure plugin enables advanced organizational capabilities for power users.\n\n\nNotes", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/plugin_structure/#description", 
+            "text": "Structure add-on for JIRA is a project and portfolio management tool for everyone from small teams to large enterprises.  Whether you're Agile, Scaled Agile, Waterfall, or something in between, you can create anything from personal backlogs to big-picture overviews of the entire company portfolio.  Structure lets you organize issues into hierarchies of any depth, so you can plan your projects in as much detail as you need.  Tight integration with Agile means you can create overviews of entire Agile projects, multiple boards, sprints, release backlogs and more.  Progress, time and other values are aggregated up through the hierarchy so you can clearly see what's going on at any level.  Structure allows you to visualize complex relationships between linked issues, adding an extra dimension of clarity to large project planning.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/plugin_structure/#vendor", 
+            "text": "This is an  ALM Works  plugin.", 
+            "title": "Vendor"
+        }, 
+        {
+            "location": "/plugin_structure/#documentation", 
+            "text": "Documentation for this plugin can be found here", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/plugin_structure/#usage", 
+            "text": "The Structure plugin enables advanced organizational capabilities for power users.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/plugin_structure/#notes", 
+            "text": "", 
+            "title": "Notes"
+        }, 
+        {
             "location": "/plugin_bigpicture/", 
             "text": "Description\n\n\nIntroducing new-level Project Portfolio Management to JIRA! BigPicture makes it easy to build and manage multiple projects. Tried and tested, suitable for MS Project converts, fully Agile JIRA-only folks and Scaled Agile Framework (SAFe\u00ae) enthusiasts.\n\n\nEnterprise version available!\n\n\nCreate and organize tasks using Gantt Charts with sorting, grouping and aggregation\nManage tasks using drag and drop\nManage your Programs defined as JQL filters\nBuild your Agile program Roadmap\nIdentify and manage Risks using a drag and drop matrix\nAllocate tasks using the Resources view\nPowerful Quick Filters\nBuild customized structures (WBS) according to JIRA component, fixVersion, epic, subtask or even issue link\nMarkers, Baselines, task coloring\nExport to Excel and MS Project with BigTemplate installed\nGreat productivity using shortcuts and inline editing\n\n\nVendor\n\n\nThis is a \nSoftwarePlant\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe BigPicture plugin is utilized to provide advanced portfolio management capabilities within MCDI's JIRA environment.\n\n\nNotes\n\n\nAs of \nRelease 0.1.5.0\n, this plugin is being tested by the EGBIMCP administrators.  The earliest that this plugin could feasibly be added to the Core would be as part of the 1.0.0.0R1 release.", 
             "title": "BigPicture"
@@ -596,34 +641,54 @@
             "title": "Notes"
         }, 
         {
-            "location": "/plugin_structure/", 
-            "text": "Description\n\n\nStructure add-on for JIRA is a project and portfolio management tool for everyone from small teams to large enterprises.\n\n\nWhether you're Agile, Scaled Agile, Waterfall, or something in between, you can create anything from personal backlogs to big-picture overviews of the entire company portfolio.\n\n\nStructure lets you organize issues into hierarchies of any depth, so you can plan your projects in as much detail as you need.\n\n\nTight integration with Agile means you can create overviews of entire Agile projects, multiple boards, sprints, release backlogs and more.\n\n\nProgress, time and other values are aggregated up through the hierarchy so you can clearly see what's going on at any level.\n\n\nStructure allows you to visualize complex relationships between linked issues, adding an extra dimension of clarity to large project planning.\n\n\nVendor\n\n\nThis is an \nALM Works\n plugin.\n\n\nDocumentation\n\n\nDocumentation for this plugin can be found here\n\n\nUsage\n\n\nThe Structure plugin enables advanced organizational capabilities for power users.\n\n\nNotes", 
-            "title": "Structure"
+            "location": "/0160pr1_12202016/", 
+            "text": "Prerelease Cycle Notice\n\n\n\n\nRelease 0.1.6.0PR1 is the first prerelease patch prior to the 1.0.0.0 go-live release.  \n\n\nFuture prerelease patches should be indicated by incrementing the PRn number by one for each patch that occurs during the prerelease cycle, and reset for each distinct major release.\n\n\nOnce a prerelease cycle is initiated, outstanding feature requests and improvements are considered to be \"on hold\" pending the completion of the prerelease, major release, and subsequent revision cycle.\n\n\nPrerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.\n\n\nBy way of example, the current release timeline is as follows:\n\n\n0.1.6.0PR1 (12/20/2016) \nPrerelease cycle, part 1/2\n\n\n0.1.6.0PR2 (12/30/2016) \nPrerelease cycle, part 2/2\n\n\n1.0.0.0 (01/03/2016) \nMajor release\n\n\n1.0.0.0R1 (01/06/2016) \nRevision cycle, part 1/2\n\n\n1.0.0.0R2 (01/13/2016) \nRevision cycle, part 2/2\n\n\n1.0.1.0 (01/20/2016) \n--- \nMay include new features\n\n\n\n\n\n\n\n\n\n\nBigPicture Plugin Disabled\n\n\n\n\nThe \nBigPicture\n plugin has been disabled.\n\n\nThe BigPicture plugin has been removed from the Core integration roadmap.\n\n\nDocumentation for the BigPicture plugin has been moved to the \"Disabled Plugins\" section.\n\n\n\n\n\n\nBigTemplate Plugin Disabled\n\n\n\n\nThe \nBigTemplate\n plugin has been disabled.\n\n\nThe BigTemplate plugin has been removed from the Core integration roadmap.\n\n\nDocumentation for the BigTemplate plugin has been moved to the \"Disabled Plugins\" section.\n\n\n\n\n\n\nSupport Tools Plugin Updated to v3.9.16\n\n\n\n\nPerformance improvement for the Confluence Internal Administrator health check\n\n\nImprovements to messages reported by health checks\n\n\nVarious bug fixes\n\n\nRead the full patch notes here.\n\n\n\n\n\n\nStructure Plugin Updated to v3.4.0\n\n\n\n\n\n\nStructure 3.4 is a major release that adds quick transformations (a.k.a. quick filters), integration with Portfolio for JIRA and stable public API. It also has quite a few other updates, bug fixes, performance and stability improvements.\n\n\n\n\n\n\nHighlights:\n\n\n\n\nQuick Transformations feature lets you associate custom filters and other transformations with a structure for quick access by the team.\n\n\nIntegration with Portfolio for JIRA add-on introduces support for Parent Link field via a grouper and an extender, which let you use Portfolio hierarchy in Structure.\n\n\nIssue Details layout on the Structure tab on the Project page.\n\n\nGrouping by text fields.\n\n\nPerformance improvements.\n\n\nStable public API.\n\n\n\n\n\n\n\n\n\n\nStructure Plugin Core Integration Postponed\n\n\n\n\nIn concert with The GSF project administrators, it has been determined that further testing is required prior to integrating the Structure plugin with the Core.\n\n\nStructure is now earmarked for rollout as part of the 1.0.1.0 release.\n\n\nRead the full patch notes here.\n\n\n\n\n\n\nSmart Attachments Updated to v1.14.1\n\n\n\n\nImproved the behavior and response of the Attach Files form for the correct selection of the category for file attaching.\n\n\nCorrected the behavior and resolved the markup issue when showing the documents created on the basis of archives.\n\n\n\n\n\n\nData Injected to the EGBIMCP Project has been Archived\n\n\n\n\nAll data injected into EGBIMCP as part of the \n0.1.5.0 release\n has been added to an archived version of the EGBIMCP project, which can be found \nhere\n.  \n\n\nPlease note that all issues contained within the archived version \nshould not be utilized in any fashion.\n\n\nPending further testing, the archive may be removed entirely.\n\n\n\n\n\n\nMaintenance Activities\n\n\n\n\nThe JIRA index has been rebuilt.", 
+            "title": "0.1.6.0PR1 (12/20/2016)"
         }, 
         {
-            "location": "/plugin_structure/#description", 
-            "text": "Structure add-on for JIRA is a project and portfolio management tool for everyone from small teams to large enterprises.  Whether you're Agile, Scaled Agile, Waterfall, or something in between, you can create anything from personal backlogs to big-picture overviews of the entire company portfolio.  Structure lets you organize issues into hierarchies of any depth, so you can plan your projects in as much detail as you need.  Tight integration with Agile means you can create overviews of entire Agile projects, multiple boards, sprints, release backlogs and more.  Progress, time and other values are aggregated up through the hierarchy so you can clearly see what's going on at any level.  Structure allows you to visualize complex relationships between linked issues, adding an extra dimension of clarity to large project planning.", 
-            "title": "Description"
+            "location": "/0160pr1_12202016/#prerelease-cycle-notice", 
+            "text": "Release 0.1.6.0PR1 is the first prerelease patch prior to the 1.0.0.0 go-live release.    Future prerelease patches should be indicated by incrementing the PRn number by one for each patch that occurs during the prerelease cycle, and reset for each distinct major release.  Once a prerelease cycle is initiated, outstanding feature requests and improvements are considered to be \"on hold\" pending the completion of the prerelease, major release, and subsequent revision cycle.  Prerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.  By way of example, the current release timeline is as follows:  0.1.6.0PR1 (12/20/2016)  Prerelease cycle, part 1/2  0.1.6.0PR2 (12/30/2016)  Prerelease cycle, part 2/2  1.0.0.0 (01/03/2016)  Major release  1.0.0.0R1 (01/06/2016)  Revision cycle, part 1/2  1.0.0.0R2 (01/13/2016)  Revision cycle, part 2/2  1.0.1.0 (01/20/2016)  ---  May include new features", 
+            "title": "Prerelease Cycle Notice"
         }, 
         {
-            "location": "/plugin_structure/#vendor", 
-            "text": "This is an  ALM Works  plugin.", 
-            "title": "Vendor"
+            "location": "/0160pr1_12202016/#bigpicture-plugin-disabled", 
+            "text": "The  BigPicture  plugin has been disabled.  The BigPicture plugin has been removed from the Core integration roadmap.  Documentation for the BigPicture plugin has been moved to the \"Disabled Plugins\" section.", 
+            "title": "BigPicture Plugin Disabled"
         }, 
         {
-            "location": "/plugin_structure/#documentation", 
-            "text": "Documentation for this plugin can be found here", 
-            "title": "Documentation"
+            "location": "/0160pr1_12202016/#bigtemplate-plugin-disabled", 
+            "text": "The  BigTemplate  plugin has been disabled.  The BigTemplate plugin has been removed from the Core integration roadmap.  Documentation for the BigTemplate plugin has been moved to the \"Disabled Plugins\" section.", 
+            "title": "BigTemplate Plugin Disabled"
         }, 
         {
-            "location": "/plugin_structure/#usage", 
-            "text": "The Structure plugin enables advanced organizational capabilities for power users.", 
-            "title": "Usage"
+            "location": "/0160pr1_12202016/#support-tools-plugin-updated-to-v3916", 
+            "text": "Performance improvement for the Confluence Internal Administrator health check  Improvements to messages reported by health checks  Various bug fixes  Read the full patch notes here.", 
+            "title": "Support Tools Plugin Updated to v3.9.16"
         }, 
         {
-            "location": "/plugin_structure/#notes", 
-            "text": "", 
-            "title": "Notes"
+            "location": "/0160pr1_12202016/#structure-plugin-updated-to-v340", 
+            "text": "Structure 3.4 is a major release that adds quick transformations (a.k.a. quick filters), integration with Portfolio for JIRA and stable public API. It also has quite a few other updates, bug fixes, performance and stability improvements.    Highlights:   Quick Transformations feature lets you associate custom filters and other transformations with a structure for quick access by the team.  Integration with Portfolio for JIRA add-on introduces support for Parent Link field via a grouper and an extender, which let you use Portfolio hierarchy in Structure.  Issue Details layout on the Structure tab on the Project page.  Grouping by text fields.  Performance improvements.  Stable public API.", 
+            "title": "Structure Plugin Updated to v3.4.0"
+        }, 
+        {
+            "location": "/0160pr1_12202016/#structure-plugin-core-integration-postponed", 
+            "text": "In concert with The GSF project administrators, it has been determined that further testing is required prior to integrating the Structure plugin with the Core.  Structure is now earmarked for rollout as part of the 1.0.1.0 release.  Read the full patch notes here.", 
+            "title": "Structure Plugin Core Integration Postponed"
+        }, 
+        {
+            "location": "/0160pr1_12202016/#smart-attachments-updated-to-v1141", 
+            "text": "Improved the behavior and response of the Attach Files form for the correct selection of the category for file attaching.  Corrected the behavior and resolved the markup issue when showing the documents created on the basis of archives.", 
+            "title": "Smart Attachments Updated to v1.14.1"
+        }, 
+        {
+            "location": "/0160pr1_12202016/#data-injected-to-the-egbimcp-project-has-been-archived", 
+            "text": "All data injected into EGBIMCP as part of the  0.1.5.0 release  has been added to an archived version of the EGBIMCP project, which can be found  here .    Please note that all issues contained within the archived version  should not be utilized in any fashion.  Pending further testing, the archive may be removed entirely.", 
+            "title": "Data Injected to the EGBIMCP Project has been Archived"
+        }, 
+        {
+            "location": "/0160pr1_12202016/#maintenance-activities", 
+            "text": "The JIRA index has been rebuilt.", 
+            "title": "Maintenance Activities"
         }, 
         {
             "location": "/0150_12162016/", 

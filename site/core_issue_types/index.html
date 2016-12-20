@@ -179,6 +179,15 @@
                 <li class="toctree-l3"><a href="#epics">Epics</a></li>
                 
             
+                <li class="toctree-l3"><a href="#stories">Stories</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#subtasks">Subtasks</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#tasks">Tasks</a></li>
+                
+            
                 <li class="toctree-l3"><a href="#issue-type-decision-tree">Issue Type Decision Tree</a></li>
                 
             
@@ -263,6 +272,21 @@
         
             
     <li class="toctree-l1 ">
+        <a class="" href="../plugin_structure/">Structure</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Disabled Plugins</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
         <a class="" href="../plugin_bigpicture/">BigPicture</a>
         
     </li>
@@ -275,19 +299,19 @@
     </li>
 
         
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../plugin_structure/">Structure</a>
-        
-    </li>
-
-        
     </ul>
 <li>
           
             <li>
     <ul class="subnav">
     <li><span>Release Notes</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../0160pr1_12202016/">0.1.6.0PR1 (12/20/2016)</a>
+        
+    </li>
 
         
             
@@ -403,11 +427,45 @@
 <h2 id="hierarchy">Hierarchy</h2>
 <p>Issues in JIRA are organized into a parent-child hierarchy under a given JIRA Core project, as illustrated below.</p>
 <p><img alt="core_issue_types_1" src="../img/core_issue_types/core_issue_types_1.PNG" /></p>
+<hr />
 <h2 id="epics">Epics</h2>
-<p>An epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint "Component") that can be broken down into a number of smaller stories (similar to SharePoint "Activities").</p>
-<p>The average user <strong>should not</strong> have a business need to create an Epic, unless directed to do so by a superior.  When in doubt, please refer to the <a href="#issue-type-decision-tree">Issue Type Decision Tree</a>.</p>
+<p>An epic captures a large body of work. It is essentially a large undertaking (similar to a SharePoint "Component") that can be broken down into a number of smaller Stories (similar to SharePoint "Activities").</p>
+<p>Examples of Epics:</p>
+<ul>
+<li>Home Office Administration</li>
+<li>Field Office Administration</li>
+<li>Project Beta Test</li>
+</ul>
+<p>The average user <strong>should not</strong> have a business need to create an Epic, unless directed to do so by a superior.  </p>
+<hr />
+<h2 id="stories">Stories</h2>
+<p>A Story is the hierarchical unit of work directly below the Epic level.  A given Epic will generally have many Stories below it.  Stories roughly correspond to "Activities" in SharePoint, and can be broken down into a number of smaller Subtasks.</p>
+<p>Examples of Stories:</p>
+<ul>
+<li>Contracting</li>
+<li>Purchasing</li>
+<li>Logistics</li>
+<li>Communications</li>
+<li>Reporting</li>
+</ul>
+<hr />
+<h2 id="subtasks">Subtasks</h2>
+<p>A Subtask is the lowest hierarchical unit of work, which lies below the Story level.  Subtasks roughly correspond to "Tasks" in SharePoint.  Subtasks are where the majority of work and comment activity will take place.  </p>
+<p>Examples of Epics:</p>
+<ul>
+<li>Approve contract for consultant</li>
+<li>Purchase 28 widgets</li>
+<li>Send email to donor</li>
+<li>Produce monthly report</li>
+</ul>
+<hr />
+<h2 id="tasks">Tasks</h2>
+<p>The "Task" issue type is reserved for one-off issues that do not fit within an established Epic/Story/Subtask hierarchy tree.  They act in a similar fashion to Stories from a mechanical perspective.</p>
+<hr />
 <h2 id="issue-type-decision-tree">Issue Type Decision Tree</h2>
+<p>When in doubt about what type of issue you should create, please refer to the chart below:</p>
 <p><img alt="core_issue_types_decision_tree" src="../img/core_issue_types/core_issue_types_decision_tree.png" /></p>
+<hr />
               
             </div>
           </div>

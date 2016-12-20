@@ -27,10 +27,12 @@ pages:
     - Mail.Ru Calendar: plugin_mail_ru.md
     - Smart Attachments: plugin_smart_attachments.md
   - Beta Plugin Documentation:
+    - Structure: plugin_structure.md
+  - Disabled Plugins:
     - BigPicture: plugin_bigpicture.md
     - BigTemplate: plugin_bigtemplate.md
-    - Structure: plugin_structure.md
   - Release Notes:
+    - 0.1.6.0PR1 (12/20/2016): 0160pr1_12202016.md
     - 0.1.5.0 (12/16/2016): 0150_12162016.md
     - 0.1.4.0 (12/06/2016): 0140_12062016.md
     - 0.1.3.1 (12/01/2016): 0131_12012016.md
