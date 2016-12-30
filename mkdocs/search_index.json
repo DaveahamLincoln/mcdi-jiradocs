@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.6.0PR1.", 
+            "text": "Welcome to the MCDI JIRA User Manual\n\n\nPlease use the links in the left-hand sidebar to navigate the site.\n\n\nYou can also search the docs using the searchbar in the top left.\n\n\nMCDI JIRA is currently on \nrelease 0.1.6.0PR2.", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-the-mcdi-jira-user-manual", 
-            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.6.0PR1.", 
+            "text": "Please use the links in the left-hand sidebar to navigate the site.  You can also search the docs using the searchbar in the top left.  MCDI JIRA is currently on  release 0.1.6.0PR2.", 
             "title": "Welcome to the MCDI JIRA User Manual"
         }, 
         {
@@ -639,6 +639,41 @@
             "location": "/plugin_bigtemplate/#notes", 
             "text": "As of  Release 0.1.5.0 , this plugin is being utilized temporarily by the EGBIMCP administrators.  There is no plan to add this plugin to the Core at this time, and it will likely be removed prior to the 0.1.6.0PR1 release.", 
             "title": "Notes"
+        }, 
+        {
+            "location": "/0160pr2_12302016/", 
+            "text": "Prerelease Cycle Notice\n\n\n\n\nRelease 0.1.6.0PR2 is the second prerelease patch prior to the 1.0.0.0 go-live release.  \n\n\nPrerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.\n\n\n\n\n\n\nEG-CCST Structure Re-Enabled\n\n\n\n\nThe \nStructure\n plugin has been reenabled for the EG-CCST project.\n\n\nSee \n!JIRATEK-29\n for more information.\n\n\n\n\n\n\nStructure Widget Disabled\n\n\n\n\nFixed a bug which was causing a generic \nStructure\n widget to be rendered within the issue pane across all issues, regardless of whether or not Structure was enabled for the parent project.\n\n\nSee \n!JIRATEK-29\n for more information.\n\n\n\n\n\n\nEG Core Component/ISSEC Dimension Added to HR\n\n\n\n\nAn additional top-level component has been added to the HR project for issues relating to all EG operations.\n\n\nThis component has two matching ISSEC levels:\n\n\nEG Core\n (hr- and eg-hr)\n\n\nEG Core Restricted\n (hr-admins, hr-r, eg-hr-r)\n\n\n\n\n\n\nSee \n!JIRATEK-41\n for more information.\n\n\n\n\n\n\nProject Leads Assigned for Active Projects\n\n\n\n\nThe 'Project Lead' role has been assigned to the appropriate manager for each active project.*\n\n\nThe current lead configuration is shown below:\n\n\n\n\n\n\n\n\nRows outlined in orange indicate projects that do not yet have an official project lead.\n\n\n\n\n\n\nManual Backup Procedure Updated\n\n\n\n\nWhile further automation steps are still required, the manual backup process can now be triggered as a batch script like so:\n\n\n\n\nsudo ruby mcd-prod-automation/backupCore.rb\n\n\n\n\n\n\nThe program will halt and ask for the db password- once you enter it, it will spin for a while as it builds the tarballs, and then it will crash.\n\n\nOnce the program has crashed, run the following:\n\n\n\n\nruby mcd-prod-automation/backupCore.rb\n\n\n\n\n\n\nThis will return a bunch of \"Cannot stat: Permission denied\" errors, and will then handshake with AWS, uploading the master tarball created when you triggered backupCore.rb with sudo to S3.  After the transfer is complete, the backupCore script will crash again, but that doesn't matter because the backup has been built and shipped to the warehouse by that point.", 
+            "title": "0.1.6.0PR2 (12/30/2016)"
+        }, 
+        {
+            "location": "/0160pr2_12302016/#prerelease-cycle-notice", 
+            "text": "Release 0.1.6.0PR2 is the second prerelease patch prior to the 1.0.0.0 go-live release.    Prerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.", 
+            "title": "Prerelease Cycle Notice"
+        }, 
+        {
+            "location": "/0160pr2_12302016/#eg-ccst-structure-re-enabled", 
+            "text": "The  Structure  plugin has been reenabled for the EG-CCST project.  See  !JIRATEK-29  for more information.", 
+            "title": "EG-CCST Structure Re-Enabled"
+        }, 
+        {
+            "location": "/0160pr2_12302016/#structure-widget-disabled", 
+            "text": "Fixed a bug which was causing a generic  Structure  widget to be rendered within the issue pane across all issues, regardless of whether or not Structure was enabled for the parent project.  See  !JIRATEK-29  for more information.", 
+            "title": "Structure Widget Disabled"
+        }, 
+        {
+            "location": "/0160pr2_12302016/#eg-core-componentissec-dimension-added-to-hr", 
+            "text": "An additional top-level component has been added to the HR project for issues relating to all EG operations.  This component has two matching ISSEC levels:  EG Core  (hr- and eg-hr)  EG Core Restricted  (hr-admins, hr-r, eg-hr-r)    See  !JIRATEK-41  for more information.", 
+            "title": "EG Core Component/ISSEC Dimension Added to HR"
+        }, 
+        {
+            "location": "/0160pr2_12302016/#project-leads-assigned-for-active-projects", 
+            "text": "The 'Project Lead' role has been assigned to the appropriate manager for each active project.*  The current lead configuration is shown below:     Rows outlined in orange indicate projects that do not yet have an official project lead.", 
+            "title": "Project Leads Assigned for Active Projects"
+        }, 
+        {
+            "location": "/0160pr2_12302016/#manual-backup-procedure-updated", 
+            "text": "While further automation steps are still required, the manual backup process can now be triggered as a batch script like so:   sudo ruby mcd-prod-automation/backupCore.rb   The program will halt and ask for the db password- once you enter it, it will spin for a while as it builds the tarballs, and then it will crash.  Once the program has crashed, run the following:   ruby mcd-prod-automation/backupCore.rb   This will return a bunch of \"Cannot stat: Permission denied\" errors, and will then handshake with AWS, uploading the master tarball created when you triggered backupCore.rb with sudo to S3.  After the transfer is complete, the backupCore script will crash again, but that doesn't matter because the backup has been built and shipped to the warehouse by that point.", 
+            "title": "Manual Backup Procedure Updated"
         }, 
         {
             "location": "/0160pr1_12202016/", 
