@@ -25,7 +25,3 @@ Depending upon the project type, the available issue types and their use cases w
 [JIRA Core Issue Types](core_issue_types)
 
 [JIRA Software Issue Types](software_issue_types) (under construction).
-
------
-
-##Anatomy of an Issue

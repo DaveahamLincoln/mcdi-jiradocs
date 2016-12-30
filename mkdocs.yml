@@ -32,6 +32,7 @@ pages:
     - BigPicture: plugin_bigpicture.md
     - BigTemplate: plugin_bigtemplate.md
   - Release Notes:
+    - 0.1.6.0PR2 (12/30/2016): 0160pr2_12302016.md
     - 0.1.6.0PR1 (12/20/2016): 0160pr1_12202016.md
     - 0.1.5.0 (12/16/2016): 0150_12162016.md
     - 0.1.4.0 (12/06/2016): 0140_12062016.md
