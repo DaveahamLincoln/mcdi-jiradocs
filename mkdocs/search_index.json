@@ -307,12 +307,12 @@
         }, 
         {
             "location": "/adm_boards/", 
-            "text": "The purpose of this article is to provide information related to the use of JIRA's Agile Boards function for administrating projects.\n\n\nAtlassian Documentation\n\n\nYou can view an overview of how boards work in JIRA here.\n\n\nIn order to ensure that all necessary functions are available, all default boards have been created as \nScrum boards\n.  \n\n\nThe term \"Scrum\" refers to a specific kind of \nAgile development methodology\n- knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out \nagilemethodology.org\n.\n\n\n\n\nA Word of Caution\n\n\nWhile \nany\n JQL query or \nfilter\n can be used to create a board, interacting with multiple projects concurrently within the same board poses some risks to the underlying organization of the system.  \n\n\nWherever possible, please refrain from creating new boards on your own.  If you require a custom board, please log a feature request under the \n!JIRATEK\n project so that IT can conduct a full review of the potential impact.\n\n\n\n\nAccessing a Project's Board\n\n\nTo access the Board for a project:\n\n\n\n\nClick the \"Boards\" tile on the top bar, and select your desired board.\n\n\n\n\n\n\nIf you do not see the desired board in the \"Recent Boards\" section, click \"View all boards,\" then click the name of board that you wish to view.\n\n\n\n\n\n\nThe Backlog Screen\n\n\nThe root screen of the Board function is called the \"Backlog.\"  Before progressing further, please click the \"Epics\" tab on the left-hand side of the screen.\n\n\n\n\nClicking the \"Epics\" tab will cause a new pane to slide out from the left-hand side of the screen that contains all of the Epics for the project associated with the board.\n\n\n\n\n\n\nLayout\n\n\nThe Backlog screen consists of 4 main regions:\n\n\n\n\nFilter Bar\n\n\nEpics Pane\n\n\nBacklog Pane\n\n\nIssue Pane\n\n\n\n\nFilter Bar\n\n\n\n\n\n\nThe Filter Bar allows you quick access to search and common filters.\n\n\n\n\nEpics Pane\n\n\n\n\n\n\nThe Epics Pane provides a quick view of the epics within the board you are working on.  \n\n\nClicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:\n\n\n\n\n\n\n\n\nClicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:\n\n\n\n\n\n\nBacklog Pane\n\n\n\n\n\n\nThe backlog pane shows a view of issues matching your currently selected filter, tagged with information about the Epic they are a part of.  \n\n\nYou can add issues directly to a project from this screen by clicking the \"+ Create Issue\" button at the bottom of the page.\n\n\nYou can reorganize the order of issues on your backlog screen by dragging and dropping.\n\n\n\n\nIssue Pane\n\n\n\n\n\n\nDouble-clicking an issue in the Backlog will pull up that issue in the Issue Pane on the right hand side of the screen.\n\n\nThis pane provides almost exactly the same functionality as a vanilla Issue view screen, so you can make edits, leave comments, and add attachments without leaving the Board interface.\n\n\n\n\n\n\nCommon Use Cases\n\n\nBoards \nare not\n intended to be used as a replacement for interacting with issues through the Issue View screen.  Their primary function within the context of MCDI's installation is to provide a command and control (C\nC) layer above the one utilized by all users, which can be used to perform limited advanced recovery and batch operations.\n\n\nBelow you will find two scenarios which can be resolved utilizing the Boards interface, but which \ncannot\n be easily resolved within the default view.\n\n\nAdopting an Orphaned Story\n\n\nIf a Story is created as an orphan (without a parent Epic), it can be associated with an Epic after the fact through the Boards interface as follows:\n\n\n\n\nOpen the Epics pane.\n\n\nFind the issue you would like to associate in the Backlog.\n\n\nClick and drag the issue you would like to associate from the Backlog onto the card for the Epic you would like to link it to.\n\n\nJIRA will automatically handle the operations required to make the association in the background while you continue to work.  In most cases, this process takes less than a second.\n\n\n\n\nRapid Prototyping\n\n\n\n\n\n\nThe quick-creation links for adding issues within the Boards screen can be used by project managers to quickly wireframe a project or activity.  \n\n\n\n\n\n\nThis is not recommended for actively working on issues, but can be extremely useful when there are a large number of issues that need to be added to the system in advance of some forthcoming work activity.", 
+            "text": "The purpose of this article is to provide information related to the use of JIRA's Agile Boards function for administrating projects.\n\n\nAtlassian Documentation\n\n\nYou can view an overview of how boards work in JIRA here.\n\n\nIn order to assure that all necessary functions are available, all default boards have been created as \nScrum boards\n.  \n\n\nThe term \"Scrum\" refers to a specific kind of \nAgile development methodology\n- knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out \nagilemethodology.org\n.\n\n\n\n\nA Word of Caution\n\n\nWhile \nany\n JQL query or \nfilter\n can be used to create a board, interacting with multiple projects concurrently within the same board poses some risks to the underlying organization of the system.  \n\n\nWherever possible, please refrain from creating new boards on your own.  If you require a custom board, please log a feature request under the \n!JIRATEK\n project so that IT can conduct a full review of the potential impact.\n\n\n\n\nAccessing a Project's Board\n\n\nTo access the Board for a project:\n\n\n\n\nClick the \"Boards\" tile on the top bar, and select your desired board.\n\n\n\n\n\n\nIf you do not see the desired board in the \"Recent Boards\" section, click \"View all boards,\" then click the name of board that you wish to view.\n\n\n\n\n\n\nThe Backlog Screen\n\n\nThe root screen of the Board function is called the \"Backlog.\"  Before progressing further, please click the \"Epics\" tab on the left-hand side of the screen.\n\n\n\n\nClicking the \"Epics\" tab will cause a new pane to slide out from the left-hand side of the screen that contains all of the Epics for the project associated with the board.\n\n\n\n\n\n\nLayout\n\n\nThe Backlog screen consists of 4 main regions:\n\n\n\n\nFilter Bar\n\n\nEpics Pane\n\n\nBacklog Pane\n\n\nIssue Pane\n\n\n\n\nFilter Bar\n\n\n\n\n\n\nThe Filter Bar allows you quick access to search and common filters.\n\n\n\n\nEpics Pane\n\n\n\n\n\n\nThe Epics Pane provides a quick view of the epics within the board you are working on.  \n\n\nClicking the colored dropdown button within a given Epic card will allow you to perform several potentially useful operations on said Epic, as shown below:\n\n\n\n\n\n\n\n\nClicking the arrow in the top left hand of an Epic's card will reveal a more detailed breakdown of the work contained within that Epic, as shown below:\n\n\n\n\n\n\nBacklog Pane\n\n\n\n\n\n\nThe backlog pane shows a view of issues matching your currently selected filter, tagged with information about the Epic they are a part of.  \n\n\nYou can add issues directly to a project from this screen by clicking the \"+ Create Issue\" button at the bottom of the page.\n\n\nYou can reorganize the order of issues on your backlog screen by dragging and dropping.\n\n\n\n\nIssue Pane\n\n\n\n\n\n\nDouble-clicking an issue in the Backlog will pull up that issue in the Issue Pane on the right hand side of the screen.\n\n\nThis pane provides almost exactly the same functionality as a vanilla Issue view screen, so you can make edits, leave comments, and add attachments without leaving the Board interface.\n\n\n\n\n\n\nCommon Use Cases\n\n\nBoards \nare not\n intended to be used as a replacement for interacting with issues through the Issue View screen.  Their primary function within the context of MCDI's installation is to provide a command and control (C\nC) layer above the one utilized by all users, which can be used to perform limited advanced recovery and batch operations.\n\n\nBelow you will find two scenarios which can be resolved utilizing the Boards interface, but which \ncannot\n be easily resolved within the default view.\n\n\nAdopting an Orphaned Story\n\n\nIf a Story is created as an orphan (without a parent Epic), it can be associated with an Epic after the fact through the Boards interface as follows:\n\n\n\n\nOpen the Epics pane.\n\n\nFind the issue you would like to associate in the Backlog.\n\n\nClick and drag the issue you would like to associate from the Backlog onto the card for the Epic you would like to link it to.\n\n\nJIRA will automatically handle the operations required to make the association in the background while you continue to work.  In most cases, this process takes less than a second.\n\n\n\n\nRapid Prototyping\n\n\n\n\n\n\nThe quick-creation links for adding issues within the Boards screen can be used by project managers to quickly wireframe a project or activity.  \n\n\n\n\n\n\nThis is not recommended for actively working on issues, but can be extremely useful when there are a large number of issues that need to be added to the system in advance of some forthcoming work activity.", 
             "title": "Boards"
         }, 
         {
             "location": "/adm_boards/#atlassian-documentation", 
-            "text": "You can view an overview of how boards work in JIRA here.  In order to ensure that all necessary functions are available, all default boards have been created as  Scrum boards .    The term \"Scrum\" refers to a specific kind of  Agile development methodology - knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out  agilemethodology.org .", 
+            "text": "You can view an overview of how boards work in JIRA here.  In order to assure that all necessary functions are available, all default boards have been created as  Scrum boards .    The term \"Scrum\" refers to a specific kind of  Agile development methodology - knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out  agilemethodology.org .", 
             "title": "Atlassian Documentation"
         }, 
         {
@@ -641,367 +641,337 @@
             "title": "Notes"
         }, 
         {
-            "location": "/02XY/0200_03142017/", 
-            "text": "JIRA Versioning Changed\n\n\n\n\nFollowing the rollback of the JIRA rollout, all patches 1.0.X.Y+ have been\nremoved.  Further development and configuration will occur under the 0.2.X.Y\nrange.\n\n\nClosed alpha patches will occur under the 0.3.X.Y range.\n\n\nOpen beta patches will occur under the 0.4.X.Y range.\n\n\nThe 0.4.X.Y range will culminate in two prerelease patches, followed by a\ngo-live under the 1.X.Y.Z range.\n\n\n\n\n\n\nJIRA Service Desk Installed\n\n\n\n\nMCDI has acquired a license for JIRA Service Desk 3.2.2.  The module has been\nenabled, but is not yet active in any projects.\n\n\n\n\n\n\nJIRA Core Updated\n\n\n\n\n\n\nJIRA Core has been updated from 7.2.2 to\n\n7.3.3\n to ensure compatibility with\nJIRA Software 7.2.6.\n\n\n\n\n\n\nFor future reference- the latest installation binaries should be stored in\n/home/jira/jira-binaries.\n\n\n\n\n\n\nThe installation/upgrade process can be found\n\nhere\n).\n\n\n\n\n\n\n\n\nMcd-jira-prod Updated\n\n\n\n\nThe JIRA server has been updated to include the latest security and stability\nupdates from Canonical.\n\n\n\n\n\n\nManual Backup Procedure Updated\n\n\n\n\nOnce a backup system like \nbacula\n has been configured, the\noutfiles can be fed into Storj by using the 'jira' user to trigger backupCore like so:\n\n\n\n\nruby mcd-prod-automation/backupCore.rb\n\n\n\n\nOnce the .coreConfig.yaml file has been configured with mappings to the backup\nendpoints, no further steps will be required, and the shipping process will\noccur silently.\n\n\n\n\n\n\nMore information about the backupCore script can be found\n\nhere\n.\n\n\n\n\n\n\nEventually, instead of relying on the creation of bulky .tar files each time,\nthis process will be configured to consume and ship deltas for tracked\ndirectories instead.", 
-            "title": "0.2.0.0"
-        }, 
-        {
-            "location": "/02XY/0200_03142017/#jira-versioning-changed", 
-            "text": "Following the rollback of the JIRA rollout, all patches 1.0.X.Y+ have been\nremoved.  Further development and configuration will occur under the 0.2.X.Y\nrange.  Closed alpha patches will occur under the 0.3.X.Y range.  Open beta patches will occur under the 0.4.X.Y range.  The 0.4.X.Y range will culminate in two prerelease patches, followed by a\ngo-live under the 1.X.Y.Z range.", 
-            "title": "JIRA Versioning Changed"
-        }, 
-        {
-            "location": "/02XY/0200_03142017/#jira-service-desk-installed", 
-            "text": "MCDI has acquired a license for JIRA Service Desk 3.2.2.  The module has been\nenabled, but is not yet active in any projects.", 
-            "title": "JIRA Service Desk Installed"
-        }, 
-        {
-            "location": "/02XY/0200_03142017/#jira-core-updated", 
-            "text": "JIRA Core has been updated from 7.2.2 to 7.3.3  to ensure compatibility with\nJIRA Software 7.2.6.    For future reference- the latest installation binaries should be stored in\n/home/jira/jira-binaries.    The installation/upgrade process can be found here ).", 
-            "title": "JIRA Core Updated"
-        }, 
-        {
-            "location": "/02XY/0200_03142017/#mcd-jira-prod-updated", 
-            "text": "The JIRA server has been updated to include the latest security and stability\nupdates from Canonical.", 
-            "title": "Mcd-jira-prod Updated"
-        }, 
-        {
-            "location": "/02XY/0200_03142017/#manual-backup-procedure-updated", 
-            "text": "Once a backup system like  bacula  has been configured, the\noutfiles can be fed into Storj by using the 'jira' user to trigger backupCore like so:   ruby mcd-prod-automation/backupCore.rb  Once the .coreConfig.yaml file has been configured with mappings to the backup\nendpoints, no further steps will be required, and the shipping process will\noccur silently.    More information about the backupCore script can be found here .    Eventually, instead of relying on the creation of bulky .tar files each time,\nthis process will be configured to consume and ship deltas for tracked\ndirectories instead.", 
-            "title": "Manual Backup Procedure Updated"
-        }, 
-        {
-            "location": "/01XY/0160pr2_12302016/", 
+            "location": "/0160pr2_12302016/", 
             "text": "Prerelease Cycle Notice\n\n\n\n\nRelease 0.1.6.0PR2 is the second prerelease patch prior to the 1.0.0.0 go-live release.  \n\n\nPrerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.\n\n\n\n\n\n\nEG-CCST Structure Re-Enabled\n\n\n\n\nThe \nStructure\n plugin has been reenabled for the EG-CCST project.\n\n\nSee \n!JIRATEK-29\n for more information.\n\n\n\n\n\n\nStructure Widget Disabled\n\n\n\n\nFixed a bug which was causing a generic \nStructure\n widget to be rendered within the issue pane across all issues, regardless of whether or not Structure was enabled for the parent project.\n\n\nSee \n!JIRATEK-29\n for more information.\n\n\n\n\n\n\nEG Core Component/ISSEC Dimension Added to HR\n\n\n\n\nAn additional top-level component has been added to the HR project for issues relating to all EG operations.\n\n\nThis component has two matching ISSEC levels:\n\n\nEG Core\n (hr- and eg-hr)\n\n\nEG Core Restricted\n (hr-admins, hr-r, eg-hr-r)\n\n\n\n\n\n\nSee \n!JIRATEK-41\n for more information.\n\n\n\n\n\n\nProject Leads Assigned for Active Projects\n\n\n\n\nThe 'Project Lead' role has been assigned to the appropriate manager for each active project.*\n\n\nThe current lead configuration is shown below:\n\n\n\n\n\n\n\n\nRows outlined in orange indicate projects that do not yet have an official project lead.\n\n\n\n\n\n\nManual Backup Procedure Updated\n\n\n\n\nWhile further automation steps are still required, the manual backup process can now be triggered as a batch script like so:\n\n\n\n\nsudo ruby mcd-prod-automation/backupCore.rb\n\n\n\n\n\n\nThe program will halt and ask for the db password- once you enter it, it will spin for a while as it builds the tarballs, and then it will crash.\n\n\nOnce the program has crashed, run the following:\n\n\n\n\nruby mcd-prod-automation/backupCore.rb\n\n\n\n\n\n\nThis will return a bunch of \"Cannot stat: Permission denied\" errors, and will then handshake with AWS, uploading the master tarball created when you triggered backupCore.rb with sudo to S3.  After the transfer is complete, the backupCore script will crash again, but that doesn't matter because the backup has been built and shipped to the warehouse by that point.", 
             "title": "0.1.6.0PR2 (12/30/2016)"
         }, 
         {
-            "location": "/01XY/0160pr2_12302016/#prerelease-cycle-notice", 
+            "location": "/0160pr2_12302016/#prerelease-cycle-notice", 
             "text": "Release 0.1.6.0PR2 is the second prerelease patch prior to the 1.0.0.0 go-live release.    Prerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.", 
             "title": "Prerelease Cycle Notice"
         }, 
         {
-            "location": "/01XY/0160pr2_12302016/#eg-ccst-structure-re-enabled", 
+            "location": "/0160pr2_12302016/#eg-ccst-structure-re-enabled", 
             "text": "The  Structure  plugin has been reenabled for the EG-CCST project.  See  !JIRATEK-29  for more information.", 
             "title": "EG-CCST Structure Re-Enabled"
         }, 
         {
-            "location": "/01XY/0160pr2_12302016/#structure-widget-disabled", 
+            "location": "/0160pr2_12302016/#structure-widget-disabled", 
             "text": "Fixed a bug which was causing a generic  Structure  widget to be rendered within the issue pane across all issues, regardless of whether or not Structure was enabled for the parent project.  See  !JIRATEK-29  for more information.", 
             "title": "Structure Widget Disabled"
         }, 
         {
-            "location": "/01XY/0160pr2_12302016/#eg-core-componentissec-dimension-added-to-hr", 
+            "location": "/0160pr2_12302016/#eg-core-componentissec-dimension-added-to-hr", 
             "text": "An additional top-level component has been added to the HR project for issues relating to all EG operations.  This component has two matching ISSEC levels:  EG Core  (hr- and eg-hr)  EG Core Restricted  (hr-admins, hr-r, eg-hr-r)    See  !JIRATEK-41  for more information.", 
             "title": "EG Core Component/ISSEC Dimension Added to HR"
         }, 
         {
-            "location": "/01XY/0160pr2_12302016/#project-leads-assigned-for-active-projects", 
+            "location": "/0160pr2_12302016/#project-leads-assigned-for-active-projects", 
             "text": "The 'Project Lead' role has been assigned to the appropriate manager for each active project.*  The current lead configuration is shown below:     Rows outlined in orange indicate projects that do not yet have an official project lead.", 
             "title": "Project Leads Assigned for Active Projects"
         }, 
         {
-            "location": "/01XY/0160pr2_12302016/#manual-backup-procedure-updated", 
+            "location": "/0160pr2_12302016/#manual-backup-procedure-updated", 
             "text": "While further automation steps are still required, the manual backup process can now be triggered as a batch script like so:   sudo ruby mcd-prod-automation/backupCore.rb   The program will halt and ask for the db password- once you enter it, it will spin for a while as it builds the tarballs, and then it will crash.  Once the program has crashed, run the following:   ruby mcd-prod-automation/backupCore.rb   This will return a bunch of \"Cannot stat: Permission denied\" errors, and will then handshake with AWS, uploading the master tarball created when you triggered backupCore.rb with sudo to S3.  After the transfer is complete, the backupCore script will crash again, but that doesn't matter because the backup has been built and shipped to the warehouse by that point.", 
             "title": "Manual Backup Procedure Updated"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/", 
+            "location": "/0160pr1_12202016/", 
             "text": "Prerelease Cycle Notice\n\n\n\n\nRelease 0.1.6.0PR1 is the first prerelease patch prior to the 1.0.0.0 go-live release.  \n\n\nFuture prerelease patches should be indicated by incrementing the PRn number by one for each patch that occurs during the prerelease cycle, and reset for each distinct major release.\n\n\nOnce a prerelease cycle is initiated, outstanding feature requests and improvements are considered to be \"on hold\" pending the completion of the prerelease, major release, and subsequent revision cycle.\n\n\nPrerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.\n\n\nBy way of example, the current release timeline is as follows:\n\n\n0.1.6.0PR1 (12/20/2016) \nPrerelease cycle, part 1/2\n\n\n0.1.6.0PR2 (12/30/2016) \nPrerelease cycle, part 2/2\n\n\n1.0.0.0 (01/03/2016) \nMajor release\n\n\n1.0.0.0R1 (01/06/2016) \nRevision cycle, part 1/2\n\n\n1.0.0.0R2 (01/13/2016) \nRevision cycle, part 2/2\n\n\n1.0.1.0 (01/20/2016) \n--- \nMay include new features\n\n\n\n\n\n\n\n\n\n\nBigPicture Plugin Disabled\n\n\n\n\nThe \nBigPicture\n plugin has been disabled.\n\n\nThe BigPicture plugin has been removed from the Core integration roadmap.\n\n\nDocumentation for the BigPicture plugin has been moved to the \"Disabled Plugins\" section.\n\n\n\n\n\n\nBigTemplate Plugin Disabled\n\n\n\n\nThe \nBigTemplate\n plugin has been disabled.\n\n\nThe BigTemplate plugin has been removed from the Core integration roadmap.\n\n\nDocumentation for the BigTemplate plugin has been moved to the \"Disabled Plugins\" section.\n\n\n\n\n\n\nSupport Tools Plugin Updated to v3.9.16\n\n\n\n\nPerformance improvement for the Confluence Internal Administrator health check\n\n\nImprovements to messages reported by health checks\n\n\nVarious bug fixes\n\n\nRead the full patch notes here.\n\n\n\n\n\n\nStructure Plugin Updated to v3.4.0\n\n\n\n\n\n\nStructure 3.4 is a major release that adds quick transformations (a.k.a. quick filters), integration with Portfolio for JIRA and stable public API. It also has quite a few other updates, bug fixes, performance and stability improvements.\n\n\n\n\n\n\nHighlights:\n\n\n\n\nQuick Transformations feature lets you associate custom filters and other transformations with a structure for quick access by the team.\n\n\nIntegration with Portfolio for JIRA add-on introduces support for Parent Link field via a grouper and an extender, which let you use Portfolio hierarchy in Structure.\n\n\nIssue Details layout on the Structure tab on the Project page.\n\n\nGrouping by text fields.\n\n\nPerformance improvements.\n\n\nStable public API.\n\n\n\n\n\n\n\n\n\n\nStructure Plugin Core Integration Postponed\n\n\n\n\nIn concert with The GSF project administrators, it has been determined that further testing is required prior to integrating the Structure plugin with the Core.\n\n\nStructure is now earmarked for rollout as part of the 1.0.1.0 release.\n\n\nRead the full patch notes here.\n\n\n\n\n\n\nSmart Attachments Updated to v1.14.1\n\n\n\n\nImproved the behavior and response of the Attach Files form for the correct selection of the category for file attaching.\n\n\nCorrected the behavior and resolved the markup issue when showing the documents created on the basis of archives.\n\n\n\n\n\n\nData Injected to the EGBIMCP Project has been Archived\n\n\n\n\nAll data injected into EGBIMCP as part of the \n0.1.5.0 release\n has been added to an archived version of the EGBIMCP project, which can be found \nhere\n.  \n\n\nPlease note that all issues contained within the archived version \nshould not be utilized in any fashion.\n\n\nPending further testing, the archive may be removed entirely.\n\n\n\n\n\n\nMaintenance Activities\n\n\n\n\nThe JIRA index has been rebuilt.", 
             "title": "0.1.6.0PR1 (12/20/2016)"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#prerelease-cycle-notice", 
+            "location": "/0160pr1_12202016/#prerelease-cycle-notice", 
             "text": "Release 0.1.6.0PR1 is the first prerelease patch prior to the 1.0.0.0 go-live release.    Future prerelease patches should be indicated by incrementing the PRn number by one for each patch that occurs during the prerelease cycle, and reset for each distinct major release.  Once a prerelease cycle is initiated, outstanding feature requests and improvements are considered to be \"on hold\" pending the completion of the prerelease, major release, and subsequent revision cycle.  Prerelease patches are intended to ensure system stability, compliance with governance standards, and maximize core functionality, rather than focusing on adding new features.  By way of example, the current release timeline is as follows:  0.1.6.0PR1 (12/20/2016)  Prerelease cycle, part 1/2  0.1.6.0PR2 (12/30/2016)  Prerelease cycle, part 2/2  1.0.0.0 (01/03/2016)  Major release  1.0.0.0R1 (01/06/2016)  Revision cycle, part 1/2  1.0.0.0R2 (01/13/2016)  Revision cycle, part 2/2  1.0.1.0 (01/20/2016)  ---  May include new features", 
             "title": "Prerelease Cycle Notice"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#bigpicture-plugin-disabled", 
+            "location": "/0160pr1_12202016/#bigpicture-plugin-disabled", 
             "text": "The  BigPicture  plugin has been disabled.  The BigPicture plugin has been removed from the Core integration roadmap.  Documentation for the BigPicture plugin has been moved to the \"Disabled Plugins\" section.", 
             "title": "BigPicture Plugin Disabled"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#bigtemplate-plugin-disabled", 
+            "location": "/0160pr1_12202016/#bigtemplate-plugin-disabled", 
             "text": "The  BigTemplate  plugin has been disabled.  The BigTemplate plugin has been removed from the Core integration roadmap.  Documentation for the BigTemplate plugin has been moved to the \"Disabled Plugins\" section.", 
             "title": "BigTemplate Plugin Disabled"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#support-tools-plugin-updated-to-v3916", 
+            "location": "/0160pr1_12202016/#support-tools-plugin-updated-to-v3916", 
             "text": "Performance improvement for the Confluence Internal Administrator health check  Improvements to messages reported by health checks  Various bug fixes  Read the full patch notes here.", 
             "title": "Support Tools Plugin Updated to v3.9.16"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#structure-plugin-updated-to-v340", 
+            "location": "/0160pr1_12202016/#structure-plugin-updated-to-v340", 
             "text": "Structure 3.4 is a major release that adds quick transformations (a.k.a. quick filters), integration with Portfolio for JIRA and stable public API. It also has quite a few other updates, bug fixes, performance and stability improvements.    Highlights:   Quick Transformations feature lets you associate custom filters and other transformations with a structure for quick access by the team.  Integration with Portfolio for JIRA add-on introduces support for Parent Link field via a grouper and an extender, which let you use Portfolio hierarchy in Structure.  Issue Details layout on the Structure tab on the Project page.  Grouping by text fields.  Performance improvements.  Stable public API.", 
             "title": "Structure Plugin Updated to v3.4.0"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#structure-plugin-core-integration-postponed", 
+            "location": "/0160pr1_12202016/#structure-plugin-core-integration-postponed", 
             "text": "In concert with The GSF project administrators, it has been determined that further testing is required prior to integrating the Structure plugin with the Core.  Structure is now earmarked for rollout as part of the 1.0.1.0 release.  Read the full patch notes here.", 
             "title": "Structure Plugin Core Integration Postponed"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#smart-attachments-updated-to-v1141", 
+            "location": "/0160pr1_12202016/#smart-attachments-updated-to-v1141", 
             "text": "Improved the behavior and response of the Attach Files form for the correct selection of the category for file attaching.  Corrected the behavior and resolved the markup issue when showing the documents created on the basis of archives.", 
             "title": "Smart Attachments Updated to v1.14.1"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#data-injected-to-the-egbimcp-project-has-been-archived", 
+            "location": "/0160pr1_12202016/#data-injected-to-the-egbimcp-project-has-been-archived", 
             "text": "All data injected into EGBIMCP as part of the  0.1.5.0 release  has been added to an archived version of the EGBIMCP project, which can be found  here .    Please note that all issues contained within the archived version  should not be utilized in any fashion.  Pending further testing, the archive may be removed entirely.", 
             "title": "Data Injected to the EGBIMCP Project has been Archived"
         }, 
         {
-            "location": "/01XY/0160pr1_12202016/#maintenance-activities", 
+            "location": "/0160pr1_12202016/#maintenance-activities", 
             "text": "The JIRA index has been rebuilt.", 
             "title": "Maintenance Activities"
         }, 
         {
-            "location": "/01XY/0150_12162016/", 
-            "text": "MYMNCH Project Renamed\n\n\n\n\nThe MYMNCH Project has been renamed to MYCCST.\n\n\nMailers, filters, and routing have been rewired to accommodate this fact.\n\n\nSee \n!JIRATEK-25\n for more information on the change.\n\n\n\n\n\n\nStructure Plugin Added (Internal Beta)\n\n\n\n\nThe \nStructure Enterprise Issue Organizer\n plugin has been added to JIRA to allow more flexibility in creating issue hierarchies (see \n!JIRATEK-29\n for more information).\n\n\nStructure is currently configured as follows:\n\n\n\n\n\n\n\n\n\n\nThe GSF project administrators have agreed to conduct a limited test of Structure within their environment prior to the 0.1.5.0 release.  Pending the outcome of the test, a decision will be made regarding rolling out the plugin for all projects as part of the 0.1.6.0PR1 release.\n\n\n\n\n\n\nAs MCDI is running on a JIRA nonprofit license, the system is automatically allocated a nonprofit license for Structure.  Administrators should note that even though the plugin appears as unlicensed within the JIRA plugin manager, it is a fully licensed version.\n\n\n\n\n\n\nIf you have installed a license from ALM Works, Plugin Manager may show that Structure is Unlicensed\nor Action Required, because it's not aware of ALM Works license. You can check true license status on\nAdministration | Structure | License Details page\nIf it shows you that the license is OK, you can safely ignore the status of the license in Plugin Manager.\n\n\n\n\n\n\nMore information on the license model for Structure can be found here\n.\n\n\n\n\n\n\nOrcs Removed\n\n\n\n\nDisabled all mcdi.orc accounts used for early smoke testing.  These accounts will continue to persist within the system, but will need to be reactivated before they can be used.\n\n\n\n\n\n\nAdministrative Documentation\n\n\n\n\nAdded a section to the documentation for documenting administrative functions.\n\n\nAdded documentation for Boards.\n\n\nAdded documentation for Issue Linking.\n\n\n\n\n\n\nProcess Documentation\n\n\n\n\nAdded a section to the documentation for documenting specialized processes.\n\n\n\n\n\n\nClassified Incident Reporting Process Support Added\n\n\n\n\nAdded \"Classified Incident Reporting\" component to the HR project.\n\n\nAdded \"Classified Incident Reporting\" ISSEC level.\n\n\nAdded hr-classified-users group.\n\n\nCreated \"Classified Incident Reporting\" folder in the HR project.\n\n\nPlease note that while hr-admins and hr-classified-users can View and Edit within the folder, only jira-administrators have the Delete permission.\n\n\nProcess documentation for handling classified incident reports is in\ndevelopment.  \nOnce complete, it will be available here\n.\n\n\n\n\n\n\nBigPicture Plugin Added (Internal Beta)\n\n\n\n\nThe \nBigPicture\n plugin has been added to JIRA to allow for enterprise-level portfolio management and Gantt chart support.\n\n\nBigPicture is currently configured as follows:\n\n\n\n\n\n\n\n\nThe EGBIMCP project administrators have agreed to conduct a limited test of BigProject within their environment prior to the 0.1.5.0 release.  \n\n\nThis plugin will be deactivated in release 0.1.6.0R1.\n\n\n\n\n\n\nEGBIMCP Injected from SharePoint\n\n\n\n\nA rudimentary CSV transform consisting of data from the 2016 WP subsite of the EGBIMCP SharePoint was used to mass-inject the task list into JIRA for use with the BigPicture plugin.\n\n\nThis is \nnot a recommended practice,\n as the transform relies on perfect mapping.  This can only be reasonably achieved by making a number of assumptions regarding initial issue-states (i.e. overwriting assigned users/reporters to avoid assigning to nonexistent users), or conducting an extensive cell-by-cell review of the task list that is being injected.  In addition, bulk-injected issues require a great deal of configuration post-injection to ensure compatibility with JIRA tools and plugins.\n\n\nIn this case, as the issues are \nonly intended to be used for the production of a Gantt deliverable,\n the above assumptions do not necessarily matter.  Once the deliverable has been produced, all injected issues will be bundled and archived as a release under the EGBIMCP project.  \n\n\nIt has been communicated to the EGBIMCP administrators that \nno work of any kind outside of this deliverable\n should take place within the injected issues.  All 2016 WP activities that were not migrated as part of the Alpha or Beta phases will follow the on-demand manual migration plan outlined in the JIRA rollout timeline.\n\n\n\n\n\n\nBigTemplate Plugin Added (Internal Beta, Trial License)\n\n\n\n\nThe \nBigPicture\n plugin has been added to JIRA to allow custom exports of JIRA contexts.  \n\n\nAt the present time, the plugin is included solely to provide the ability to export BigProject Gantt charts to Microsoft Project.\n\n\nThe plugin is operating on a 30-day limited trial license, as the community license cannot be acquired directly from Atlassian and owing to time constraints we are unable to wait for a full license key.  \n\n\nOnce the Gantt deliverable is complete, this plugin will be disabled pending further review and the acquisition of a full community license.\n\n\nThe EGBIMCP project administrators have agreed to conduct a limited test of BigTemplate within their environment prior to the 0.1.5.0 release.\n\n\nThis plugin will be deactivated in release 0.1.6.0R1.\n\n\n\n\n\n\nManual Backup Procedure for JIRA\n\n\nWith any luck, this will be automated before the 0.1.6.0PR1 release, but in case it isn't or I'm hit by a truck, this is how you can run a complete backup of the JIRA system on mcd-jira-prod.\n\n\nTar attachments\n\n\ntar czvhf mcd-jira-a-mmddyyyy.tar.gz cold/attachments\n\n\n\n\nCreate psql dump:\n\n\npg_dump jiradb \n /cold/backups/mcd-jira-d-mmddyyyy -U jiradbuser -h 127.0.0.1 -W\n\nmv mcd-jira-d-mmddyyyy mcd-jira-d-mmddyyyy.psqlbak\n\n\n\n\nDump avatars and jemh dirs\n\n\ntar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/avatars\n\ntar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/jemh\n\n\n\n\nStage backup\n\n\ntar czvhf /cold/s3_staging/mcd-jira-12152016-complete.tar.gz /cold/backups\n\n\n\n\nSend backup to s3\n\n\naws s3 cp mcd-jira-mmddyyyy-complete.tar.gz s3://mcd-jira-prod-bak\n\n\n\n\n\n\nCore Updated\n\n\nJIRA has been updated to \nversion 7.2.6.", 
+            "location": "/0150_12162016/", 
+            "text": "MYMNCH Project Renamed\n\n\n\n\nThe MYMNCH Project has been renamed to MYCCST.\n\n\nMailers, filters, and routing have been rewired to accommodate this fact.\n\n\nSee \n!JIRATEK-25\n for more information on the change.\n\n\n\n\n\n\nStructure Plugin Added (Internal Beta)\n\n\n\n\nThe \nStructure Enterprise Issue Organizer\n plugin has been added to JIRA to allow more flexibility in creating issue hierarchies (see \n!JIRATEK-29\n for more information).\n\n\nStructure is currently configured as follows:\n\n\n\n\n\n\n\n\n\n\nThe GSF project administrators have agreed to conduct a limited test of Structure within their environment prior to the 0.1.5.0 release.  Pending the outcome of the test, a decision will be made regarding rolling out the plugin for all projects as part of the 0.1.6.0PR1 release.\n\n\n\n\n\n\nAs MCDI is running on a JIRA nonprofit license, the system is automatically allocated a nonprofit license for Structure.  Administrators should note that even though the plugin appears as unlicensed within the JIRA plugin manager, it is a fully licensed version.\n\n\n\n\n\n\nIf you have installed a license from ALM Works, Plugin Manager may show that Structure is Unlicensed\nor Action Required, because it's not aware of ALM Works license. You can check true license status on\nAdministration | Structure | License Details page\nIf it shows you that the license is OK, you can safely ignore the status of the license in Plugin Manager.\n\n\n\n\n\n\nMore information on the license model for Structure can be found here\n.\n\n\n\n\n\n\nOrcs Removed\n\n\n\n\nDisabled all mcdi.orc accounts used for early smoke testing.  These accounts will continue to persist within the system, but will need to be reactivated before they can be used.\n\n\n\n\n\n\nAdministrative Documentation\n\n\n\n\nAdded a section to the documentation for documenting administrative functions.\n\n\nAdded documentation for Boards.\n\n\nAdded documentation for Issue Linking.\n\n\n\n\n\n\nProcess Documentation\n\n\n\n\nAdded a section to the documentation for documenting specialized processes.\n\n\n\n\n\n\nClassified Incident Reporting Process Support Added\n\n\n\n\nAdded \"Classified Incident Reporting\" component to the HR project.\n\n\nAdded \"Classified Incident Reporting\" ISSEC level.\n\n\nAdded hr-classified-users group.\n\n\nCreated \"Classified Incident Reporting\" folder in the HR project.\n\n\nPlease note that while hr-admins and hr-classified-users can View and Edit within the folder, only jira-administrators have the Delete permission.\n\n\nProcess documentation for handling classified incident reports is in development.  \nOnce complete, it will be available here\n.\n\n\n\n\n\n\nBigPicture Plugin Added (Internal Beta)\n\n\n\n\nThe \nBigPicture\n plugin has been added to JIRA to allow for enterprise-level portfolio management and Gantt chart support.\n\n\nBigPicture is currently configured as follows:\n\n\n\n\n\n\n\n\nThe EGBIMCP project administrators have agreed to conduct a limited test of BigProject within their environment prior to the 0.1.5.0 release.  \n\n\nThis plugin will be deactivated in release 0.1.6.0R1.\n\n\n\n\n\n\nEGBIMCP Injected from SharePoint\n\n\n\n\nA rudimentary CSV transform consisting of data from the 2016 WP subsite of the EGBIMCP SharePoint was used to mass-inject the task list into JIRA for use with the BigPicture plugin.\n\n\nThis is \nnot a recommended practice,\n as the transform relies on perfect mapping.  This can only be reasonably achieved by making a number of assumptions regarding initial issue-states (i.e. overwriting assigned users/reporters to avoid assigning to nonexistent users), or conducting an extensive cell-by-cell review of the task list that is being injected.  In addition, bulk-injected issues require a great deal of configuration post-injection to ensure compatibility with JIRA tools and plugins.\n\n\nIn this case, as the issues are \nonly intended to be used for the production of a Gantt deliverable,\n the above assumptions do not necessarily matter.  Once the deliverable has been produced, all injected issues will be bundled and archived as a release under the EGBIMCP project.  \n\n\nIt has been communicated to the EGBIMCP administrators that \nno work of any kind outside of this deliverable\n should take place within the injected issues.  All 2016 WP activities that were not migrated as part of the Alpha or Beta phases will follow the on-demand manual migration plan outlined in the JIRA rollout timeline.\n\n\n\n\n\n\nBigTemplate Plugin Added (Internal Beta, Trial License)\n\n\n\n\nThe \nBigPicture\n plugin has been added to JIRA to allow custom exports of JIRA contexts.  \n\n\nAt the present time, the plugin is included solely to provide the ability to export BigProject Gantt charts to Microsoft Project.\n\n\nThe plugin is operating on a 30-day limited trial license, as the community license cannot be acquired directly from Atlassian and owing to time constraints we are unable to wait for a full license key.  \n\n\nOnce the Gantt deliverable is complete, this plugin will be disabled pending further review and the acquisition of a full community license.\n\n\nThe EGBIMCP project administrators have agreed to conduct a limited test of BigTemplate within their environment prior to the 0.1.5.0 release.\n\n\nThis plugin will be deactivated in release 0.1.6.0R1.\n\n\n\n\n\n\nManual Backup Procedure for JIRA\n\n\nWith any luck, this will be automated before the 0.1.6.0PR1 release, but in case it isn't or I'm hit by a truck, this is how you can run a complete backup of the JIRA system on mcd-jira-prod.\n\n\nTar attachments\n\n\ntar czvhf mcd-jira-a-mmddyyyy.tar.gz cold/attachments\n\n\n\n\nCreate psql dump:\n\n\npg_dump jiradb \n /cold/backups/mcd-jira-d-mmddyyyy -U jiradbuser -h 127.0.0.1 -W\n\nmv mcd-jira-d-mmddyyyy mcd-jira-d-mmddyyyy.psqlbak\n\n\n\n\nDump avatars and jemh dirs\n\n\ntar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/avatars\n\ntar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/jemh\n\n\n\n\nStage backup\n\n\ntar czvhf /cold/s3_staging/mcd-jira-12152016-complete.tar.gz /cold/backups\n\n\n\n\nSend backup to s3\n\n\naws s3 cp mcd-jira-mmddyyyy-complete.tar.gz s3://mcd-jira-prod-bak\n\n\n\n\n\n\nCore Updated\n\n\nJIRA has been updated to \nversion 7.2.6.", 
             "title": "0.1.5.0 (12/16/2016)"
         }, 
         {
-            "location": "/01XY/0150_12162016/#mymnch-project-renamed", 
+            "location": "/0150_12162016/#mymnch-project-renamed", 
             "text": "The MYMNCH Project has been renamed to MYCCST.  Mailers, filters, and routing have been rewired to accommodate this fact.  See  !JIRATEK-25  for more information on the change.", 
             "title": "MYMNCH Project Renamed"
         }, 
         {
-            "location": "/01XY/0150_12162016/#structure-plugin-added-internal-beta", 
+            "location": "/0150_12162016/#structure-plugin-added-internal-beta", 
             "text": "The  Structure Enterprise Issue Organizer  plugin has been added to JIRA to allow more flexibility in creating issue hierarchies (see  !JIRATEK-29  for more information).  Structure is currently configured as follows:      The GSF project administrators have agreed to conduct a limited test of Structure within their environment prior to the 0.1.5.0 release.  Pending the outcome of the test, a decision will be made regarding rolling out the plugin for all projects as part of the 0.1.6.0PR1 release.    As MCDI is running on a JIRA nonprofit license, the system is automatically allocated a nonprofit license for Structure.  Administrators should note that even though the plugin appears as unlicensed within the JIRA plugin manager, it is a fully licensed version.    If you have installed a license from ALM Works, Plugin Manager may show that Structure is Unlicensed\nor Action Required, because it's not aware of ALM Works license. You can check true license status on\nAdministration | Structure | License Details page\nIf it shows you that the license is OK, you can safely ignore the status of the license in Plugin Manager.   More information on the license model for Structure can be found here .", 
             "title": "Structure Plugin Added (Internal Beta)"
         }, 
         {
-            "location": "/01XY/0150_12162016/#orcs-removed", 
+            "location": "/0150_12162016/#orcs-removed", 
             "text": "Disabled all mcdi.orc accounts used for early smoke testing.  These accounts will continue to persist within the system, but will need to be reactivated before they can be used.", 
             "title": "Orcs Removed"
         }, 
         {
-            "location": "/01XY/0150_12162016/#administrative-documentation", 
+            "location": "/0150_12162016/#administrative-documentation", 
             "text": "Added a section to the documentation for documenting administrative functions.  Added documentation for Boards.  Added documentation for Issue Linking.", 
             "title": "Administrative Documentation"
         }, 
         {
-            "location": "/01XY/0150_12162016/#process-documentation", 
+            "location": "/0150_12162016/#process-documentation", 
             "text": "Added a section to the documentation for documenting specialized processes.", 
             "title": "Process Documentation"
         }, 
         {
-            "location": "/01XY/0150_12162016/#classified-incident-reporting-process-support-added", 
-            "text": "Added \"Classified Incident Reporting\" component to the HR project.  Added \"Classified Incident Reporting\" ISSEC level.  Added hr-classified-users group.  Created \"Classified Incident Reporting\" folder in the HR project.  Please note that while hr-admins and hr-classified-users can View and Edit within the folder, only jira-administrators have the Delete permission.  Process documentation for handling classified incident reports is in\ndevelopment.   Once complete, it will be available here .", 
+            "location": "/0150_12162016/#classified-incident-reporting-process-support-added", 
+            "text": "Added \"Classified Incident Reporting\" component to the HR project.  Added \"Classified Incident Reporting\" ISSEC level.  Added hr-classified-users group.  Created \"Classified Incident Reporting\" folder in the HR project.  Please note that while hr-admins and hr-classified-users can View and Edit within the folder, only jira-administrators have the Delete permission.  Process documentation for handling classified incident reports is in development.   Once complete, it will be available here .", 
             "title": "Classified Incident Reporting Process Support Added"
         }, 
         {
-            "location": "/01XY/0150_12162016/#bigpicture-plugin-added-internal-beta", 
+            "location": "/0150_12162016/#bigpicture-plugin-added-internal-beta", 
             "text": "The  BigPicture  plugin has been added to JIRA to allow for enterprise-level portfolio management and Gantt chart support.  BigPicture is currently configured as follows:     The EGBIMCP project administrators have agreed to conduct a limited test of BigProject within their environment prior to the 0.1.5.0 release.    This plugin will be deactivated in release 0.1.6.0R1.", 
             "title": "BigPicture Plugin Added (Internal Beta)"
         }, 
         {
-            "location": "/01XY/0150_12162016/#egbimcp-injected-from-sharepoint", 
+            "location": "/0150_12162016/#egbimcp-injected-from-sharepoint", 
             "text": "A rudimentary CSV transform consisting of data from the 2016 WP subsite of the EGBIMCP SharePoint was used to mass-inject the task list into JIRA for use with the BigPicture plugin.  This is  not a recommended practice,  as the transform relies on perfect mapping.  This can only be reasonably achieved by making a number of assumptions regarding initial issue-states (i.e. overwriting assigned users/reporters to avoid assigning to nonexistent users), or conducting an extensive cell-by-cell review of the task list that is being injected.  In addition, bulk-injected issues require a great deal of configuration post-injection to ensure compatibility with JIRA tools and plugins.  In this case, as the issues are  only intended to be used for the production of a Gantt deliverable,  the above assumptions do not necessarily matter.  Once the deliverable has been produced, all injected issues will be bundled and archived as a release under the EGBIMCP project.    It has been communicated to the EGBIMCP administrators that  no work of any kind outside of this deliverable  should take place within the injected issues.  All 2016 WP activities that were not migrated as part of the Alpha or Beta phases will follow the on-demand manual migration plan outlined in the JIRA rollout timeline.", 
             "title": "EGBIMCP Injected from SharePoint"
         }, 
         {
-            "location": "/01XY/0150_12162016/#bigtemplate-plugin-added-internal-beta-trial-license", 
+            "location": "/0150_12162016/#bigtemplate-plugin-added-internal-beta-trial-license", 
             "text": "The  BigPicture  plugin has been added to JIRA to allow custom exports of JIRA contexts.    At the present time, the plugin is included solely to provide the ability to export BigProject Gantt charts to Microsoft Project.  The plugin is operating on a 30-day limited trial license, as the community license cannot be acquired directly from Atlassian and owing to time constraints we are unable to wait for a full license key.    Once the Gantt deliverable is complete, this plugin will be disabled pending further review and the acquisition of a full community license.  The EGBIMCP project administrators have agreed to conduct a limited test of BigTemplate within their environment prior to the 0.1.5.0 release.  This plugin will be deactivated in release 0.1.6.0R1.", 
             "title": "BigTemplate Plugin Added (Internal Beta, Trial License)"
         }, 
         {
-            "location": "/01XY/0150_12162016/#manual-backup-procedure-for-jira", 
+            "location": "/0150_12162016/#manual-backup-procedure-for-jira", 
             "text": "With any luck, this will be automated before the 0.1.6.0PR1 release, but in case it isn't or I'm hit by a truck, this is how you can run a complete backup of the JIRA system on mcd-jira-prod.  Tar attachments  tar czvhf mcd-jira-a-mmddyyyy.tar.gz cold/attachments  Create psql dump:  pg_dump jiradb   /cold/backups/mcd-jira-d-mmddyyyy -U jiradbuser -h 127.0.0.1 -W mv mcd-jira-d-mmddyyyy mcd-jira-d-mmddyyyy.psqlbak  Dump avatars and jemh dirs  tar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/avatars tar czvhf mcd-jira-j-12152016.tar.gz /var/atlassian/application-data/jira/data/jemh  Stage backup  tar czvhf /cold/s3_staging/mcd-jira-12152016-complete.tar.gz /cold/backups  Send backup to s3  aws s3 cp mcd-jira-mmddyyyy-complete.tar.gz s3://mcd-jira-prod-bak", 
             "title": "Manual Backup Procedure for JIRA"
         }, 
         {
-            "location": "/01XY/0150_12162016/#core-updated", 
+            "location": "/0150_12162016/#core-updated", 
             "text": "JIRA has been updated to  version 7.2.6.", 
             "title": "Core Updated"
         }, 
         {
-            "location": "/01XY/0140_12062016/", 
+            "location": "/0140_12062016/", 
             "text": "ITWG Project Rollout\n\n\n\n\nThe IT Working Group (ITWG) project has been rolled out.  Tasks relating to IT roadmapping, research, and development should be entered under this project.\n\n\nEdit and View rights for the ITWG project are currently restricted to members of the IT Working Group.  Users outside of the working group who require View rights should be manually added to the Read Only project role.\n\n\n\n\n\n\nITHD Push Notification Routing\n\n\n\n\nFixed a bug that was causing push notifications from the ITHD project to be routed to all users in the jira-software-users group.  See \n!JIRATEK-20\n for more information.\n\n\n\n\n\n\nMulti-Country Project Conventions\n\n\n\n\nProjects that operate in multiple countries should utilize the Component functionality within the project to create components for each country in which the project operates.  \n\n\nNew projects \nshould not\n be created for each distinct country.\n\n\nJIRA supports the assignment of multiple components to an issue, so Project Admins are free to assign additional components as they see fit.\n\n\nSee \n!JIRATEK-21\n for more information.\n\n\n!JIRATEK-22\n is an example of implementing a proper country Component configuration scheme.\n\n\n\n\n\n\nJIRATEK Access Permissions Change\n\n\n\n\nThe jira-software-users group has been added to the Standard project role in the JIRATEK project.\n\n\nUsers should log tickets relating to the operation and development of the JIRA system itself within the JIRATEK project.  \n\n\nSee \n!JIRATEK-23\n for more information on this change.\n\n\n\n\n\n\nSmart Attachments Updated to v1.14.0\n\n\n\n\nNow you can discuss individual attachments or attachment revisions in separate comment threads as it is possible in Confluence.\n\n\nAdded validation of special symbols when renaming attachments in JIRA.\n\n\nExtended the set of events collected by Google Analytics.\n\n\nRead the full patch notes here.\n\n\n\n\n\n\nMaintenance Activities\n\n\n\n\nThe JIRA server has been updated.\n\n\nThe JIRA index has been rebuilt.", 
             "title": "0.1.4.0 (12/06/2016)"
         }, 
         {
-            "location": "/01XY/0140_12062016/#itwg-project-rollout", 
+            "location": "/0140_12062016/#itwg-project-rollout", 
             "text": "The IT Working Group (ITWG) project has been rolled out.  Tasks relating to IT roadmapping, research, and development should be entered under this project.  Edit and View rights for the ITWG project are currently restricted to members of the IT Working Group.  Users outside of the working group who require View rights should be manually added to the Read Only project role.", 
             "title": "ITWG Project Rollout"
         }, 
         {
-            "location": "/01XY/0140_12062016/#ithd-push-notification-routing", 
+            "location": "/0140_12062016/#ithd-push-notification-routing", 
             "text": "Fixed a bug that was causing push notifications from the ITHD project to be routed to all users in the jira-software-users group.  See  !JIRATEK-20  for more information.", 
             "title": "ITHD Push Notification Routing"
         }, 
         {
-            "location": "/01XY/0140_12062016/#multi-country-project-conventions", 
+            "location": "/0140_12062016/#multi-country-project-conventions", 
             "text": "Projects that operate in multiple countries should utilize the Component functionality within the project to create components for each country in which the project operates.    New projects  should not  be created for each distinct country.  JIRA supports the assignment of multiple components to an issue, so Project Admins are free to assign additional components as they see fit.  See  !JIRATEK-21  for more information.  !JIRATEK-22  is an example of implementing a proper country Component configuration scheme.", 
             "title": "Multi-Country Project Conventions"
         }, 
         {
-            "location": "/01XY/0140_12062016/#jiratek-access-permissions-change", 
+            "location": "/0140_12062016/#jiratek-access-permissions-change", 
             "text": "The jira-software-users group has been added to the Standard project role in the JIRATEK project.  Users should log tickets relating to the operation and development of the JIRA system itself within the JIRATEK project.    See  !JIRATEK-23  for more information on this change.", 
             "title": "JIRATEK Access Permissions Change"
         }, 
         {
-            "location": "/01XY/0140_12062016/#smart-attachments-updated-to-v1140", 
+            "location": "/0140_12062016/#smart-attachments-updated-to-v1140", 
             "text": "Now you can discuss individual attachments or attachment revisions in separate comment threads as it is possible in Confluence.  Added validation of special symbols when renaming attachments in JIRA.  Extended the set of events collected by Google Analytics.  Read the full patch notes here.", 
             "title": "Smart Attachments Updated to v1.14.0"
         }, 
         {
-            "location": "/01XY/0140_12062016/#maintenance-activities", 
+            "location": "/0140_12062016/#maintenance-activities", 
             "text": "The JIRA server has been updated.  The JIRA index has been rebuilt.", 
             "title": "Maintenance Activities"
         }, 
         {
-            "location": "/01XY/0131_12012016/", 
+            "location": "/0131_12012016/", 
             "text": "Transition of MCDI IT Case Handling to JIRA\n\n\nFrom: Eric Dimbleby\n\n\nSubject: MCDI IT Help Desk Request Protocol\n\n\nDate: 12/1/2016\n\n\nRecipients: All MCDI Staff, Both Field and Home Office\n\n\nGood Afternoon,\n\n\nIn an effort to better track our day to day help desk requests in the MCDI division (and eventually in the other\ndivisions as well), we are asking that all MCDI helpdesk requests be submitted through JIRA. Given the various\nprojects Dave is currently working on through the end of the year and into 2017, a more concerted effort to share,\ntrack, and triage responses from I.T. is underway. Matt McSpadden, based out of our Augusta office, has graciously\noffered his monitoring and assistance for this range of issues, in a hope that we can allow Dave more time to\nfocus on the JIRA roll-out and a list of other important projects he is ramping up. For anything that requires\nonsite work, Matt will work with Dave directly.\n\n\nField Office Personnel\nWe would also request that all field office personnel have their Home Office contact create new requests.\nHow To Log Your Issue\nTo create a new issue for IT Support, please click the CREATE button at the top of the screen in JIRA, and report\nyour issue to the \nITHD Project\n. For more details on creating issues, reference the \nAtlassian documentation\n.\n\n\nThank you in advance for following this protocol.\n\n\n\n\nMaintenance Activities\n\n\n\n\nThe JIRA server has been updated and restarted.  Server state post-maintenance is below.\n\n\n\n\nWelcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-51-generic x86_64)\n\n * Documentation:  https://help.ubuntu.com\n * Management:     https://landscape.canonical.com\n * Support:        https://ubuntu.com/advantage\n\n  System information as of Thu Dec  1 22:02:56 UTC 2016\n\n  System load:  0.36              Processes:           147\n  Usage of /:   5.1% of 98.30GB   Users logged in:     0\n  Memory usage: 4%                IP address for eth0: [REDACTED]\n  Swap usage:   0%\n\n  Graph this data and manage this system at:\n    https://landscape.canonical.com/\n\n  Get cloud support with Ubuntu Advantage Cloud Guest:\n    http://www.ubuntu.com/business/services/cloud\n\n0 packages can be updated.\n0 updates are security updates.\n\n\nToday is Setting Orange, the 43rd day of The Aftermath in the YOLD 3182\n\n\n\n\n\n\nITHD Access Modified\n\n\n\n\nStandard level access to the ITHD project has been granted to all users in the jira-software-users group.\n\n\n\n\n\n\nSTORJ Client Installed\n\n\n\n\nmcdi-jira-prod is now running the STORJ client (\ndocumentation can be found here\n).  Application-level users will not see a change at this time.  \n\n\nDevelopment of a backup system to accommodate the STORJ DEMFS (Distributed Encrypted Mesh File-Store) architecture is ongoing.", 
             "title": "0.1.3.1 (12/01/2016)"
         }, 
         {
-            "location": "/01XY/0131_12012016/#transition-of-mcdi-it-case-handling-to-jira", 
+            "location": "/0131_12012016/#transition-of-mcdi-it-case-handling-to-jira", 
             "text": "From: Eric Dimbleby  Subject: MCDI IT Help Desk Request Protocol  Date: 12/1/2016  Recipients: All MCDI Staff, Both Field and Home Office  Good Afternoon,  In an effort to better track our day to day help desk requests in the MCDI division (and eventually in the other\ndivisions as well), we are asking that all MCDI helpdesk requests be submitted through JIRA. Given the various\nprojects Dave is currently working on through the end of the year and into 2017, a more concerted effort to share,\ntrack, and triage responses from I.T. is underway. Matt McSpadden, based out of our Augusta office, has graciously\noffered his monitoring and assistance for this range of issues, in a hope that we can allow Dave more time to\nfocus on the JIRA roll-out and a list of other important projects he is ramping up. For anything that requires\nonsite work, Matt will work with Dave directly.  Field Office Personnel\nWe would also request that all field office personnel have their Home Office contact create new requests.\nHow To Log Your Issue\nTo create a new issue for IT Support, please click the CREATE button at the top of the screen in JIRA, and report\nyour issue to the  ITHD Project . For more details on creating issues, reference the  Atlassian documentation .  Thank you in advance for following this protocol.", 
             "title": "Transition of MCDI IT Case Handling to JIRA"
         }, 
         {
-            "location": "/01XY/0131_12012016/#maintenance-activities", 
+            "location": "/0131_12012016/#maintenance-activities", 
             "text": "The JIRA server has been updated and restarted.  Server state post-maintenance is below.   Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-51-generic x86_64)\n\n * Documentation:  https://help.ubuntu.com\n * Management:     https://landscape.canonical.com\n * Support:        https://ubuntu.com/advantage\n\n  System information as of Thu Dec  1 22:02:56 UTC 2016\n\n  System load:  0.36              Processes:           147\n  Usage of /:   5.1% of 98.30GB   Users logged in:     0\n  Memory usage: 4%                IP address for eth0: [REDACTED]\n  Swap usage:   0%\n\n  Graph this data and manage this system at:\n    https://landscape.canonical.com/\n\n  Get cloud support with Ubuntu Advantage Cloud Guest:\n    http://www.ubuntu.com/business/services/cloud\n\n0 packages can be updated.\n0 updates are security updates.\n\n\nToday is Setting Orange, the 43rd day of The Aftermath in the YOLD 3182", 
             "title": "Maintenance Activities"
         }, 
         {
-            "location": "/01XY/0131_12012016/#ithd-access-modified", 
+            "location": "/0131_12012016/#ithd-access-modified", 
             "text": "Standard level access to the ITHD project has been granted to all users in the jira-software-users group.", 
             "title": "ITHD Access Modified"
         }, 
         {
-            "location": "/01XY/0131_12012016/#storj-client-installed", 
+            "location": "/0131_12012016/#storj-client-installed", 
             "text": "mcdi-jira-prod is now running the STORJ client ( documentation can be found here ).  Application-level users will not see a change at this time.    Development of a backup system to accommodate the STORJ DEMFS (Distributed Encrypted Mesh File-Store) architecture is ongoing.", 
             "title": "STORJ Client Installed"
         }, 
         {
-            "location": "/01XY/0130_12012016/", 
+            "location": "/0130_12012016/", 
             "text": "Open Beta Rollout\n\n\n\n\nThe following projects have been enabled for use:\n\n\nBARM3\n\n\nPADNET\n\n\nMalariaCare\n\n\nGSF\n\n\nExecutive\n\n\n\n\nBase Issue Type Scheme Added\n\n\n\n\nIn order to customize issue types from project to project as needed, it was necessary to create a \"Base Issue Type Scheme\" and associate it with all Business projects. - This will allow us to modify the issue types for each individual project if necessary.\n\n\nSee the \n\"How to edit default issue type scheme\" thread on Atlassian Answers\n and \n!JIRATEK-13\n for more information on the reasoning behind this change.\n\n\n\n\nIT Project Key Change\n\n\n\n\nThe IT project's key has been changed from (IT) to (ITHD) to fix an incoming mailer configuration string-match bug.\n\n\nThe ITHD project has been wired to the ITHD.incoming endpoint.\n\n\n\n\nPreparations for the Transition of MCDI IT Case Handling to JIRA\n\n\n\n\nThe ITHD project has been wired to all notification services, with an additional default notification route targeting the help@mcd.org inbox.  See \n!JIRATEK-16\n for more information.\n\n\nThe ITHD project has been moved to a custom Issue Type Scheme to provide proper functionality.  See \n!JIRATEK-15\n for more information.\n\n\n\n\nThe current configuration is shown below:", 
             "title": "0.1.3.0 (12/01/2016)"
         }, 
         {
-            "location": "/01XY/0130_12012016/#open-beta-rollout", 
+            "location": "/0130_12012016/#open-beta-rollout", 
             "text": "The following projects have been enabled for use:  BARM3  PADNET  MalariaCare  GSF  Executive", 
             "title": "Open Beta Rollout"
         }, 
         {
-            "location": "/01XY/0130_12012016/#base-issue-type-scheme-added", 
+            "location": "/0130_12012016/#base-issue-type-scheme-added", 
             "text": "In order to customize issue types from project to project as needed, it was necessary to create a \"Base Issue Type Scheme\" and associate it with all Business projects. - This will allow us to modify the issue types for each individual project if necessary.  See the  \"How to edit default issue type scheme\" thread on Atlassian Answers  and  !JIRATEK-13  for more information on the reasoning behind this change.", 
             "title": "Base Issue Type Scheme Added"
         }, 
         {
-            "location": "/01XY/0130_12012016/#it-project-key-change", 
+            "location": "/0130_12012016/#it-project-key-change", 
             "text": "The IT project's key has been changed from (IT) to (ITHD) to fix an incoming mailer configuration string-match bug.  The ITHD project has been wired to the ITHD.incoming endpoint.", 
             "title": "IT Project Key Change"
         }, 
         {
-            "location": "/01XY/0130_12012016/#preparations-for-the-transition-of-mcdi-it-case-handling-to-jira", 
+            "location": "/0130_12012016/#preparations-for-the-transition-of-mcdi-it-case-handling-to-jira", 
             "text": "The ITHD project has been wired to all notification services, with an additional default notification route targeting the help@mcd.org inbox.  See  !JIRATEK-16  for more information.  The ITHD project has been moved to a custom Issue Type Scheme to provide proper functionality.  See  !JIRATEK-15  for more information.   The current configuration is shown below:", 
             "title": "Preparations for the Transition of MCDI IT Case Handling to JIRA"
         }, 
         {
-            "location": "/01XY/0121_11162016/", 
+            "location": "/0121_11162016/", 
             "text": "JIRA Project Key Change\n\n\n\n\nThe JIRA project's key has been changed from (JIRA) to (JIRATEK) to fix an incoming mailer configuration string-match bug.\n\n\nThe JIRA project has been wired to the JIRATEK.incoming endpoint.\n\n\n\n\nReindexing\n\n\n\n\nThe JIRA project has been rebuilt to accommodate this change.", 
             "title": "0.1.2.1 (11/16/2016)"
         }, 
         {
-            "location": "/01XY/0121_11162016/#jira-project-key-change", 
+            "location": "/0121_11162016/#jira-project-key-change", 
             "text": "The JIRA project's key has been changed from (JIRA) to (JIRATEK) to fix an incoming mailer configuration string-match bug.  The JIRA project has been wired to the JIRATEK.incoming endpoint.", 
             "title": "JIRA Project Key Change"
         }, 
         {
-            "location": "/01XY/0121_11162016/#reindexing", 
+            "location": "/0121_11162016/#reindexing", 
             "text": "The JIRA project has been rebuilt to accommodate this change.", 
             "title": "Reindexing"
         }, 
         {
-            "location": "/01XY/0120_11162016/", 
+            "location": "/0120_11162016/", 
             "text": "EGCCST Rollout\n\n\n\n\nThe EGCCST project has been activated.\n\n\nThe EGCCST project is wired to listen for incoming mail at the EGCCST.incoming endpoint.\n\n\nEGCCST components have been added to the FIN and HR projects.\n\n\nEGCCST and EGCCST Restricted ISSEC dimensions have been added to the FIN and HR ISSEC Schemes.\n\n\nThe EGCCST project has been linked to the EG-CCST HipChat room.\n\n\n\n\nPlugin Updates\n\n\n\n\nThe \nHipChat for JIRA\n plugin has been updated to \nv. 7.8.28.\n\n\nThe \nDocuments\n plugin has been updated to \nv. 6.2.1\n\n\nThe Atlassian Universal Plugin Manager has been updated to \nv. 2.22\n\n\n\n\nReindexing\n\n\n\n\nPerformed background reindexing at 10:21AM EST on 11/16/2016.", 
             "title": "0.1.2.0 (11/16/2016)"
         }, 
         {
-            "location": "/01XY/0120_11162016/#egccst-rollout", 
+            "location": "/0120_11162016/#egccst-rollout", 
             "text": "The EGCCST project has been activated.  The EGCCST project is wired to listen for incoming mail at the EGCCST.incoming endpoint.  EGCCST components have been added to the FIN and HR projects.  EGCCST and EGCCST Restricted ISSEC dimensions have been added to the FIN and HR ISSEC Schemes.  The EGCCST project has been linked to the EG-CCST HipChat room.", 
             "title": "EGCCST Rollout"
         }, 
         {
-            "location": "/01XY/0120_11162016/#plugin-updates", 
+            "location": "/0120_11162016/#plugin-updates", 
             "text": "The  HipChat for JIRA  plugin has been updated to  v. 7.8.28.  The  Documents  plugin has been updated to  v. 6.2.1  The Atlassian Universal Plugin Manager has been updated to  v. 2.22", 
             "title": "Plugin Updates"
         }, 
         {
-            "location": "/01XY/0120_11162016/#reindexing", 
+            "location": "/0120_11162016/#reindexing", 
             "text": "Performed background reindexing at 10:21AM EST on 11/16/2016.", 
             "title": "Reindexing"
         }, 
         {
-            "location": "/01XY/0113_11032016/", 
+            "location": "/0113_11032016/", 
             "text": "HipChat Integration, Phase I\n\n\n\n\nHipChat (Cloud) is now wired to JIRA with the following hardlinks:\n\n\n\n\n\n\n\n\nThis feature is currently being tested in a \npassive\n configuration to fine-tune push notifications.  The current default settings are shown below:\n\n\n\n\n\n\n\n\n\n\nCurrent JIRA users will not be able to utilize the HipChat integration features present on issues until we move to an \nactive\n configuration.\n\n\n\n\n\n\nWe are aiming to roll out HipChat alongside the Open Beta.  For more information on the Open Beta, see \n!!JIRA-7\n.\n\n\n\n\n\n\nThe @mcd.org domain has been enabled for automatic HipChat verification.  In theory, all we will need to do in order to push out invites is to release our HipChat invite URL.\n\n\n\n\n\n\nApplied Fix JIRA-6\n\n\n\n\nFixed a configuration problem that was storing attachments on the root volume instead of the storage volume.  See \n!!JIRA-6\n for more information.", 
             "title": "0.1.1.3 (11/03/2016)"
         }, 
         {
-            "location": "/01XY/0113_11032016/#hipchat-integration-phase-i", 
+            "location": "/0113_11032016/#hipchat-integration-phase-i", 
             "text": "HipChat (Cloud) is now wired to JIRA with the following hardlinks:     This feature is currently being tested in a  passive  configuration to fine-tune push notifications.  The current default settings are shown below:      Current JIRA users will not be able to utilize the HipChat integration features present on issues until we move to an  active  configuration.    We are aiming to roll out HipChat alongside the Open Beta.  For more information on the Open Beta, see  !!JIRA-7 .    The @mcd.org domain has been enabled for automatic HipChat verification.  In theory, all we will need to do in order to push out invites is to release our HipChat invite URL.", 
             "title": "HipChat Integration, Phase I"
         }, 
         {
-            "location": "/01XY/0113_11032016/#applied-fix-jira-6", 
+            "location": "/0113_11032016/#applied-fix-jira-6", 
             "text": "Fixed a configuration problem that was storing attachments on the root volume instead of the storage volume.  See  !!JIRA-6  for more information.", 
             "title": "Applied Fix JIRA-6"
         }, 
         {
-            "location": "/01XY/0112_11022016/", 
+            "location": "/0112_11022016/", 
             "text": "Comment deletion restricted to jira-administrators.\n\n\n\n\nRemoved the \"Delete Own Comments\" permission for all users outside the jira-administrators group.\n\n\nRemoved the \"Delete All Comments\" permission for all users outside the jira-administrators group.", 
             "title": "0.1.1.2 (11/02/2016)"
         }, 
         {
-            "location": "/01XY/0112_11022016/#comment-deletion-restricted-to-jira-administrators", 
+            "location": "/0112_11022016/#comment-deletion-restricted-to-jira-administrators", 
             "text": "Removed the \"Delete Own Comments\" permission for all users outside the jira-administrators group.  Removed the \"Delete All Comments\" permission for all users outside the jira-administrators group.", 
             "title": "Comment deletion restricted to jira-administrators."
         }, 
         {
-            "location": "/01XY/0111_10312016/", 
+            "location": "/0111_10312016/", 
             "text": "Documentation Linked to JIRA\n\n\n\n\nAdded link to documentation site to JIRA MoTD.", 
             "title": "0.1.1.1 (10/31/2016)"
         }, 
         {
-            "location": "/01XY/0111_10312016/#documentation-linked-to-jira", 
+            "location": "/0111_10312016/#documentation-linked-to-jira", 
             "text": "Added link to documentation site to JIRA MoTD.", 
             "title": "Documentation Linked to JIRA"
         }, 
         {
-            "location": "/01XY/0110_10312016/", 
+            "location": "/0110_10312016/", 
             "text": "Soft Launch\n\n\nAfter discussions with Ed, we have decided to migrate work on ZICORE to JIRA, owing to the fact that it is our newest project, and work on it will be continuing on into the new year.  To that end, I have moved all tasks, comments, and attachments to the new system, \nwhich can be accessed here\n.\n\n\nThe URL for the system will be changed to something easy to remember once we go live, but as we are still technically in development, we need to leave it alone for the time being.  I would suggest creating a bookmark for the current URL to save yourselves time.\n\n\nOver the next few minutes, I will be sending you each invitation emails, which will contain all of the login information necessary for you to get started.  \n\n\nOutlook Signature\n\n\nINCREDIBLY IMPORTANT NOTE:\nYOU MUST UPDATE YOUR OUTLOOK SIGNATURE TO INCLUDE 5 MINUS SIGNS/DASHES BEFORE THE SIGNATURE PRIOR TO USING JIRA.\n\n\nIf you do not do this, replying to a JIRA email to leave a comment or create an attachment to a task will copy the entire email chain into the comment and make a huge, huge mess.  \n\n\nThere is no other available workaround.\n\n\nIf you do make this change, you can reply to any JIRA email to leave a comment on a task, and any attachments to that email will be automatically uploaded to the task, which is really neat.  \n\n\nOutlook Labeling\n\n\nI would also HIGHLY recommend creating an Outlook filter to move all emails with [JIRA] in the subject line to a separate folder.  You will be receiving a lot of emails, as JIRA sends updates whenever something changes.  We will be tuning this moving forward, but at the beginning it will be a lot to keep up with if you have it coming directly into your inbox.\n\n\nStructural Notes\n\n\nThe general \u201cJIRA Metaphor\u201d for the SharePoint structure we have presently is as follows:\n\n\n\n\nEpics roughly equate to SharePoint \u201cComponents\u201d\n\n\nStories roughly equate to SharePoint \u201cActivities\u201d\n\n\nSubtasks roughly equate to SharePoint \u201cTasks\u201d\n\n\n\n\nI have already taken the liberty of creating the following Epics for ZICORE:\n\n\n\n\nZICORE-1: Field Office Administration\n\n\nZICORE-14: Home Office Administration\n\n\nFIN-1: ZICORE Field Finance\n\n\nFIN-4: ZICORE Home Finance\n\n\nHR-7: ZICORE Field HR\n\n\nHR-12: ZICORE Home HR\n\n\n\n\nGeneral Usage Notes\n\n\nTo create a Story (think of it like a category of tasks with a common goal) within an Epic, click the + sign next to \u201cIssues in Epic,\u201d select \u201cStory\u201d under Issue Type, and fill in the requested information.  \n\n\nTo create a Subtask within a Story, click on the Story, then click \u201cMore \n Create Sub-Task,\u201d and fill in the requested information.\n\n\nDocuments can be attached to all issue types by simply dragging and dropping from your desktop.  Document categories can be assigned by dragging and dropping the document between categories on the issue screen.\n\n\nIssue Security levels can be adjusted for Epics and Stories within the HR and Finance projects (ZICORE would be the equivalent of \u201cZicore HR\u201d and ZICORE Restricted would be the equivalent of \u201cZicore HR-Restricted).  Subtasks inherit security levels from their parent.  \n\n\nTo tag a user in a comment or description, simply type the \u201c@\u201d sign followed by the user\u2019s name, i.e. @Pablo, and select the user from the box that appears.  \n\n\nIf you have finished the work that you need to do on a subtask, but further work is required from another user, change the \u201cAssignee\u201d field to reflect the person that needs to take the next steps.  Only one user can be assigned to an issue at any given time.\n\n\nOnce you have accepted the invitation to set up your JIRA account, please allow 10 minutes for your permissions to be set up.\n\n\nClosing Remarks\n\n\nPlease do not hesitate to \ncontact me\n with any questions, comments, or concerns.  This is a big transition, and there will undoubtedly be hiccups- it is my hope, however, that we can use this pilot project to polish the system before rolling out across the organization, and make sure that everyone has a great experience with it once it\u2019s live.\n\n\nPlease note that the information contained within these release notes may be duplicated elsewhere within the documentation, as it is currently a work in progress.", 
             "title": "0.1.1.0 (10/31/2016)"
         }, 
         {
-            "location": "/01XY/0110_10312016/#soft-launch", 
+            "location": "/0110_10312016/#soft-launch", 
             "text": "After discussions with Ed, we have decided to migrate work on ZICORE to JIRA, owing to the fact that it is our newest project, and work on it will be continuing on into the new year.  To that end, I have moved all tasks, comments, and attachments to the new system,  which can be accessed here .  The URL for the system will be changed to something easy to remember once we go live, but as we are still technically in development, we need to leave it alone for the time being.  I would suggest creating a bookmark for the current URL to save yourselves time.  Over the next few minutes, I will be sending you each invitation emails, which will contain all of the login information necessary for you to get started.", 
             "title": "Soft Launch"
         }, 
         {
-            "location": "/01XY/0110_10312016/#outlook-signature", 
+            "location": "/0110_10312016/#outlook-signature", 
             "text": "INCREDIBLY IMPORTANT NOTE:\nYOU MUST UPDATE YOUR OUTLOOK SIGNATURE TO INCLUDE 5 MINUS SIGNS/DASHES BEFORE THE SIGNATURE PRIOR TO USING JIRA.  If you do not do this, replying to a JIRA email to leave a comment or create an attachment to a task will copy the entire email chain into the comment and make a huge, huge mess.    There is no other available workaround.  If you do make this change, you can reply to any JIRA email to leave a comment on a task, and any attachments to that email will be automatically uploaded to the task, which is really neat.", 
             "title": "Outlook Signature"
         }, 
         {
-            "location": "/01XY/0110_10312016/#outlook-labeling", 
+            "location": "/0110_10312016/#outlook-labeling", 
             "text": "I would also HIGHLY recommend creating an Outlook filter to move all emails with [JIRA] in the subject line to a separate folder.  You will be receiving a lot of emails, as JIRA sends updates whenever something changes.  We will be tuning this moving forward, but at the beginning it will be a lot to keep up with if you have it coming directly into your inbox.", 
             "title": "Outlook Labeling"
         }, 
         {
-            "location": "/01XY/0110_10312016/#structural-notes", 
+            "location": "/0110_10312016/#structural-notes", 
             "text": "The general \u201cJIRA Metaphor\u201d for the SharePoint structure we have presently is as follows:   Epics roughly equate to SharePoint \u201cComponents\u201d  Stories roughly equate to SharePoint \u201cActivities\u201d  Subtasks roughly equate to SharePoint \u201cTasks\u201d   I have already taken the liberty of creating the following Epics for ZICORE:   ZICORE-1: Field Office Administration  ZICORE-14: Home Office Administration  FIN-1: ZICORE Field Finance  FIN-4: ZICORE Home Finance  HR-7: ZICORE Field HR  HR-12: ZICORE Home HR", 
             "title": "Structural Notes"
         }, 
         {
-            "location": "/01XY/0110_10312016/#general-usage-notes", 
+            "location": "/0110_10312016/#general-usage-notes", 
             "text": "To create a Story (think of it like a category of tasks with a common goal) within an Epic, click the + sign next to \u201cIssues in Epic,\u201d select \u201cStory\u201d under Issue Type, and fill in the requested information.    To create a Subtask within a Story, click on the Story, then click \u201cMore   Create Sub-Task,\u201d and fill in the requested information.  Documents can be attached to all issue types by simply dragging and dropping from your desktop.  Document categories can be assigned by dragging and dropping the document between categories on the issue screen.  Issue Security levels can be adjusted for Epics and Stories within the HR and Finance projects (ZICORE would be the equivalent of \u201cZicore HR\u201d and ZICORE Restricted would be the equivalent of \u201cZicore HR-Restricted).  Subtasks inherit security levels from their parent.    To tag a user in a comment or description, simply type the \u201c@\u201d sign followed by the user\u2019s name, i.e. @Pablo, and select the user from the box that appears.    If you have finished the work that you need to do on a subtask, but further work is required from another user, change the \u201cAssignee\u201d field to reflect the person that needs to take the next steps.  Only one user can be assigned to an issue at any given time.  Once you have accepted the invitation to set up your JIRA account, please allow 10 minutes for your permissions to be set up.", 
             "title": "General Usage Notes"
         }, 
         {
-            "location": "/01XY/0110_10312016/#closing-remarks", 
+            "location": "/0110_10312016/#closing-remarks", 
             "text": "Please do not hesitate to  contact me  with any questions, comments, or concerns.  This is a big transition, and there will undoubtedly be hiccups- it is my hope, however, that we can use this pilot project to polish the system before rolling out across the organization, and make sure that everyone has a great experience with it once it\u2019s live.  Please note that the information contained within these release notes may be duplicated elsewhere within the documentation, as it is currently a work in progress.", 
             "title": "Closing Remarks"
         }
