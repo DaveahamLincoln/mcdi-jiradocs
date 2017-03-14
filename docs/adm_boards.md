@@ -3,7 +3,7 @@ The purpose of this article is to provide information related to the use of JIRA
 ##Atlassian Documentation
 [You can view an overview of how boards work in JIRA here.](https://confluence.atlassian.com/jirasoftwarecloud/what-is-a-board-764477964.html)
 
-In order to assure that all necessary functions are available, all default boards have been created as [Scrum boards](https://confluence.atlassian.com/jirasoftwarecloud/using-your-scrum-backlog-764478062.html).  
+In order to ensure that all necessary functions are available, all default boards have been created as [Scrum boards](https://confluence.atlassian.com/jirasoftwarecloud/using-your-scrum-backlog-764478062.html).  
 
 The term "Scrum" refers to a specific kind of [Agile development methodology](https://en.wikipedia.org/wiki/Agile_software_development)- knowledge of Agile development processes is by no means required to use boards, however, if you would like to learn more about Agile concepts, feel free to check out [agilemethodology.org](http://agilemethodology.org).
 

@@ -25,4 +25,4 @@ The BigTemplate plugin is currently being utilized to provide EGBIMCP administra
 
 ##Notes
 
-As of [Release 0.1.5.0](0150_12162016.md), this plugin is being utilized temporarily by the EGBIMCP administrators.  There is no plan to add this plugin to the Core at this time, and it will likely be removed prior to the 0.1.6.0PR1 release.
+As of [Release 0.1.5.0](01XY/0150_12162016.md), this plugin is being utilized temporarily by the EGBIMCP administrators.  There is no plan to add this plugin to the Core at this time, and it will likely be removed prior to the 0.1.6.0PR1 release.

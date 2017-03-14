@@ -16,4 +16,4 @@ The Documentation plugin is utilized to provide the cold DM layer across project
 
 ##Notes
 
-As of [Release 0.1.1.3](0113_11032016.md), we are considering sunsetting/removing this plugin prior to the Open Beta, as it does not appear to be meeting the use cases it was intended for.
+As of [Release 0.1.1.3](01XY/0113_11032016.md), we are considering sunsetting/removing this plugin prior to the Open Beta, as it does not appear to be meeting the use cases it was intended for.

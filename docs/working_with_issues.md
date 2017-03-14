@@ -165,7 +165,7 @@ Once you have uploaded attachments to an issue, the Attachments region will look
 
 Once HipChat has been rolled out to the user base, you will be able to instantly create a HipChat room to discuss the issue live with all of the issue's Watchers.  This room will contain all of the information relating to the task, and features all of the hotlinking features that JIRA does (@mentions, auto-tagging, etc.).
 
-!!As discussed in the [0.1.1.3 Release Notes](0113_11032016.md#hipchat_integration_phase_I), while HipChat is currently operational and fully integrated with MCDI's JIRA instance, it is not available to users at this time.
+!!As discussed in the [0.1.1.3 Release Notes](01XY/0113_11032016.md#hipchat_integration_phase_I), while HipChat is currently operational and fully integrated with MCDI's JIRA instance, it is not available to users at this time.
 
 -----
 

@@ -30,4 +30,4 @@ The BigPicture plugin is utilized to provide advanced portfolio management capab
 
 ##Notes
 
-As of [Release 0.1.5.0](0150_12162016.md), this plugin is being tested by the EGBIMCP administrators.  The earliest that this plugin could feasibly be added to the Core would be as part of the 1.0.0.0R1 release.
+As of [Release 0.1.5.0](01XY/0150_12162016.md), this plugin is being tested by the EGBIMCP administrators.  The earliest that this plugin could feasibly be added to the Core would be as part of the 1.0.0.0R1 release.
